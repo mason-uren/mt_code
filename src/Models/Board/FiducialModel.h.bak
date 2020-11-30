@@ -1,0 +1,156 @@
+//
+// Created by U'Ren, Mason R (VEN) on 4/28/20.
+//
+
+#ifndef METROLOGY2020_ALGORITHMS_CHARUCOBOARD_H
+#define METROLOGY2020_ALGORITHMS_CHARUCOBOARD_H
+
+#include <memory>
+#include <string>
+
+// Eigen
+#include <Eigen/Core>
+
+// OpenCV
+#include <opencv2/core/core.hpp>
+#include <opencv2/aruco/charuco.hpp>
+#include <opencv2/aruco/dictionary.hpp>
+#include <opencv2/core/eigen.hpp>
+
+// HRL
+#include <Shared/ModelsConfig.h>
+
+// Utilities
+#include "ThreadInterface/ConfigInterface.h"
+#include "Matrix/Matrix3d.h"
+
+#include "ConfigParser/ModelsJSONParser.h"
+
+
+class FiducialModel: public ConfigInterface {
+public:
+    explicit FiducialModel(const Model::Board & boardModel,
+                           const cv::aruco::PREDEFINED_DICTIONARY_NAME & dictionary) :
+            ConfigInterface(),
+            boardDict(cv::aruco::getPredefinedDictionary(dictionary)),
+            board(cv::aruco::CharucoBoard::create(boardModel.squaresX,
+                                                  boardModel.squaresY,
+                                                  boardModel.squareLength,
+                                                  boardModel.markerLength,
+                                                  boardDict)),
+            chessBoardCorners(cv::Mat{cv::Mat(board->chessboardCorners).reshape(1).t()})
+    {}
+    explicit FiducialModel(const std::shared_ptr<ModelsJSONParser> & config,
+                           const std::string & key = std::string{},
+                           const cv::aruco::PREDEFINED_DICTIONARY_NAME & dictionary = cv::aruco::DICT_4X4_1000) :
+            FiducialModel(key.empty() ? config->chArUcoBoards.begin()->second : config->chArUcoBoards.at(key), dictionary)
+    {
+        ConfigInterface::loadConfig(config.get());
+    }
+
+    explicit FiducialModel(ModelsJSONParser * config,
+                           const std::string & key = std::string{},
+                           const cv::aruco::PREDEFINED_DICTIONARY_NAME & dictionary = cv::aruco::DICT_4X4_1000) :
+            FiducialModel(key.empty() ? config->chArUcoBoards.begin()->second : config->chArUcoBoards.at(key), dictionary)
+    {
+        ConfigInterface::loadConfig(config);
+    }
+
+    ~FiducialModel() override {
+//        if (!Config<ModelsJSONParser>()) {
+//            std::cout << "Don't delete pointer again" << std::endl;
+//            return;
+//        }
+    }
+
+//    auto getChessBoardCorners() const -> decltype(cv::Mat{});
+    void setup(const Model::Board & boardParams, const cv::aruco::PREDEFINED_DICTIONARY_NAME & dictionary = cv::aruco::DICT_4X4_1000) {
+        boardDict = cv::aruco::getPredefinedDictionary(dictionary);
+        board = cv::aruco::CharucoBoard::create(boardParams.squaresX,
+                                                boardParams.squaresY,
+                                                boardParams.squareLength,
+                                                boardParams.markerLength,
+                                                boardDict);
+        chessBoardCorners = cv::Mat{cv::Mat(board->chessboardCorners).reshape(1).t()};
+    }
+
+
+
+    template <typename Primitive = double, typename Key = std::string>
+    typename Matrix3d<Primitive, Key>::E_Matrix CHESSBOARD_CORNERS() const {
+        auto corners{chessBoardCorners};
+//        Eigen::Matrix<Primitive, Eigen::Dynamic, Eigen::Dynamic> e_mat_colmaj(corners.rows, corners.cols);
+//        // NOTE: OpenCV::cv2eigen - does not support row-major eigen matrices
+//        cv::cv2eigen(corners, e_mat_colmaj);
+//
+//        e_mat_colmaj.transposeInPlace();
+//
+//        typename Matrix3d<Primitive, Key>::E_Matrix result{
+//                typename Matrix3d<Primitive, Key>::E_Map(e_mat_colmaj.data(), corners.cols, corners.rows)
+//        };
+
+        Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic, Eigen::RowMajor> eMat{ corners.rows, corners.cols };
+        try {
+            cv::cv2eigen(corners, eMat);
+        }
+        catch (const cv::Exception & except) {
+            std::cout << except.what() << std::endl;
+        }
+        return eMat;
+//        return result;
+    }
+
+private:
+    std::shared_ptr<cv::aruco::Dictionary> boardDict{};
+    std::shared_ptr<cv::aruco::CharucoBoard> board{};
+    cv::Mat chessBoardCorners{};
+};
+
+//namespace Model {
+//
+//    namespace Charuco {
+//
+//        static auto boardDict() -> decltype(cv::aruco::getPredefinedDictionary(0)) {
+//            return cv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_1000);
+//        }
+//
+//        static auto board() -> decltype(cv::aruco::CharucoBoard::create(0, 0, 0, 0, boardDict())) {
+//            // TODO - should be dynamically be read
+//            //      - board_dict = {'charucoX': 40, 'charucoY': 20, 'squareLength': .02352, 'markerLength': .016}
+//			//		- "TV_3" : {'squareLength': .0235, 'markerLength': 0.01665, 'charucoX': 40, 'charucoY': 20}}
+//             return cv::aruco::CharucoBoard::create(40.0, 20.0, 0.0235f, 0.01665f, boardDict());
+//			// FIME - make passed parameter
+//			//return cv::aruco::CharucoBoard::create(8, 12, 0.012f, 0.009f, boardDict());
+//        }
+//
+////        template <typename Primitive = double, typename Key = std::string>
+////        static auto chessboardCorners() -> decltype(typename Metrics<Primitive, Key>::E_Matrix{}) {
+////            cv::Mat cvMat{cv::Mat(board()->chessboardCorners).reshape(1).t()};
+////            auto eMat{typename Metrics<Primitive, Key>::E_Matrix{cvMat.rows, cvMat.cols}};
+////            cv::cv2eigen(cvMat, eMat);
+////            return eMat;
+////        }
+//
+//		// FIXME - Necessary for MSVS compilation (above: works in linux)
+//		// -	Not as fast as above implemenation
+//		// -	Determine why above doesn't work (in MSVS)
+//		static const auto chessboardCorners = []() -> decltype(Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic>{}) {
+//			cv::Mat cvMat{ cv::Mat(board()->chessboardCorners).reshape(1).t() };
+//			Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic, Eigen::RowMajor> eMat{ cvMat.rows, cvMat.cols };
+//			try {
+//				cv::cv2eigen(cvMat, eMat);
+//			}
+//			catch (const cv::Exception & except) {
+//				std::cout << except.what() << std::endl;
+//			}
+//			return eMat;
+//		};
+//
+//         //FIXME - must be visible, but MSVS is complaining
+//        static const Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic> CHESSBOARD_CORNERS = chessboardCorners();
+//    }
+//}
+
+
+
+#endif //METROLOGY2020_ALGORITHMS_CHARUCOBOARD_H

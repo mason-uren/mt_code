@@ -1,0 +1,18 @@
+{
+  "cad_model": {
+    "yaw_ximea_tilt": 0.11054653682,
+    "pitch_ximea_tilt": 0.01967748775,
+    "roll_ximea_tilt": 0.01555255915,
+    "x_ximea_tilt": -0.200356,
+    "y_ximea_tilt": -0.080647,
+    "z_ximea_tilt": -0.086528,
+    "z_tilt_pan": 0.025586,
+    "yaw_base_imperx": -0.17935898747,
+    "pitch_base_imperx": 0.02409781334,
+    "roll_base_imperx": -0.02210092978,
+    "x_base_imperx": 0.519203,
+    "y_base_imperx": -0.105348,
+    "z_base_imperx": -0.034109
+  },
+  "Comments": "7/9/2019 from 256 images."
+}

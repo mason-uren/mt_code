@@ -1,0 +1,8 @@
+
+[ 1604533385] ( Info) Dynamic Extrinsics Tests
+[ 1604533385] ( Info) Searching for <Config> directory...
+[ 1604533385] ( Info) Found: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Config
+[ 1604533385] ( Kill and Exit) system-config: Invalid JSON. Component pair: <camera:id> must had valid ID.
+[ 1604533385] ( Kill and Exit) system-config: Invalid JSON. Component pair: <camera:id> must had valid ID.
+[ 1604533385] ( Kill and Exit) system-config: Invalid JSON. Component pair: <camera:id> must had valid ID.
+[ 1604533385] ( Kill and Exit) Failed to load system config JSON.

@@ -1,0 +1,88 @@
+{
+  "$scheme" : "https://json-schema.org/draft/2019-09/schema",
+  "id" : "dynamic-extrinsics-config",
+  "title" : "Dynamic Extrinsics Configuration",
+  "description": "An exhaustive list of tunable model parameters and file locations",
+  "fiducial-positions": {
+    "bottom_left": {
+      "round": [
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/11_18_20/PTU[0]/RandomSeed11/BottomLeft",
+          "file": "2020_11_18_ptu0_bottom_left_r1.h5"
+        },
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/11_18_20/PTU[0]/BottomLeft",
+          "file": "2020_11_18_ptu0_bottom_left_r2.h5"
+        }
+      ]
+    },
+    "bottom_right": {
+      "round": [
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/11_18_20/PTU[0]/RandomSeed11/BottomRight",
+          "file": "2020_11_18_ptu0_bottom_right_r1.h5"
+        },
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/11_18_20/PTU[0]/BottomRight",
+          "file": "2020_11_18_ptu0_bottom_right_r2.h5"
+        }
+      ]
+    },
+    "top_left": {
+      "round": [
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/07_23_20/TopLeft/Round1",
+          "file": "2020_07_23_top_left_r1.h5"
+        },
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/07_23_20/TopLeft/Round2",
+          "file": "2020_07_23_top_left_r2.h5"
+        }
+      ]
+    },
+    "top_right": {
+      "round": [
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/07_23_20/TopRight/Round1",
+          "file": "2020_07_23_top_right_r1.h5"
+        },
+        {
+          "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/07_23_20/TopRight/Round2",
+          "file": "2020_07_23_top_right_r2.h5"
+        }
+      ]
+    }
+  },
+  "datasets" : {
+    "matrix_storage_order" : "row_major"
+  },
+  "model" : {
+    "save_in_place" : false,
+
+    "output": {
+      "directory": "/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/data/cad_models",
+      "file": "2020_11_18_rand11_cad_model.json"
+    }
+  },
+  "alg-optimization" : {
+    "epsilon" : null,
+    "delta" : null,
+    "max_iterations" : 1000,
+    "max_submin" : null,
+    "max_linesearch" : null,
+    "min_step" : null,
+    "max_step" : null
+  },
+  "examples": {
+    "static": true,
+    "dynamic": true
+  },
+  "unused": {
+      "model" : {
+        "input": {
+          "directory": "C:/Metrology/dev/DynamicExtrinsics/python/cad_models",
+          "file": "2019-09-04-cad-model.json"
+        }
+      }
+  }
+}

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TrackingFiducial"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\DataCollection\;CMake Files\..\;CMake Files\..\lib\;CMake Files\..\lib\OpenCV\;CMake Files\..\lib\OpenCV\lib\;CMake Files\..\lib\OpenCV\lib\cmake\;CMake Files\..\lib\OpenCV\lib\cmake\opencv4\;CMake Files\..\lib\Eigen3\;CMake Files\..\lib\Eigen3\share\;CMake Files\..\lib\Eigen3\share\eigen3\;CMake Files\..\lib\Eigen3\share\eigen3\cmake\;CMake Files\..\lib\HDF5\;CMake Files\..\lib\HDF5\share\;CMake Files\..\lib\HDF5\share\cmake\;CMake Files\..\lib\HDF5\share\cmake\hdf5\;CMake Files\..\lib\HDF5\share\cmake\zlib\;CMake Files\..\lib\HDF5\share\cmake\szip\;CMake Files\DynamicExtrinsics\;CMake Files\cmake\;CMake Files\Utilities\;CMake Files\Models\;CMake Files\PoseEstimation\;CMake Files\LiMeInterface\;CMake Files\TrackingFiducial\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TrackingFiducial">
+				<Option output="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/lib/libTrackingFiducial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLINUX"/>
+					<Add option="-DCAD_MODEL_JSON_PATH=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/DynamicExtrinsics/Ximea_id0_Imperx/2020_10_01_ptu0-cad-model.json&quot;"/>
+					<Add option="-DXIMEA_INTRINSICS_DIR=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/CameraIntrinsics/Ximea_id0/2020-07-15/&quot;"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Models"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Utilities"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/PoseEstimation"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/LiMeInterface"/>
+					<Add directory="/home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/HDF5/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 TrackingFiducial"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TrackingFiducial/fast">
+				<Option output="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/lib/libTrackingFiducial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLINUX"/>
+					<Add option="-DCAD_MODEL_JSON_PATH=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/DynamicExtrinsics/Ximea_id0_Imperx/2020_10_01_ptu0-cad-model.json&quot;"/>
+					<Add option="-DXIMEA_INTRINSICS_DIR=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/CameraIntrinsics/Ximea_id0/2020-07-15/&quot;"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Models"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Utilities"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/PoseEstimation"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/LiMeInterface"/>
+					<Add directory="/home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/HDF5/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 TrackingFiducial/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TrackingFiducial_Example">
+				<Option output="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/bin/TrackingFiducial_Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLINUX"/>
+					<Add option="-DCAD_MODEL_JSON_PATH=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/DynamicExtrinsics/Ximea_id0_Imperx/2020_10_01_ptu0-cad-model.json&quot;"/>
+					<Add option="-DXIMEA_INTRINSICS_DIR=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/CameraIntrinsics/Ximea_id0/2020-07-15/&quot;"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Models"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Utilities"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/PoseEstimation"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/LiMeInterface"/>
+					<Add directory="/home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/HDF5/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 TrackingFiducial_Example"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TrackingFiducial_Example/fast">
+				<Option output="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/bin/TrackingFiducial_Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLINUX"/>
+					<Add option="-DCAD_MODEL_JSON_PATH=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/DynamicExtrinsics/Ximea_id0_Imperx/2020_10_01_ptu0-cad-model.json&quot;"/>
+					<Add option="-DXIMEA_INTRINSICS_DIR=&quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../Config/CameraIntrinsics/Ximea_id0/2020-07-15/&quot;"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Models"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Utilities"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/PoseEstimation"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/LiMeInterface"/>
+					<Add directory="/home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/HDF5/include"/>
+					<Add directory="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 TrackingFiducial_Example/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/build-release-lime1/TrackingFiducial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/ConfigParser/TrackingJSONParser.cpp">
+			<Option target="TrackingFiducial"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/ConfigParser/TrackingJSONParser.h">
+			<Option target="TrackingFiducial"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/FTVideoObject.cpp">
+			<Option target="TrackingFiducial"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/FTVideoObject.h">
+			<Option target="TrackingFiducial"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/FiducialTracker.cpp">
+			<Option target="TrackingFiducial"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/FiducialTracker.h">
+			<Option target="TrackingFiducial"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/main.cpp">
+			<Option target="TrackingFiducial_Example"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DataCollection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DataCollection\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/OpenCV/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\lib\OpenCV\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/OpenCV/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\lib\OpenCV\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/OpenCV/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\lib\OpenCV\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/OpenCV/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\lib\OpenCV\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/Eigen3/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\lib\Eigen3\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/Eigen3/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\lib\Eigen3\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/Eigen3/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\lib\Eigen3\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/hdf5/hdf5-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\hdf5\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/hdf5/hdf5-config.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\hdf5\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/hdf5/hdf5-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\hdf5\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/hdf5/hdf5-targets.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\hdf5\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/zlib/zlib-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\zlib\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/zlib/zlib-targets.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\zlib\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/szip/szip-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\szip\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/../lib/HDF5/share/cmake/szip/szip-targets.cmake">
+			<Option virtualFolder="CMake Files\..\lib\HDF5\share\cmake\szip\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DynamicExtrinsics\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake/FindImperX.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake/FindLBFGSpp.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake/FindXimea.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake/Functions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utilities\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Models/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Models\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/PoseEstimation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PoseEstimation\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/LiMeInterface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LiMeInterface\"/>
+		</Unit>
+		<Unit filename="/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TrackingFiducial\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,36 @@
+{
+  "$scheme": "https://json-schema.org/draft/2019-09/schema",
+  "id": "data-collection-config",
+  "title": "Data Collection Configuration",
+  "description": "An exhaustive list of Data Collection parameters.",
+  "scan_pattern": {
+    "pattern": "random",
+    "origin": "top_left",
+    "_comments": "<origin> is an optional variable when scanning with pattern=<random>"
+  },
+  "save_images_for_offline_proc" : false,
+  "staging_point": [-70, 0], 
+  "grid": {
+    "pan": {
+      "range": [
+        -62.517,
+        -73.4146
+      ],
+      "slots": 8
+    },
+    "tilt": {
+      "range": [
+        0.7029,
+        6.40935
+      ],
+      "slots": 8
+    }
+  },
+  "h5": {
+    "directory": "C:/Metrology/src/DataCollection/Data",
+    "file": "2020_10_01_ptu0_bottom_right_r1.h5"
+  },
+  "unused": {
+    
+  }
+}

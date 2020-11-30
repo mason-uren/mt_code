@@ -1,0 +1,9 @@
+
+[ 1604527789] ( Info) No configuration JSON sourced.
+[ 1604527789] ( Info) Creating skeleton JSON class.
+[ 1604527789] ( Info) <path> : [UNSET]. Will need to manually set root JSON directory.
+[ 1604527789] ( Info) Creating skeleton JSON class.
+[ 1604527789] ( Info) <path> : [UNSET]. Will need to manually set root JSON directory.
+[ 1604527789] ( Kill and Exit) Thread ( FiducialTracker_0): Failed to start. Timed out! Set: 1000(ms), Elapsed: 1055(ms)
+[ 1604527789] ( Info) Thread ( FiducialTracker_0): Joined
+[ 1604527789] ( Info) All attached ThreadInterface instances closed.

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "id": "interface-config",
+  "title": "Live Metrology Configuration",
+  "description": "A exhaustive list of integrated components",
+  "camera": [
+    {
+      "type": "ximea",
+      "id": "C0",
+      "pcie_slot_position": 0,
+      "valid": false,
+      "img_buffer_size": 1,
+      "image": {
+        "exposure": 100000,
+        "img_format": "XI_MONO8",
+        "auto_white_balance": true,
+        "downsampling_type": "XI_BINNING",
+        "aperture": 8,
+        "focal_length": 200
+      }
+    },
+    {
+      "type": "ximea",
+      "id": "C1",
+      "pcie_slot_position": 1,
+      "valid": true,
+      "img_buffer_size": 1,
+      "image": {
+        "exposure": 100000,
+        "img_format": "XI_MONO8",
+        "auto_white_balance": true,
+        "downsampling_type": "XI_BINNING",
+        "aperture": 8,
+        "focal_length": 200
+      }
+    },
+    {
+      "type": "imperx",
+      "id": "C2",
+      "serial_no": "860064",
+      "valid": true,
+      "img_buffer_size": 1,
+      "image": {
+        "pixel_depth": 1
+      }
+    }
+  ],
+  "ptu": [
+    {
+      "id": "P0",
+      "valid": false,
+      "network": {
+        "client": {
+          "ip": "192.168.0.104",
+          "port": "3001"
+        },
+        "server": {
+          "ip": "192.168.0.110",
+          "port": "4000"
+        }
+      },
+      "axes": {
+        "domain": {
+          "pan": 360.0,
+          "tilt": 360.0
+        },
+        "voltages": {
+          "max": 16383,
+          "min": 2500,
+          "cli_motion": 2500
+        },
+        "precision": {
+          "epsilon": 0.075,
+          "_comments": "This value should be below 0.05. Using INTERNAL PID - conversion inaccurate"
+        }
+      },
+      "_comments": "PID controller will default to INTERNAL (use of CX command) if \"pid\" is not set."
+    },
+    {
+      "id": "P1",
+      "valid": true,
+      "network": {
+        "client": {
+          "ip": "192.168.0.105",
+          "port": "3001"
+        },
+        "server": {
+          "ip": "192.168.0.110",
+          "port": "4001"
+        }
+      },
+      "axes": {
+        "domain": {
+          "pan": 360.0,
+          "tilt": 360.0
+        },
+        "voltages": {
+          "max": 16383,
+          "min": 2500,
+          "cli_motion": 2500
+        },
+        "precision": {
+          "epsilon": 0.075
+        }
+      },
+      "_comments": "PID controller will default to INTERNAL (use of CX command) if \"pid\" is not set."
+    }
+  ],
+  "unused": {
+    "pid": {
+      "type": "external",
+      "exponential_factor": 2,
+      "_comment": "If set to <internal>, <exponential_factor> not required (nor listened for)."
+    }
+  }
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libUtilities.a  CMakeFiles/Utilities.dir/ErrorHandler/ErrorHandler.cpp.o CMakeFiles/Utilities.dir/JSONParser/JSONParser.cpp.o CMakeFiles/Utilities.dir/SystemConfigParser/SystemJSONParser.cpp.o CMakeFiles/Utilities.dir/Logger/Logger.cpp.o CMakeFiles/Utilities.dir/ThreadInterface/ThreadInterface.cpp.o CMakeFiles/Utilities.dir/OpenCVHelpers/Video/VideoObject.cpp.o CMakeFiles/Utilities.dir/OpenCVHelpers/Video/VideoRecorder.cpp.o CMakeFiles/Utilities.dir/OpenCVHelpers/CSV/MatRecorder.cpp.o
+/usr/bin/ranlib ../lib/libUtilities.a

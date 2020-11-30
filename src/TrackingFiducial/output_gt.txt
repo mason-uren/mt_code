@@ -1,0 +1,84 @@
+VideoObject:: Registering instance with winTitle = 'FiducialTracker_0'
+PoseEstimator: Standard ChArUco board 8x12 (Fiducial) is initialized
+Loading camera matrix from: /Users/ychen/Desktop/Boeing-Metrology/Code/src/TrackingFiducial/../Config/CameraIntrinsics/Ximea_id0/2020-07-15//ximea_cameraMatrix.npy
+[42910.96096690092, 0, 3914.644192012637;
+ 0, 42899.66537558658, 3037.320264355492;
+ 0, 0, 1]
+Loading camera distCoeffs from: /Users/ychen/Desktop/Boeing-Metrology/Code/src/TrackingFiducial/../Config/CameraIntrinsics/Ximea_id0/2020-07-15//ximea_distCoeffs.npy
+[1.488966631463428, 16.11276887684932, -0.002397876993195743, -0.001941305306048535, 20.49051975674487]
+PoseEstimator: found center chessboard corner, id = 38
+PoseEstimator: Selected center markers (id): 
+[26, 21, 22, 29, 25, 18, ]
+PoseEstimator: minNumMarkersThreshold = 24
+Loading JSON PT cad model from: /Users/ychen/Desktop/Boeing-Metrology/Code/src/TrackingFiducial/../Config/DynamicExtrinsics/Ximea_id0_Imperx/2020_10_01_ptu0-cad-model.json
+Contents of Loaded PT cad model: 
+PTU Model Shape: ( 16, 1)
+z_ptu 1.11661
+rx_ptu -0.0457232
+y_ptu 0.261474
+z_camera -0.0107362
+tilt_scale 1
+rz_offset 0
+ry_camera 0.022584
+pan_scale 1
+x_ptu 0.296843
+z_offset 0
+ry_ptu 1.4413
+rx_camera 0.0037565
+rz_ptu -0.0293983
+y_camera 0.00597395
+rz_camera 0.0116243
+x_camera 0.0306768
+FiducialTracker: PoseEstimatorWorld initialized
+Entering FiducialTracker::run() (id: 0x70000221c000)
+Parameters for FiducialTracker_0:
+  Is live demo: 0
+  Display results: 1
+  Save results video: 1
+  Use alt. ChArUco board: 0
+  Record input video: 0
+  Video disp scale: 0.125
+  Marker detection scale: 0.2
+  Pan/tilt angle threshold (deg): 0.5
+
+FiducialTracker: ready to enter the main loop ...
+Reading still image for testing: ./ximea200_01.jpg
+Press any key in the image window to continue, Q to quit ... 
+Image acquisition: 7920(W) x 6004(H) x 3(C)  (625ms, recordInput = 0)
+Aruco marker detection ... Scale: 0.2
+Number of marker detected: 44
+Detected center marker, id: 26
+Detected center marker, id: 21
+Center corner interpolation successful: id=38, [1265.75, 631.806]
+Frame 00000 (pan = 0.000, tilt = 0.000): {ChaRuCo board detected }  (113.000 ms)
+Estimating pose: re-using previous marker detection results ... 
+Estimating pose: number of Aruco markers detected: 44 (0 ms)
+Estimating pose: number of interpolated chessboard corners: 68
+tvec = [0.1685886490188408, -0.01430222836017001, 4.475439088621877]
+rvec = [2.446573895446334, 1.872572765402218, -0.1642825006427143]
+rvec(deg) = [140.1783584759561, 107.2905162886883, -9.412693934682764]
+Reprojection error (RMS): 0.390405
+Total marker detection + pose estimation time: 35 ms
+pan, tilt = 0, 0 (0, 0)
+Fiducial pose (extrinsics, camera frame) = 
+[0.2581926495032979, 0.9647858548486894, -0.05024748776159289, 0.1685886490188408;
+ 0.9587971068744048, -0.2622760112565928, -0.1091760127894551, -0.01430222836017001;
+ -0.1185101834938209, -0.019988701889207, -0.9927516246297687, 4.475439088621877;
+ 0, 0, 0, 1]
+Fiducial pose (extrinsics, world frame) = 
+[0.1464912947408004, 0.1224628141997741, 0.9816023429594267, -3.375968388592121;
+ 0.9515137402551674, -0.2887752227445812, -0.1059739252573001, -0.2822011842550351;
+ 0.2704845701159063, 0.9495323743122663, -0.1588281066503174, 0.1722253832142884;
+ 0, 0, 0, 1]
+Frame 00000 (pan = 0.000, tilt = 0.000): { x: -3.376, y: -0.282, z: 0.172, yaw: -15.693, pitch: 99.496, roll: 81.248 } (35.000 ms)
+Updated fiducial center coordinates (green dot coords): [6331.16, 3161.38]
+Estimated pan/tilt target: -3.14284, 0.174636 (3 ms)
+Press any key in the image window to continue, Q to quit ... 
+Press any key in the image window to continue, Q to quit ... 
+Press any key in the image window to continue, Q to quit ... 
+FiducialTracker: User has requested to quit! (key=113)
+Overhead for video display setup + imshow, video-write (ms): 3, 0
+================End of frame 0 (time=2629ms) =======================
+1 frames processed in 2629 milliseconds (0.380373 frames per second)
+Exiting FiducialTracker::run() (id: 0x70000221c000)
+Program exits now!

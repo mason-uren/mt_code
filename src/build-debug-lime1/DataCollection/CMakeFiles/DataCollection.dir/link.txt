@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libDataCollection.a  CMakeFiles/DataCollection.dir/DataCollector/DataCollector.cpp.o CMakeFiles/DataCollection.dir/CollectionGenerator/CollectionGenerator.cpp.o CMakeFiles/DataCollection.dir/ConfigParser/DataCollectionJSONParser.cpp.o CMakeFiles/DataCollection.dir/EstimatePoseCharucoBoard.cpp.o
+/usr/bin/ranlib ../lib/libDataCollection.a

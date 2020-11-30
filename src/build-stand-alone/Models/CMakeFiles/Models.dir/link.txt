@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libModels.a CMakeFiles/Models.dir/ConfigParser/ModelsJSONParser.cpp.o CMakeFiles/Models.dir/Board/FiducialModel.cpp.o
+/usr/bin/ranlib ../lib/libModels.a

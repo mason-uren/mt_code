@@ -1,0 +1,1 @@
+/opt/XIMEA/version_LINUX_SP.txt

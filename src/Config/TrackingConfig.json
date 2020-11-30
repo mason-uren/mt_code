@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "id": "tracking-config",
+  "title": "Tracking Fiducial Configuration",
+  "description": "Provides a convient way for client to interact/setup fiducial tracking environment.",
+  "models": {
+    "Ximea_id0_Imperx": {
+      "directory": "C:/Users/mruren/Documents/Metrology/src/Config/DynamicExtrinsics/Ximea_id0_Imperx",
+      "file": "2020_10_01_ptu0-cad-model.json"
+    },
+    "Ximea_id1_Imperx": {
+      "directory": "C:/Users/mruren/Documents/Metrology/src/Config/DynamicExtrinsics/Ximea_id1_Imperx",
+      "file": "2020_10_01_ptu1-cad-model.json"
+    }
+  },
+  "staging_point": {
+    "shared": [ 0, 0 ],
+    "P0": [ -65, 5 ],
+    "P1": [ 0, 5 ]
+  },
+  "marker_detection_scale": {
+    "ximea": 0.2,
+    "imperx" : 0.7
+  },
+  "visual": {
+    "display": true,
+    "scale": 0.1,
+    "_comments": ""
+  },
+  "record": {
+    "output": {
+      "directory": "C:/Users/mruren/Documents/Metrology/src/TrackingFiducial/Data",
+      "file": "liveDemo_output.avi"
+    }
+  },
+  "unused": {
+    "mode": {
+      "run": "live",
+      "_comments": "options: <live>, <video_stream>, and <images>"
+    },
+    "record": {
+      "input": {
+        "directory": "C:/Users/mruren/Documents/Metrology/src/TrackingFiducial/Data",
+        "file": "liveDemo_output.avi"
+      }
+    }
+  }
+}

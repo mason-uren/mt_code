@@ -1,0 +1,195 @@
+/home.shared/mruren/linux_libs/cmake-v3.15.2/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src
+-- 
+-- ======================
+-- LiveMetrology - SETUP
+-- CMAKE_VERSION 3.15.2
+-- ======================
+-- Environment
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- CMAKE_INCLUDE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include
+-- ======================
+-- ======================
+-- Linking Sub-Directories (of: LiveMetrology) - BEGIN
+-- ======================
+-- 
+-- ======================
+-- Utilities - SETUP
+-- CMAKE_VERSION 3.15.2
+-- ======================
+-- Environment
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Utilities
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- CMAKE_INCLUDE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include
+-- ======================
+-- Found HDF5: v1.12.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/HDF5/share/cmake/hdf5
+-- 	Includes: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/HDF5/include
+-- 	Libs: hdf5::hdf5_cpp-shared
+-- Found OpenCV: /home.shared/mruren/linux_libs/opencv4.2/install (found suitable version "4.3.0", minimum required is "4.2") found components:  core highgui 
+-- Found OpenCV: v4.3.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/OpenCV/lib/cmake/opencv4
+-- 	Includes: /home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4
+-- 	Libs: opencv_core;opencv_highgui
+-- Found CommonIncludes Directory(s): /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes
+-- ======================
+-- Utilities - FINISHED
+-- ======================
+-- 
+-- 
+-- ======================
+-- Models - SETUP
+-- CMAKE_VERSION 3.15.2
+-- ======================
+-- Environment
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/Models
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- CMAKE_INCLUDE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include
+-- ======================
+-- Found Eigen: v3.3.90
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3
+-- 	Includes: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3/include/eigen3
+-- Found OpenCV: /home.shared/mruren/linux_libs/opencv4.2/install (found suitable version "4.3.0", minimum required is "4.2") found components:  core aruco 
+-- Found OpenCV: v4.3.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/OpenCV/lib/cmake/opencv4
+-- 	Includes: /home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4
+-- 	Libs: opencv_core;opencv_aruco
+-- Found CommonIncludes Directory(s): /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes
+-- ======================
+-- Models - FINISHED
+-- ======================
+-- 
+-- 
+-- ======================
+-- DynamicExtrinsics (v2.0.0) - SETUP
+-- CMAKE_VERSION 3.15.2
+-- ======================
+-- Adopted CMake Policy CMP0074 ...
+-- Environment
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DynamicExtrinsics
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- CMAKE_INCLUDE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/include
+-- ======================
+-- Found Eigen: v3.3.90
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3
+-- 	Includes: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3/include/eigen3
+-- Found OpenCV: /home.shared/mruren/linux_libs/opencv4.2/install (found version "4.3.0") found components:  core aruco 
+-- Found OpenCV: v4.3.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/OpenCV/lib/cmake/opencv4
+-- 	Includes: /home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4
+-- 	Libs: opencv_core;opencv_aruco
+-- Found CommonIncludes Directory(s): /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes
+-- Found L-BFGS: v1.0.1
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/LBFGSpp
+-- 	Includes: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/LBFGSpp/include
+-- Examples: STATUS - Building...
+-- Examples: STATUS - Success.
+-- ======================
+-- DynamicExtrinsics - FINISHED
+-- ======================
+-- 
+-- 
+-- ======================
+-- PoseEstimation - SETUP
+-- CMAKE_VERSION 3.15.2
+-- CMAKE_INCLUDE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include
+-- ======================
+-- Environment
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/PoseEstimation
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- ======================
+-- Found OpenCV: v4.3.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/OpenCV/lib/cmake/opencv4
+-- 	Includes: /home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4
+-- 	Libs: opencv_core;opencv_aruco
+-- Found Eigen: v3.3.90
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3
+-- 	Includes: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Eigen3/include/eigen3
+-- ======================
+-- PoseEstimation - FINISHED
+-- ======================
+-- 
+-- 
+-- ======================
+-- LiMeInterface - SETUP
+-- CMAKE_VERSION 3.15.2
+-- ======================
+-- Environment
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/LiMeInterface
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- CMAKE_INCLUDE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include;/home.shared/mruren/Projects/LiMe/include
+-- ======================
+-- Searching for package Ximea in TARGET_PATH=/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Ximea
+-- Found Ximea: v1.0.2
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Ximea
+-- 	Includes: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/Ximea/include
+-- 	Libs: /usr/lib/libm3api.so
+-- Found ImperX: v1.0.2
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/ImperX
+-- 	Includes: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/ImperX/inc
+-- 	Libs: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/ImperX/lib/Linux64_x64/libIpxDisplayQt.so;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/ImperX/lib/Linux64_x64/libIpxCameraApi.so;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/ImperX/lib/Linux64_x64/libIpxCameraGuiApi.so;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/ImperX/lib/Linux64_x64/libIpxImageApi.so
+-- Found OpenCV: /home.shared/mruren/linux_libs/opencv4.2/install (found suitable version "4.3.0", minimum required is "4.2") found components:  core 
+-- Found OpenCV: v4.3.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/OpenCV/lib/cmake/opencv4
+-- 	Includes: /home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4
+-- 	Libs: opencv_core
+-- Found CommonIncludes Directory(s): /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes
+-- ======================
+-- LiMeInterface - FINISHED
+-- ======================
+-- 
+-- 
+-- ======================
+-- DataCollection (v2.0.0) - SETUP
+-- CMAKE_VERSION 3.15.2
+-- ======================
+-- Adopted CMake Policy CMP0074 ...
+-- ======================
+-- Environment
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/DataCollection
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- CMAKE_INCLUDE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/include;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/include
+-- ======================
+-- Found OpenCV: /home.shared/mruren/linux_libs/opencv4.2/install (found suitable version "4.3.0", minimum required is "4.2") 
+-- Found OpenCV: v4.3.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/OpenCV/lib/cmake/opencv4
+-- 	Includes: /home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4
+-- 	Libs: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_aruco;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_line_descriptor;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_reg;opencv_rgbd;opencv_saliency;opencv_sfm;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_xfeatures2d;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto
+-- Found CommonIncludes Directory(s): /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/CommonIncludes
+-- ======================
+-- DataCollection - FINISHED
+-- ======================
+-- 
+-- 
+-- ======================
+-- trackfiducial - SETUP
+-- CMAKE_VERSION 3.15.2
+-- ======================
+-- ======================
+-- Environment:
+-- PROJECT_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial
+-- CMAKE_MODULE_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/cmake;/home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/TrackingFiducial/../cmake
+-- CMAKE_PREFIX_PATH : /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib
+-- ======================
+-- Found OpenCV: /home.shared/mruren/linux_libs/opencv4.2/install (found version "4.3.0") found components:  core highgui aruco 
+-- Found OpenCV: v4.3.0
+-- 	Root: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/lib/OpenCV/lib/cmake/opencv4
+-- 	Includes: /home.shared/mruren/linux_libs/opencv4.2/install/include/opencv4
+-- 	Libs: opencv_core;opencv_highgui;opencv_aruco
+-- ======================
+-- Linking Sub-Directories (of: LiveMetrology) - FINISHED
+-- ======================
+-- ======================
+-- LiveMetrology - FINISHED
+-- ======================
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home.shared/mruren/Projects/LiMe/Trunk.Boeing/ClosedLoopMetrology/Code/src/debug-lime2

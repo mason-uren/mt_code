@@ -1,0 +1,35 @@
+{
+  "$scheme": "https://json-schema.org/draft/2019-09/schema#",
+  "id": "system-config",
+  "title": "System Configuration",
+  "description": "An exhaustive list of run-time environment variables.",
+  "mode": {
+    "run": "data_collection",
+    "components": [ "alpha" ],
+    "_comment": "Options: <interface>, <data_collection>, <model_fitting>, and <tracking>."
+  },
+  "pairs": {
+    "alpha": {
+      "camera": {
+        "id": "C0",
+        "intrinsics": { "id": "xi_I0" }
+      },
+      "ptu": { "id": "P0" },
+      "_comment": "The value assigned is the associated ID"
+    },
+    "beta": {
+      "camera": {
+        "id": "C1",
+        "intrinsics": { "id": "xi_I1" }
+      },
+      "ptu": { "id": "P1" },
+      "_comment": "The value assigned is the associated ID"
+    }
+  },
+  "world_frame": {
+    "camera": {
+      "id": "C2",
+      "intrinsics": { "id": "ipx_I0" }
+    }
+  }
+}

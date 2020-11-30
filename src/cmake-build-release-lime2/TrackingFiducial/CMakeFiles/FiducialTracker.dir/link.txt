@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libFiducialTracker.a  CMakeFiles/FiducialTracker.dir/FiducialTracker.cpp.o CMakeFiles/FiducialTracker.dir/FTVideoObject.cpp.o CMakeFiles/FiducialTracker.dir/ConfigParser/TrackingJSONParser.cpp.o
+/usr/bin/ranlib ../lib/libFiducialTracker.a

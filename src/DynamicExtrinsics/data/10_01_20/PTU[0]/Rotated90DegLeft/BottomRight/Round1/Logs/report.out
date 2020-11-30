@@ -1,0 +1,2588 @@
+
+[ 1601579828] ( Info) Closed Loop Metrology
+=====================
+[ 1601579828] ( Info) Searching for <Config> directory...
+[ 1601579828] ( Info) Found: C:\Metrology\src\Config
+[ 1601579828] ( Info) Path previously sourced ( C:\Metrology\src\Config)
+[ 1601579828] ( Warning) interface-config: Optional value <pid> is null. Defaulting to INTERNAL
+[ 1601579828] ( Info) interface-config: # of Valid PTUs ( 1)
+[ 1601579828] ( Info) interface-config: # of Valid Cameras ( 2)
+[ 1601579828] ( Info) Path previously sourced ( C:\Metrology\src\Config)
+[ 1601579828] ( Info) PanTiltController [ P0]: Created TCP connection.
+[ 1601579828] ( Info) PanTiltController [ P0]: Created UDP connection.
+[ 1601579832] ( Info) Thread ( PanTiltController [ P0]:5764): Created/Started.
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Setting exposure to value : 100000
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Getting exposure
+[ 1601579836] ( Info) ximea [ C0] : Param ( exposure) verified.
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Setting imgdataformat to value : 0
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Getting imgdataformat
+[ 1601579836] ( Info) ximea [ C0] : Param ( imgdataformat) verified.
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Setting auto_wb to value : 1
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Getting auto_wb
+[ 1601579836] ( Info) ximea [ C0] : Param ( auto_wb) verified.
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Setting downsampling_type to value : 0
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Getting downsampling_type
+[ 1601579836] ( Info) ximea [ C0] : Param ( downsampling_type) verified.
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Setting lens_mode to value : 1
+[ 1601579836] ( Info) Ximea:BJCAB1841028 Getting lens_mode
+[ 1601579837] ( Info) ximea [ C0] : Param ( lens_mode) verified.
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Setting lens_aperture_value to value : 8
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Getting lens_aperture_value
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Setting lens_aperture_value to value : 8
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Getting lens_aperture_value
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Setting lens_aperture_value to value : 8
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Getting lens_aperture_value
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Setting lens_aperture_value to value : 8
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Getting lens_aperture_value
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Setting lens_aperture_value to value : 8
+[ 1601579837] ( Info) Ximea:BJCAB1841028 Getting lens_aperture_value
+[ 1601579837] ( Info) ximea [ C0] : Param ( lens_aperture_value) verified.
+[ 1601579838] ( Info) Ximea:BJCAB1841028 Getting acquisition_status
+[ 1601579838] ( Info) Ximea:BJCAB1841028 Begin acquisition...
+[ 1601579838] ( Info) Thread ( ximea [ C0]:9176): Created/Started.
+[ 1601579838] ( Info) Ximea:BJCAB1841028 Getting acquisition_status
+[ 1601579841] ( Info) Thread ( imperx [ C2]:11656): Created/Started.
+[ 1601579841] ( Info) Mode: (data_collection) - Begin main thread...
+[ 1601579841] ( Info) Path previously sourced ( C:\Metrology\src\Config)
+[ 1601579841] ( Info) Using default board origin: TOP_LEFT
+[ 1601579841] ( Info) P/T Map
+===================
+Random points acquired from: Left -> Right
+(-79.0008,0.7029)(-72.7911,1.51811)(-74.3435,1.51811)(-80.5532,3.96373)(-74.3435,3.96373)(-74.3435,3.14852)(-77.4484,1.51811)(-82.1057,3.96373)(-72.7911,3.96373)(-74.3435,6.40935)(-82.1057,0.7029)(-82.1057,4.77894)(-80.5532,2.33331)(-79.0008,5.59414)(-75.896,6.40935)(-79.0008,1.51811)(-72.7911,5.59414)(-80.5532,1.51811)(-75.896,3.96373)(-82.1057,5.59414)(-77.4484,4.77894)(-75.896,3.14852)(-75.896,5.59414)(-82.1057,2.33331)(-72.7911,2.33331)(-77.4484,6.40935)(-79.0008,3.96373)(-80.5532,5.59414)(-77.4484,3.14852)(-72.7911,0.7029)(-83.6581,0.7029)(-75.896,4.77894)(-74.3435,5.59414)(-83.6581,2.33331)(-83.6581,6.40935)(-83.6581,3.14852)(-72.7911,6.40935)(-82.1057,1.51811)(-74.3435,4.77894)(-77.4484,2.33331)(-80.5532,3.14852)(-72.7911,3.14852)(-83.6581,5.59414)(-80.5532,0.7029)(-77.4484,5.59414)(-82.1057,3.14852)(-77.4484,3.96373)(-75.896,1.51811)(-74.3435,0.7029)(-77.4484,0.7029)(-74.3435,2.33331)(-79.0008,3.14852)(-80.5532,6.40935)(-72.7911,4.77894)(-79.0008,4.77894)(-83.6581,1.51811)(-80.5532,4.77894)(-75.896,0.7029)(-83.6581,4.77894)(-82.1057,6.40935)(-79.0008,6.40935)(-83.6581,3.96373)(-79.0008,2.33331)(-75.896,2.33331)
+[ 1601579841] ( Info) # of Poses: 64
+[ 1601579842] ( Info) Sent PTU. Staging: PT (-70.000000,0.000000)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (0.04455, 0.0108) Delta: ( 70.0446, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (0.04455, 0.0108) Delta: ( 70.0446, 0.0108)
+[ 1601579842] ( Info) Successfully started DataCollector
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (0.01035, 0.0108) Delta: ( 70.0104, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-0.4959, 0.0108) Delta: ( 69.5041, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-1.1745, 0.0108) Delta: ( 68.8255, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-1.6542, 0.0108) Delta: ( 68.3458, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-3.7251, 0.0108) Delta: ( 66.2749, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-5.66415, 0.0108) Delta: ( 64.3358, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-6.7869, 0.0108) Delta: ( 63.2131, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-8.0361, 0.0108) Delta: ( 61.9639, 0.0108)
+[ 1601579842] ( Info) PanTiltController [ P0] Pan/Tilt: (-9.3744, 0.0108) Delta: ( 60.6256, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-10.8121, 0.0108) Delta: ( 59.1878, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-13.1809, 0.0108) Delta: ( 56.8191, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-18.5832, 0.0108) Delta: ( 51.4168, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-20.5425, 0.0108) Delta: ( 49.4575, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-22.5509, 0.0108) Delta: ( 47.4492, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-24.6123, 0.0108) Delta: ( 45.3877, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-26.7295, 0.0108) Delta: ( 43.2704, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-28.8527, 0.0108) Delta: ( 41.1474, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-38.5893, 0.0108) Delta: ( 31.4107, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-45.0446, 0.0108) Delta: ( 24.9554, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-47.1123, 0.0108) Delta: ( 22.8877, 0.0108)
+[ 1601579843] ( Info) PanTiltController [ P0] Pan/Tilt: (-49.1495, 0.0108) Delta: ( 20.8505, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-51.1294, 0.0108) Delta: ( 18.8706, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-56.5785, 0.0108) Delta: ( 13.4215, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-58.9954, 0.0108) Delta: ( 11.0046, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-61.1244, 0.0108) Delta: ( 8.8756, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-62.4366, 0.0108) Delta: ( 7.5634, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-64.165, 0.0108) Delta: ( 5.83495, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-66.1208, 0.0108) Delta: ( 3.87925, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-66.9227, 0.0108) Delta: ( 3.07735, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-67.621, 0.0108) Delta: ( 2.37895, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-68.6992, 0.0108) Delta: ( 1.30075, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-69.0935, 0.0108) Delta: ( 0.90655, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-69.7117, 0.0108) Delta: ( 0.28825, 0.0108)
+[ 1601579844] ( Info) PanTiltController [ P0] Pan/Tilt: (-69.8458, 0.0108) Delta: ( 0.15415, 0.0108)
+[ 1601579845] ( Info) Reached staging area!
+[ 1601579845] ( Warning) PT Mis-match Error: Expected ( -69.959700,0.010800), Observed: ( -69.993000,0.010800), Delta: ( 0.033300, 0.000000)
+[ 1601579845] ( Info) Sent PTU. Target: PT (-74.343529,3.963729)
+[ 1601579845] ( Info) PanTiltController [ P0] Pan/Tilt: (-70.0038, 0.0108) Delta: ( 4.33973, 3.95293)
+[ 1601579845] ( Info) PanTiltController [ P0] Pan/Tilt: (-70.0065, 0.01125) Delta: ( 4.33703, 3.95248)
+[ 1601579845] ( Info) PanTiltController [ P0] Pan/Tilt: (-70.0641, 0.0558) Delta: ( 4.27943, 3.90793)
+[ 1601579845] ( Info) PanTiltController [ P0] Pan/Tilt: (-70.2382, 0.20745) Delta: ( 4.10528, 3.75628)
+[ 1601579845] ( Info) PanTiltController [ P0] Pan/Tilt: (-70.7013, 0.6048) Delta: ( 3.64223, 3.35893)
+[ 1601579845] ( Info) PanTiltController [ P0] Pan/Tilt: (-71.0302, 0.9027) Delta: ( 3.31328, 3.06103)
+[ 1601579846] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.4761, 2.24505) Delta: ( 1.86743, 1.71868)
+[ 1601579846] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.0011, 3.62385) Delta: ( 0.342379, 0.339879)
+[ 1601579846] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.2068, 3.81195) Delta: ( 0.136729, 0.151779)
+[ 1601579847] ( Info) [1, 4] Reached Pose: P/T ( -74.352150, 3.944250)
+[ 1601579847] ( Info) Removing blurry img(s): 2
+[ 1601579847] ( Info) Removing blurry img(s): 2
+[ 1601579847] ( Info) Removing blurry img(s): 3
+[ 1601579847] ( Info) [1, 4] Reached Pose: P/T ( -74.352600, 3.945600)
+[ 1601579847] ( Info) Removing blurry img(s): 4
+[ 1601579847] ( Info) Removing blurry img(s): 4
+[ 1601579847] ( Info) [1, 4] Reached Pose: P/T ( -74.352600, 3.945600)
+[ 1601579847] ( Info) Removing blurry img(s): 5
+[ 1601579847] ( Info) Removing blurry img(s): 5
+[ 1601579847] ( Info) [1, 4] Reached Pose: P/T ( -74.353050, 3.946050)
+[ 1601579847] ( Info) Removing blurry img(s): 6
+[ 1601579847] ( Info) Removing blurry img(s): 6
+[ 1601579847] ( Info) [1, 4] Reached Pose: P/T ( -74.353050, 3.946500)
+[ 1601579847] ( Info) Removing blurry img(s): 7
+[ 1601579848] ( Info) Removing blurry img(s): 7
+[ 1601579848] ( Info) Removing blurry img(s): 8
+[ 1601579848] ( Info) Removing blurry img(s): 8
+[ 1601579848] ( Info) [1, 4] Reached Pose: P/T ( -74.353050, 3.946500)
+[ 1601579848] ( Info) Removing blurry img(s): 9
+[ 1601579848] ( Info) [1, 4] Reached Pose: P/T ( -74.353050, 3.946950)
+[ 1601579848] ( Info) Removing blurry img(s): 10
+[ 1601579848] ( Info) Removing blurry img(s): 10
+[ 1601579848] ( Info) Recorded Pose
+[ 1601579848] ( Info) Acquisition PT: 0
+[ 1601579849] ( Info) [1, 4] ReprojectionError: ( 0.259833)
+[ 1601579849] ( Info) Succesfully Estimated Pose.
+[ 1601579850] ( Info) ReprojectionError: ( 0.110554)
+[ 1601579850] ( Info) Succesfully Estimated Pose.
+[ 1601579850] ( Warning) PT Mis-match Error: Expected ( -74.353050,3.946950), Observed: ( -74.353050,3.948750), Delta: ( 0.000000, 0.001800)
+[ 1601579850] ( Info) Sent PTU. Target: PT (-72.791100,1.518107)
+[ 1601579850] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.353, 3.94875) Delta: ( 1.56195, 2.43064)
+[ 1601579850] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.353, 3.94875) Delta: ( 1.56195, 2.43064)
+[ 1601579850] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3495, 3.93165) Delta: ( 1.55835, 2.41354)
+[ 1601579851] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.6258, 2.7846) Delta: ( 0.83475, 1.26649)
+[ 1601579851] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.2199, 2.1393) Delta: ( 0.42885, 0.621193)
+[ 1601579851] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.0255, 1.82925) Delta: ( 0.23445, 0.311143)
+[ 1601579852] ( Info) [0, 1] Reached Pose: P/T ( -72.863100, 1.571400)
+[ 1601579852] ( Info) Removing blurry img(s): 1
+[ 1601579852] ( Info) [0, 1] Reached Pose: P/T ( -72.837900, 1.532700)
+[ 1601579852] ( Info) Removing blurry img(s): 2
+[ 1601579852] ( Info) [0, 1] Reached Pose: P/T ( -72.836100, 1.530000)
+[ 1601579852] ( Info) Removing blurry img(s): 3
+[ 1601579852] ( Info) [0, 1] Reached Pose: P/T ( -72.835650, 1.529550)
+[ 1601579852] ( Info) Removing blurry img(s): 4
+[ 1601579852] ( Info) [0, 1] Reached Pose: P/T ( -72.835200, 1.529550)
+[ 1601579852] ( Info) Removing blurry img(s): 5
+[ 1601579852] ( Info) [0, 1] Reached Pose: P/T ( -72.835200, 1.529550)
+[ 1601579852] ( Info) Removing blurry img(s): 6
+[ 1601579852] ( Info) Removing blurry img(s): 6
+[ 1601579852] ( Info) [0, 1] Reached Pose: P/T ( -72.835200, 1.529550)
+[ 1601579853] ( Info) Removing blurry img(s): 7
+[ 1601579853] ( Info) [0, 1] Reached Pose: P/T ( -72.835200, 1.529100)
+[ 1601579853] ( Info) Removing blurry img(s): 8
+[ 1601579853] ( Info) Removing blurry img(s): 8
+[ 1601579853] ( Info) [0, 1] Reached Pose: P/T ( -72.834750, 1.529100)
+[ 1601579853] ( Info) Removing blurry img(s): 9
+[ 1601579853] ( Info) [0, 1] Reached Pose: P/T ( -72.834750, 1.529100)
+[ 1601579853] ( Info) Removing blurry img(s): 10
+[ 1601579853] ( Info) Removing blurry img(s): 10
+[ 1601579853] ( Info) Acquisition PT: 1
+[ 1601579853] ( Info) [0, 1] Reached Pose: P/T ( -72.834750, 1.529100)
+[ 1601579854] ( Info) [0, 1] ReprojectionError: ( 0.218656)
+[ 1601579854] ( Info) Succesfully Estimated Pose.
+[ 1601579854] ( Warning) PT Mis-match Error: Expected ( -72.834750,1.529100), Observed: ( -72.834750,1.528650), Delta: ( 0.000000, 0.000450)
+[ 1601579854] ( Info) Sent PTU. Target: PT (-83.658100,0.702900)
+[ 1601579854] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8347, 1.52865) Delta: ( 10.8234, 0.82575)
+[ 1601579855] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8347, 1.52865) Delta: ( 10.8234, 0.82575)
+[ 1601579855] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.9193, 1.5264) Delta: ( 10.7388, 0.8235)
+[ 1601579855] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.2883, 1.4994) Delta: ( 10.3698, 0.7965)
+[ 1601579855] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.0263, 1.44405) Delta: ( 9.63175, 0.74115)
+[ 1601579855] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.5685, 1.3266) Delta: ( 8.0896, 0.6237)
+[ 1601579855] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.8177, 1.2321) Delta: ( 6.8404, 0.5292)
+[ 1601579855] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.1529, 1.1286) Delta: ( 5.50525, 0.4257)
+[ 1601579856] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.0217, 0.98235) Delta: ( 3.6364, 0.27945)
+[ 1601579856] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.485, 0.78795) Delta: ( 1.1731, 0.08505)
+[ 1601579856] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.2014, 0.73305) Delta: ( 0.4567, 0.03015)
+[ 1601579856] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.5542, 0.7065) Delta: ( 0.1039, 0.0036)
+[ 1601579856] ( Info) [7, 0] Reached Pose: P/T ( -83.649600, 0.698850)
+[ 1601579856] ( Info) Removing blurry img(s): 1
+[ 1601579857] ( Info) Removing blurry img(s): 2
+[ 1601579857] ( Info) Removing blurry img(s): 2
+[ 1601579857] ( Info) [7, 0] Reached Pose: P/T ( -83.655000, 0.697950)
+[ 1601579857] ( Info) Removing blurry img(s): 3
+[ 1601579857] ( Info) [7, 0] Reached Pose: P/T ( -83.655000, 0.697950)
+[ 1601579857] ( Info) Removing blurry img(s): 4
+[ 1601579857] ( Info) Removing blurry img(s): 4
+[ 1601579857] ( Info) [7, 0] Reached Pose: P/T ( -83.655450, 0.697950)
+[ 1601579857] ( Info) Removing blurry img(s): 6
+[ 1601579857] ( Info) Removing blurry img(s): 6
+[ 1601579857] ( Info) [7, 0] Reached Pose: P/T ( -83.655450, 0.697950)
+[ 1601579857] ( Info) Removing blurry img(s): 7
+[ 1601579857] ( Info) [7, 0] Reached Pose: P/T ( -83.655450, 0.697950)
+[ 1601579858] ( Info) Removing blurry img(s): 8
+[ 1601579858] ( Info) Removing blurry img(s): 8
+[ 1601579858] ( Info) Removing blurry img(s): 9
+[ 1601579858] ( Info) Removing blurry img(s): 9
+[ 1601579858] ( Info) Removing blurry img(s): 10
+[ 1601579858] ( Info) Removing blurry img(s): 10
+[ 1601579858] ( Info) Recorded Pose
+[ 1601579858] ( Info) Acquisition PT: 2
+[ 1601579859] ( Info) [7, 0] ReprojectionError: ( 0.172752)
+[ 1601579859] ( Info) ReprojectionError: ( 0.111983)
+[ 1601579859] ( Info) Succesfully Estimated Pose.
+[ 1601579859] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6555, 0.6975) Delta: ( 1.54978, 0.820607)
+[ 1601579859] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.655, 0.69885) Delta: ( 1.54933, 0.819257)
+[ 1601579860] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6311, 0.7056) Delta: ( 1.52548, 0.812507)
+[ 1601579860] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.4971, 0.77625) Delta: ( 1.39138, 0.741857)
+[ 1601579860] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.1992, 0.94905) Delta: ( 1.09348, 0.569057)
+[ 1601579860] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.011, 1.04895) Delta: ( 0.905379, 0.469157)
+[ 1601579860] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.8166, 1.15245) Delta: ( 0.710979, 0.365657)
+[ 1601579860] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.6654, 1.2321) Delta: ( 0.559779, 0.286007)
+[ 1601579861] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.2879, 1.4283) Delta: ( 0.182229, 0.0898071)
+[ 1601579861] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1952, 1.4769) Delta: ( 0.0895286, 0.0412071)
+[ 1601579861] ( Info) Removing blurry img(s): 1
+[ 1601579861] ( Info) Removing blurry img(s): 1
+[ 1601579861] ( Info) Removing blurry img(s): 2
+[ 1601579861] ( Info) Removing blurry img(s): 2
+[ 1601579861] ( Info) [6, 1] Reached Pose: P/T ( -82.140300, 1.505250)
+[ 1601579861] ( Info) Removing blurry img(s): 3
+[ 1601579861] ( Info) Removing blurry img(s): 3
+[ 1601579861] ( Info) [6, 1] Reached Pose: P/T ( -82.139850, 1.505250)
+[ 1601579862] ( Info) Removing blurry img(s): 4
+[ 1601579862] ( Info) [6, 1] Reached Pose: P/T ( -82.139850, 1.505250)
+[ 1601579862] ( Info) Removing blurry img(s): 5
+[ 1601579862] ( Info) [6, 1] Reached Pose: P/T ( -82.139850, 1.505250)
+[ 1601579862] ( Info) Removing blurry img(s): 6
+[ 1601579862] ( Info) Removing blurry img(s): 6
+[ 1601579862] ( Info) Removing blurry img(s): 7
+[ 1601579862] ( Info) Removing blurry img(s): 7
+[ 1601579862] ( Info) [6, 1] Reached Pose: P/T ( -82.139400, 1.505250)
+[ 1601579862] ( Info) Removing blurry img(s): 9
+[ 1601579862] ( Info) [6, 1] Reached Pose: P/T ( -82.139400, 1.505250)
+[ 1601579862] ( Info) Removing blurry img(s): 10
+[ 1601579863] ( Info) Recorded Pose
+[ 1601579863] ( Info) Acquisition PT: 3
+[ 1601579863] ( Info) [6, 1] Reached Pose: P/T ( -82.139400, 1.505250)
+[ 1601579863] ( Info) [6, 1] ReprojectionError: ( 0.138728)
+[ 1601579863] ( Info) Succesfully Estimated Pose.
+[ 1601579864] ( Info) ReprojectionError: ( 0.111353)
+[ 1601579864] ( Info) Succesfully Estimated Pose.
+[ 1601579864] ( Warning) PT Mis-match Error: Expected ( -82.139400,1.505250), Observed: ( -82.138950,1.505250), Delta: ( 0.000450, 0.000000)
+[ 1601579864] ( Info) Sent PTU. Target: PT (-72.791100,0.702900)
+[ 1601579864] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1389, 1.50525) Delta: ( 9.34785, 0.80235)
+[ 1601579864] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.102, 1.5057) Delta: ( 9.31095, 0.8028)
+[ 1601579864] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.4963, 1.46475) Delta: ( 8.70525, 0.76185)
+[ 1601579865] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5811, 1.386) Delta: ( 7.78995, 0.6831)
+[ 1601579865] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.4515, 1.2888) Delta: ( 6.66045, 0.5859)
+[ 1601579865] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.8878, 1.15335) Delta: ( 5.0967, 0.45045)
+[ 1601579865] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.7236, 1.0494) Delta: ( 3.93255, 0.3465)
+[ 1601579865] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.2058, 0.9135) Delta: ( 2.4147, 0.2106)
+[ 1601579865] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3107, 0.83295) Delta: ( 1.51965, 0.13005)
+[ 1601579865] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.5178, 0.76275) Delta: ( 0.72675, 0.05985)
+[ 1601579866] ( Info) [0, 0] Reached Pose: P/T ( -72.827550, 0.701100)
+[ 1601579866] ( Info) Removing blurry img(s): 1
+[ 1601579866] ( Info) [0, 0] Reached Pose: P/T ( -72.815400, 0.699750)
+[ 1601579866] ( Info) Removing blurry img(s): 2
+[ 1601579866] ( Info) Removing blurry img(s): 2
+[ 1601579866] ( Info) [0, 0] Reached Pose: P/T ( -72.814950, 0.699300)
+[ 1601579866] ( Info) Removing blurry img(s): 3
+[ 1601579866] ( Info) Removing blurry img(s): 4
+[ 1601579866] ( Info) Removing blurry img(s): 4
+[ 1601579867] ( Info) Removing blurry img(s): 5
+[ 1601579867] ( Info) [0, 0] Reached Pose: P/T ( -72.814950, 0.699300)
+[ 1601579867] ( Info) Removing blurry img(s): 6
+[ 1601579867] ( Info) [0, 0] Reached Pose: P/T ( -72.814950, 0.699300)
+[ 1601579867] ( Info) Removing blurry img(s): 7
+[ 1601579867] ( Info) Removing blurry img(s): 7
+[ 1601579867] ( Info) [0, 0] Reached Pose: P/T ( -72.814950, 0.699300)
+[ 1601579867] ( Info) Removing blurry img(s): 8
+[ 1601579867] ( Info) Removing blurry img(s): 8
+[ 1601579867] ( Info) [0, 0] Reached Pose: P/T ( -72.814500, 0.699300)
+[ 1601579867] ( Info) Removing blurry img(s): 9
+[ 1601579867] ( Info) Removing blurry img(s): 9
+[ 1601579867] ( Info) [0, 0] Reached Pose: P/T ( -72.814500, 0.699300)
+[ 1601579867] ( Info) Removing blurry img(s): 10
+[ 1601579867] ( Info) Recorded Pose
+[ 1601579867] ( Info) Acquisition PT: 4
+[ 1601579867] ( Info) [0, 0] Reached Pose: P/T ( -72.814500, 0.699300)
+[ 1601579868] ( Info) [0, 0] ReprojectionError: ( 0.203589)
+[ 1601579868] ( Info) Succesfully Estimated Pose.
+[ 1601579869] ( Warning) PT Mis-match Error: Expected ( -72.814500,0.699300), Observed: ( -72.814500,0.698850), Delta: ( 0.000000, 0.000450)
+[ 1601579869] ( Info) Sent PTU. Target: PT (-77.448386,3.148521)
+[ 1601579869] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8145, 0.69885) Delta: ( 4.63389, 2.44967)
+[ 1601579869] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8145, 0.69885) Delta: ( 4.63389, 2.44967)
+[ 1601579869] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8973, 0.7344) Delta: ( 4.55109, 2.41412)
+[ 1601579869] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.3725, 0.99945) Delta: ( 4.07589, 2.14907)
+[ 1601579869] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.6025, 1.12185) Delta: ( 3.84594, 2.02667)
+[ 1601579870] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.5047, 1.5975) Delta: ( 2.94369, 1.55102)
+[ 1601579870] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.0762, 1.9017) Delta: ( 2.37219, 1.24682)
+[ 1601579870] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0892, 2.4255) Delta: ( 1.35924, 0.723021)
+[ 1601579870] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0152, 2.9025) Delta: ( 0.433136, 0.246021)
+[ 1601579870] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.2182, 3.0051) Delta: ( 0.230186, 0.143421)
+[ 1601579871] ( Info) [3, 3] Reached Pose: P/T ( -77.373450, 3.086100)
+[ 1601579871] ( Info) Removing blurry img(s): 1
+[ 1601579871] ( Info) Removing blurry img(s): 1
+[ 1601579871] ( Info) [3, 3] Reached Pose: P/T ( -77.445450, 3.125250)
+[ 1601579871] ( Info) Removing blurry img(s): 2
+[ 1601579871] ( Info) [3, 3] Reached Pose: P/T ( -77.449950, 3.129750)
+[ 1601579871] ( Info) Removing blurry img(s): 3
+[ 1601579871] ( Info) [3, 3] Reached Pose: P/T ( -77.450400, 3.130650)
+[ 1601579871] ( Info) Removing blurry img(s): 4
+[ 1601579871] ( Info) [3, 3] Reached Pose: P/T ( -77.450400, 3.131550)
+[ 1601579871] ( Info) Removing blurry img(s): 5
+[ 1601579871] ( Info) [3, 3] Reached Pose: P/T ( -77.450400, 3.132900)
+[ 1601579871] ( Info) Removing blurry img(s): 6
+[ 1601579871] ( Info) Removing blurry img(s): 6
+[ 1601579871] ( Info) [3, 3] Reached Pose: P/T ( -77.450400, 3.133800)
+[ 1601579872] ( Info) Removing blurry img(s): 7
+[ 1601579872] ( Info) Removing blurry img(s): 7
+[ 1601579872] ( Info) Removing blurry img(s): 8
+[ 1601579872] ( Info) Removing blurry img(s): 9
+[ 1601579872] ( Info) Removing blurry img(s): 9
+[ 1601579872] ( Info) Removing blurry img(s): 10
+[ 1601579872] ( Info) Acquisition PT: 5
+[ 1601579872] ( Info) [3, 3] Reached Pose: P/T ( -77.450400, 3.136950)
+[ 1601579874] ( Info) ReprojectionError: ( 0.110076)
+[ 1601579874] ( Info) Succesfully Estimated Pose.
+[ 1601579874] ( Warning) PT Mis-match Error: Expected ( -77.450400,3.136950), Observed: ( -77.450850,3.144150), Delta: ( 0.000450, 0.007200)
+[ 1601579874] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4724, 3.1455) Delta: ( 1.52836, 0.818229)
+[ 1601579874] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.5368, 3.17385) Delta: ( 1.46401, 0.789879)
+[ 1601579875] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.6538, 3.23505) Delta: ( 1.34701, 0.728679)
+[ 1601579875] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.7906, 3.3075) Delta: ( 1.21021, 0.656229)
+[ 1601579875] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.0723, 3.45555) Delta: ( 0.928514, 0.508179)
+[ 1601579875] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.2635, 3.5577) Delta: ( 0.737264, 0.406029)
+[ 1601579875] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.6847, 3.78315) Delta: ( 0.316064, 0.180579)
+[ 1601579875] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.8535, 3.87135) Delta: ( 0.147314, 0.0923786)
+[ 1601579876] ( Info) [4, 4] Reached Pose: P/T ( -78.930000, 3.911850)
+[ 1601579876] ( Info) Removing blurry img(s): 1
+[ 1601579876] ( Info) Removing blurry img(s): 2
+[ 1601579876] ( Info) Removing blurry img(s): 3
+[ 1601579876] ( Info) Removing blurry img(s): 3
+[ 1601579876] ( Info) [4, 4] Reached Pose: P/T ( -78.989400, 3.944250)
+[ 1601579876] ( Info) Removing blurry img(s): 4
+[ 1601579876] ( Info) [4, 4] Reached Pose: P/T ( -78.989400, 3.944250)
+[ 1601579876] ( Info) Removing blurry img(s): 5
+[ 1601579876] ( Info) Removing blurry img(s): 5
+[ 1601579876] ( Info) [4, 4] Reached Pose: P/T ( -78.989400, 3.944700)
+[ 1601579876] ( Info) Removing blurry img(s): 6
+[ 1601579876] ( Info) [4, 4] Reached Pose: P/T ( -78.989850, 3.944700)
+[ 1601579877] ( Info) Removing blurry img(s): 7
+[ 1601579877] ( Info) Removing blurry img(s): 7
+[ 1601579877] ( Info) [4, 4] Reached Pose: P/T ( -78.989850, 3.944700)
+[ 1601579877] ( Info) Removing blurry img(s): 8
+[ 1601579877] ( Info) Removing blurry img(s): 9
+[ 1601579877] ( Info) [4, 4] Reached Pose: P/T ( -78.989850, 3.944700)
+[ 1601579877] ( Info) Removing blurry img(s): 10
+[ 1601579877] ( Info) Removing blurry img(s): 10
+[ 1601579877] ( Info) Recorded Pose
+[ 1601579877] ( Info) Acquisition PT: 6
+[ 1601579877] ( Info) [4, 4] Reached Pose: P/T ( -78.989850, 3.944700)
+[ 1601579878] ( Info) [4, 4] ReprojectionError: ( 0.220169)
+[ 1601579878] ( Info) Succesfully Estimated Pose.
+[ 1601579879] ( Info) ReprojectionError: ( 0.110784)
+[ 1601579879] ( Warning) PT Mis-match Error: Expected ( -78.989850,3.944700), Observed: ( -78.989850,3.945150), Delta: ( 0.000000, 0.000450)
+[ 1601579879] ( Info) Sent PTU. Target: PT (-77.448386,6.409350)
+[ 1601579879] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9899, 3.94515) Delta: ( 1.54146, 2.4642)
+[ 1601579879] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9899, 3.94515) Delta: ( 1.54146, 2.4642)
+[ 1601579879] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9899, 3.9474) Delta: ( 1.54146, 2.46195)
+[ 1601579879] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9592, 4.05135) Delta: ( 1.51086, 2.358)
+[ 1601579880] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.7644, 4.3722) Delta: ( 1.31601, 2.03715)
+[ 1601579880] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.2802, 5.1543) Delta: ( 0.831814, 1.25505)
+[ 1601579880] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.1245, 5.4) Delta: ( 0.676114, 1.00935)
+[ 1601579880] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.9044, 5.7456) Delta: ( 0.456064, 0.66375)
+[ 1601579880] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.7501, 5.98455) Delta: ( 0.301714, 0.4248)
+[ 1601579881] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.5643, 6.27525) Delta: ( 0.115864, 0.1341)
+[ 1601579881] ( Info) [3, 7] Reached Pose: P/T ( -77.511150, 6.354900)
+[ 1601579881] ( Info) Removing blurry img(s): 1
+[ 1601579881] ( Info) Removing blurry img(s): 1
+[ 1601579881] ( Info) [3, 7] Reached Pose: P/T ( -77.488650, 6.387750)
+[ 1601579881] ( Info) Removing blurry img(s): 2
+[ 1601579881] ( Info) Removing blurry img(s): 3
+[ 1601579881] ( Info) Removing blurry img(s): 3
+[ 1601579881] ( Info) [3, 7] Reached Pose: P/T ( -77.482800, 6.395400)
+[ 1601579881] ( Info) Removing blurry img(s): 4
+[ 1601579881] ( Info) Removing blurry img(s): 4
+[ 1601579881] ( Info) [3, 7] Reached Pose: P/T ( -77.482800, 6.395400)
+[ 1601579881] ( Info) Removing blurry img(s): 5
+[ 1601579881] ( Info) [3, 7] Reached Pose: P/T ( -77.482350, 6.395400)
+[ 1601579881] ( Info) Removing blurry img(s): 6
+[ 1601579882] ( Info) [3, 7] Reached Pose: P/T ( -77.482350, 6.395400)
+[ 1601579882] ( Info) Removing blurry img(s): 7
+[ 1601579882] ( Info) [3, 7] Reached Pose: P/T ( -77.482350, 6.395400)
+[ 1601579882] ( Info) Removing blurry img(s): 8
+[ 1601579882] ( Info) Removing blurry img(s): 8
+[ 1601579882] ( Info) [3, 7] Reached Pose: P/T ( -77.482350, 6.395400)
+[ 1601579882] ( Info) Removing blurry img(s): 9
+[ 1601579882] ( Info) Removing blurry img(s): 9
+[ 1601579882] ( Info) [3, 7] Reached Pose: P/T ( -77.482350, 6.395400)
+[ 1601579882] ( Info) Removing blurry img(s): 10
+[ 1601579882] ( Info) Recorded Pose
+[ 1601579882] ( Info) Acquisition PT: 7
+[ 1601579882] ( Info) [3, 7] Reached Pose: P/T ( -77.481900, 6.395400)
+[ 1601579883] ( Info) [3, 7] ReprojectionError: ( 0.269439)
+[ 1601579883] ( Info) Succesfully Estimated Pose.
+[ 1601579884] ( Info) Sent PTU. Target: PT (-77.448386,4.778936)
+[ 1601579884] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4819, 6.3954) Delta: ( 0.0335143, 1.61646)
+[ 1601579884] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4819, 6.39495) Delta: ( 0.0335143, 1.61601)
+[ 1601579884] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4819, 6.3945) Delta: ( 0.0335143, 1.61556)
+[ 1601579884] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4819, 6.3594) Delta: ( 0.0335143, 1.58046)
+[ 1601579884] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4819, 6.29685) Delta: ( 0.0335143, 1.51791)
+[ 1601579885] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4819, 5.9967) Delta: ( 0.0335143, 1.21776)
+[ 1601579885] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4814, 5.84775) Delta: ( 0.0330643, 1.06881)
+[ 1601579885] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4814, 5.64615) Delta: ( 0.0330643, 0.867214)
+[ 1601579885] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4814, 5.18085) Delta: ( 0.0330643, 0.401914)
+[ 1601579885] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4814, 5.00805) Delta: ( 0.0330643, 0.229114)
+[ 1601579885] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4814, 4.90545) Delta: ( 0.0330643, 0.126514)
+[ 1601579886] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.833000)
+[ 1601579886] ( Info) Removing blurry img(s): 1
+[ 1601579886] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.805100)
+[ 1601579886] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.803300)
+[ 1601579886] ( Info) Removing blurry img(s): 3
+[ 1601579886] ( Info) Removing blurry img(s): 3
+[ 1601579886] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.802850)
+[ 1601579886] ( Info) Removing blurry img(s): 4
+[ 1601579886] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.802850)
+[ 1601579886] ( Info) Removing blurry img(s): 5
+[ 1601579886] ( Info) Removing blurry img(s): 5
+[ 1601579886] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.802850)
+[ 1601579886] ( Info) Removing blurry img(s): 6
+[ 1601579886] ( Info) Removing blurry img(s): 6
+[ 1601579886] ( Info) Removing blurry img(s): 7
+[ 1601579887] ( Info) Removing blurry img(s): 7
+[ 1601579887] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.802400)
+[ 1601579887] ( Info) Removing blurry img(s): 8
+[ 1601579887] ( Info) Removing blurry img(s): 8
+[ 1601579887] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.802400)
+[ 1601579887] ( Info) Removing blurry img(s): 9
+[ 1601579887] ( Info) Removing blurry img(s): 9
+[ 1601579887] ( Info) Removing blurry img(s): 10
+[ 1601579887] ( Info) Removing blurry img(s): 10
+[ 1601579887] ( Info) Recorded Pose
+[ 1601579887] ( Info) Acquisition PT: 8
+[ 1601579887] ( Info) [3, 5] Reached Pose: P/T ( -77.481450, 4.802400)
+[ 1601579888] ( Info) [3, 5] ReprojectionError: ( 0.316953)
+[ 1601579888] ( Info) Succesfully Estimated Pose.
+[ 1601579889] ( Info) ReprojectionError: ( 0.110106)
+[ 1601579889] ( Info) Sent PTU. Target: PT (-80.553243,4.778936)
+[ 1601579889] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4814, 4.8024) Delta: ( 3.07179, 0.0234643)
+[ 1601579889] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4814, 4.8024) Delta: ( 3.07179, 0.0234643)
+[ 1601579889] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.5273, 4.8024) Delta: ( 3.02589, 0.0234643)
+[ 1601579889] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.6146, 4.8024) Delta: ( 2.93859, 0.0234643)
+[ 1601579890] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.1564, 4.8024) Delta: ( 2.39679, 0.0234643)
+[ 1601579890] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.5722, 4.8024) Delta: ( 1.98099, 0.0234643)
+[ 1601579890] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0303, 4.8024) Delta: ( 1.52289, 0.0234643)
+[ 1601579890] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.5649, 4.8024) Delta: ( 0.988293, 0.0234643)
+[ 1601579890] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.2615, 4.8024) Delta: ( 0.291693, 0.0234643)
+[ 1601579891] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.4271, 4.8024) Delta: ( 0.126093, 0.0234643)
+[ 1601579891] ( Info) Removing blurry img(s): 1
+[ 1601579891] ( Info) Removing blurry img(s): 1
+[ 1601579891] ( Info) [5, 5] Reached Pose: P/T ( -80.559450, 4.802400)
+[ 1601579891] ( Info) Removing blurry img(s): 2
+[ 1601579891] ( Info) Removing blurry img(s): 3
+[ 1601579891] ( Info) [5, 5] Reached Pose: P/T ( -80.560800, 4.802400)
+[ 1601579891] ( Info) Removing blurry img(s): 4
+[ 1601579891] ( Info) Removing blurry img(s): 4
+[ 1601579891] ( Info) [5, 5] Reached Pose: P/T ( -80.560800, 4.802400)
+[ 1601579892] ( Info) Removing blurry img(s): 5
+[ 1601579892] ( Info) [5, 5] Reached Pose: P/T ( -80.560800, 4.802400)
+[ 1601579892] ( Info) Removing blurry img(s): 6
+[ 1601579892] ( Info) Removing blurry img(s): 6
+[ 1601579892] ( Info) Removing blurry img(s): 7
+[ 1601579892] ( Info) Removing blurry img(s): 7
+[ 1601579892] ( Info) [5, 5] Reached Pose: P/T ( -80.560800, 4.802400)
+[ 1601579892] ( Info) Removing blurry img(s): 8
+[ 1601579892] ( Info) Removing blurry img(s): 8
+[ 1601579892] ( Info) [5, 5] Reached Pose: P/T ( -80.561250, 4.802400)
+[ 1601579892] ( Info) Removing blurry img(s): 9
+[ 1601579892] ( Info) [5, 5] Reached Pose: P/T ( -80.561250, 4.802400)
+[ 1601579892] ( Info) Removing blurry img(s): 10
+[ 1601579892] ( Info) Recorded Pose
+[ 1601579893] ( Info) [5, 5] ReprojectionError: ( 0.253531)
+[ 1601579893] ( Info) Succesfully Estimated Pose.
+[ 1601579894] ( Info) ReprojectionError: ( 0.111720)
+[ 1601579894] ( Info) Succesfully Estimated Pose.
+[ 1601579894] ( Info) Sent PTU. Target: PT (-75.895957,2.333314)
+[ 1601579894] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.2463, 4.62015) Delta: ( 4.35029, 2.28684)
+[ 1601579895] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.9281, 4.4514) Delta: ( 4.03214, 2.11809)
+[ 1601579895] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.186, 4.06575) Delta: ( 3.29009, 1.73244)
+[ 1601579895] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.9265, 3.4092) Delta: ( 2.03054, 1.07589)
+[ 1601579895] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.5477, 2.6838) Delta: ( 0.651743, 0.350486)
+[ 1601579896] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.1895, 2.49525) Delta: ( 0.293543, 0.161936)
+[ 1601579896] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0401, 2.4174) Delta: ( 0.144143, 0.0840857)
+[ 1601579896] ( Info) [2, 2] Reached Pose: P/T ( -75.915900, 2.351700)
+[ 1601579896] ( Info) Removing blurry img(s): 1
+[ 1601579896] ( Info) Removing blurry img(s): 1
+[ 1601579896] ( Info) [2, 2] Reached Pose: P/T ( -75.915000, 2.350800)
+[ 1601579896] ( Info) Removing blurry img(s): 2
+[ 1601579896] ( Info) Removing blurry img(s): 2
+[ 1601579896] ( Info) [2, 2] Reached Pose: P/T ( -75.915000, 2.350800)
+[ 1601579896] ( Info) Removing blurry img(s): 3
+[ 1601579896] ( Info) Removing blurry img(s): 3
+[ 1601579896] ( Info) [2, 2] Reached Pose: P/T ( -75.914550, 2.350800)
+[ 1601579896] ( Info) Removing blurry img(s): 4
+[ 1601579896] ( Info) [2, 2] Reached Pose: P/T ( -75.914550, 2.350800)
+[ 1601579897] ( Info) Removing blurry img(s): 5
+[ 1601579897] ( Info) Removing blurry img(s): 5
+[ 1601579897] ( Info) Removing blurry img(s): 6
+[ 1601579897] ( Info) [2, 2] Reached Pose: P/T ( -75.914550, 2.350800)
+[ 1601579897] ( Info) Removing blurry img(s): 7
+[ 1601579897] ( Info) Removing blurry img(s): 7
+[ 1601579897] ( Info) [2, 2] Reached Pose: P/T ( -75.914100, 2.350800)
+[ 1601579897] ( Info) [2, 2] Reached Pose: P/T ( -75.914100, 2.350800)
+[ 1601579897] ( Info) Removing blurry img(s): 9
+[ 1601579897] ( Info) Removing blurry img(s): 9
+[ 1601579897] ( Info) [2, 2] Reached Pose: P/T ( -75.914100, 2.350800)
+[ 1601579897] ( Info) Removing blurry img(s): 10
+[ 1601579897] ( Info) Removing blurry img(s): 10
+[ 1601579897] ( Info) Recorded Pose
+[ 1601579897] ( Info) Acquisition PT: 10
+[ 1601579897] ( Info) [2, 2] Reached Pose: P/T ( -75.914100, 2.350800)
+[ 1601579898] ( Info) [2, 2] ReprojectionError: ( 0.236660)
+[ 1601579899] ( Info) Succesfully Estimated Pose.
+[ 1601579899] ( Info) ReprojectionError: ( 0.111124)
+[ 1601579899] ( Info) Succesfully Estimated Pose.
+[ 1601579899] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 2.3508) Delta: ( 4.63914, 3.24334)
+[ 1601579899] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 2.3508) Delta: ( 4.63914, 3.24334)
+[ 1601579899] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9474, 2.3859) Delta: ( 4.60584, 3.20824)
+[ 1601579900] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0855, 2.48535) Delta: ( 4.46769, 3.10879)
+[ 1601579900] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.5396, 2.7828) Delta: ( 4.01364, 2.81134)
+[ 1601579900] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0724, 3.1464) Delta: ( 3.48084, 2.44774)
+[ 1601579900] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.6038, 3.51675) Delta: ( 2.94939, 2.07739)
+[ 1601579900] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.2937, 4.00455) Delta: ( 2.25954, 1.58959)
+[ 1601579900] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.1883, 4.6377) Delta: ( 1.36494, 0.956443)
+[ 1601579901] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.6748, 4.9752) Delta: ( 0.878493, 0.618943)
+[ 1601579901] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.1202, 5.28255) Delta: ( 0.432993, 0.311593)
+[ 1601579901] ( Info) [5, 6] Reached Pose: P/T ( -80.538750, 5.574150)
+[ 1601579901] ( Info) Removing blurry img(s): 1
+[ 1601579901] ( Info) Removing blurry img(s): 1
+[ 1601579901] ( Info) [5, 6] Reached Pose: P/T ( -80.559450, 5.589000)
+[ 1601579901] ( Info) Removing blurry img(s): 2
+[ 1601579901] ( Info) [5, 6] Reached Pose: P/T ( -80.560350, 5.589900)
+[ 1601579901] ( Info) Removing blurry img(s): 3
+[ 1601579901] ( Info) Removing blurry img(s): 3
+[ 1601579902] ( Info) Removing blurry img(s): 5
+[ 1601579902] ( Info) Removing blurry img(s): 5
+[ 1601579902] ( Info) [5, 6] Reached Pose: P/T ( -80.560800, 5.589900)
+[ 1601579902] ( Info) Removing blurry img(s): 6
+[ 1601579902] ( Info) Removing blurry img(s): 6
+[ 1601579902] ( Info) [5, 6] Reached Pose: P/T ( -80.560800, 5.590350)
+[ 1601579902] ( Info) Removing blurry img(s): 7
+[ 1601579902] ( Info) Removing blurry img(s): 7
+[ 1601579902] ( Info) [5, 6] Reached Pose: P/T ( -80.560800, 5.590350)
+[ 1601579902] ( Info) Removing blurry img(s): 8
+[ 1601579902] ( Info) Removing blurry img(s): 8
+[ 1601579902] ( Info) Removing blurry img(s): 9
+[ 1601579902] ( Info) Removing blurry img(s): 9
+[ 1601579902] ( Info) [5, 6] Reached Pose: P/T ( -80.560800, 5.590350)
+[ 1601579902] ( Info) Removing blurry img(s): 10
+[ 1601579903] ( Info) Removing blurry img(s): 10
+[ 1601579903] ( Info) Recorded Pose
+[ 1601579903] ( Info) Acquisition PT: 11
+[ 1601579903] ( Info) [5, 6] Reached Pose: P/T ( -80.560800, 5.590350)
+[ 1601579903] ( Info) [5, 6] ReprojectionError: ( 0.253791)
+[ 1601579904] ( Info) ReprojectionError: ( 0.110707)
+[ 1601579904] ( Info) Succesfully Estimated Pose.
+[ 1601579904] ( Info) Sent PTU. Target: PT (-79.000814,0.702900)
+[ 1601579904] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5608, 5.59035) Delta: ( 1.55999, 4.88745)
+[ 1601579904] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5608, 5.59035) Delta: ( 1.55999, 4.88745)
+[ 1601579905] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5311, 5.4396) Delta: ( 1.53029, 4.7367)
+[ 1601579905] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.4766, 5.2587) Delta: ( 1.47584, 4.5558)
+[ 1601579905] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.2692, 4.57245) Delta: ( 1.26839, 3.86955)
+[ 1601579905] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.9182, 3.4596) Delta: ( 0.917386, 2.7567)
+[ 1601579905] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.7612, 2.9673) Delta: ( 0.760336, 2.2644)
+[ 1601579905] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.533, 2.25495) Delta: ( 0.532186, 1.55205)
+[ 1601579905] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.3953, 1.8243) Delta: ( 0.394486, 1.1214)
+[ 1601579906] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.1491, 1.05435) Delta: ( 0.148336, 0.35145)
+[ 1601579906] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0807, 0.8388) Delta: ( 0.0799357, 0.1359)
+[ 1601579906] ( Info) [4, 0] Reached Pose: P/T ( -79.051950, 0.748350)
+[ 1601579906] ( Info) Removing blurry img(s): 1
+[ 1601579906] ( Info) Removing blurry img(s): 1
+[ 1601579906] ( Info) [4, 0] Reached Pose: P/T ( -79.036200, 0.700650)
+[ 1601579906] ( Info) Removing blurry img(s): 2
+[ 1601579906] ( Info) [4, 0] Reached Pose: P/T ( -79.036200, 0.700650)
+[ 1601579906] ( Info) Removing blurry img(s): 3
+[ 1601579906] ( Info) Removing blurry img(s): 3
+[ 1601579907] ( Info) [4, 0] Reached Pose: P/T ( -79.035750, 0.700200)
+[ 1601579907] ( Info) Removing blurry img(s): 5
+[ 1601579907] ( Info) Removing blurry img(s): 5
+[ 1601579907] ( Info) [4, 0] Reached Pose: P/T ( -79.035750, 0.700200)
+[ 1601579907] ( Info) Removing blurry img(s): 6
+[ 1601579907] ( Info) Removing blurry img(s): 6
+[ 1601579907] ( Info) [4, 0] Reached Pose: P/T ( -79.035300, 0.700200)
+[ 1601579907] ( Info) Removing blurry img(s): 7
+[ 1601579907] ( Info) [4, 0] Reached Pose: P/T ( -79.035300, 0.700200)
+[ 1601579907] ( Info) Removing blurry img(s): 9
+[ 1601579907] ( Info) Removing blurry img(s): 9
+[ 1601579907] ( Info) [4, 0] Reached Pose: P/T ( -79.035300, 0.700200)
+[ 1601579907] ( Info) Removing blurry img(s): 10
+[ 1601579908] ( Info) Removing blurry img(s): 10
+[ 1601579908] ( Info) [4, 0] Reached Pose: P/T ( -79.035300, 0.700200)
+[ 1601579908] ( Info) [4, 0] ReprojectionError: ( 0.153514)
+[ 1601579908] ( Info) Succesfully Estimated Pose.
+[ 1601579909] ( Info) ReprojectionError: ( 0.110923)
+[ 1601579909] ( Info) Succesfully Estimated Pose.
+[ 1601579909] ( Warning) PT Mis-match Error: Expected ( -79.035300,0.700200), Observed: ( -79.035300,0.699750), Delta: ( 0.000000, 0.000450)
+[ 1601579909] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0353, 0.69975) Delta: ( 1.51794, 0.00315)
+[ 1601579909] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0353, 0.69975) Delta: ( 1.51794, 0.00315)
+[ 1601579909] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0353, 0.69975) Delta: ( 1.51794, 0.00315)
+[ 1601579910] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.3543, 0.69975) Delta: ( 1.19889, 0.00315)
+[ 1601579910] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.5631, 0.69975) Delta: ( 0.990093, 0.00315)
+[ 1601579910] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.2359, 0.69975) Delta: ( 0.317343, 0.00315)
+[ 1601579911] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.4119, 0.69975) Delta: ( 0.141393, 0.00315)
+[ 1601579911] ( Info) [5, 0] Reached Pose: P/T ( -80.504550, 0.699750)
+[ 1601579911] ( Info) Removing blurry img(s): 1
+[ 1601579911] ( Info) Removing blurry img(s): 1
+[ 1601579911] ( Info) [5, 0] Reached Pose: P/T ( -80.546850, 0.699750)
+[ 1601579911] ( Info) Removing blurry img(s): 2
+[ 1601579911] ( Info) [5, 0] Reached Pose: P/T ( -80.556300, 0.699750)
+[ 1601579911] ( Info) Removing blurry img(s): 3
+[ 1601579911] ( Info) [5, 0] Reached Pose: P/T ( -80.557650, 0.699750)
+[ 1601579911] ( Info) [5, 0] Reached Pose: P/T ( -80.558100, 0.699750)
+[ 1601579911] ( Info) Removing blurry img(s): 5
+[ 1601579911] ( Info) [5, 0] Reached Pose: P/T ( -80.558100, 0.699750)
+[ 1601579911] ( Info) Removing blurry img(s): 6
+[ 1601579912] ( Info) Removing blurry img(s): 6
+[ 1601579912] ( Info) [5, 0] Reached Pose: P/T ( -80.558100, 0.699750)
+[ 1601579912] ( Info) Removing blurry img(s): 7
+[ 1601579912] ( Info) Removing blurry img(s): 7
+[ 1601579912] ( Info) [5, 0] Reached Pose: P/T ( -80.558100, 0.699750)
+[ 1601579912] ( Info) Removing blurry img(s): 8
+[ 1601579912] ( Info) Removing blurry img(s): 8
+[ 1601579912] ( Info) [5, 0] Reached Pose: P/T ( -80.558100, 0.699750)
+[ 1601579912] ( Info) Removing blurry img(s): 9
+[ 1601579912] ( Info) Removing blurry img(s): 10
+[ 1601579912] ( Info) [5, 0] Reached Pose: P/T ( -80.558100, 0.699750)
+[ 1601579913] ( Info) [5, 0] ReprojectionError: ( 0.146045)
+[ 1601579913] ( Info) Succesfully Estimated Pose.
+[ 1601579914] ( Info) ReprojectionError: ( 0.109740)
+[ 1601579914] ( Info) Succesfully Estimated Pose.
+[ 1601579914] ( Warning) PT Mis-match Error: Expected ( -80.558100,0.699750), Observed: ( -80.558550,0.699750), Delta: ( 0.000450, 0.000000)
+[ 1601579914] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5585, 0.69975) Delta: ( 3.09955, 4.89439)
+[ 1601579914] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5703, 0.71235) Delta: ( 3.08785, 4.88179)
+[ 1601579914] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.6094, 0.7749) Delta: ( 3.0487, 4.81924)
+[ 1601579914] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.7439, 0.98955) Delta: ( 2.91415, 4.60459)
+[ 1601579914] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.8911, 1.22625) Delta: ( 2.767, 4.36789)
+[ 1601579915] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.4635, 2.1375) Delta: ( 2.1946, 3.45664)
+[ 1601579915] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.7506, 2.58795) Delta: ( 1.9075, 3.00619)
+[ 1601579915] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.2096, 3.3129) Delta: ( 1.4485, 2.28124)
+[ 1601579915] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.5115, 3.7962) Delta: ( 1.14655, 1.79794)
+[ 1601579915] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.1676, 4.82445) Delta: ( 0.49045, 0.769693)
+[ 1601579915] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.5218, 5.3757) Delta: ( 0.1363, 0.218443)
+[ 1601579916] ( Info) [7, 6] Reached Pose: P/T ( -83.623950, 5.540850)
+[ 1601579916] ( Info) Removing blurry img(s): 1
+[ 1601579916] ( Info) Removing blurry img(s): 1
+[ 1601579916] ( Info) Removing blurry img(s): 2
+[ 1601579916] ( Info) [7, 6] Reached Pose: P/T ( -83.655450, 5.589450)
+[ 1601579916] ( Info) Removing blurry img(s): 3
+[ 1601579916] ( Info) Removing blurry img(s): 3
+[ 1601579916] ( Info) [7, 6] Reached Pose: P/T ( -83.655900, 5.589450)
+[ 1601579916] ( Info) Removing blurry img(s): 4
+[ 1601579916] ( Info) Removing blurry img(s): 4
+[ 1601579916] ( Info) [7, 6] Reached Pose: P/T ( -83.655900, 5.589450)
+[ 1601579916] ( Info) Removing blurry img(s): 5
+[ 1601579916] ( Info) [7, 6] Reached Pose: P/T ( -83.655900, 5.589450)
+[ 1601579916] ( Info) Removing blurry img(s): 6
+[ 1601579916] ( Info) Removing blurry img(s): 6
+[ 1601579916] ( Info) [7, 6] Reached Pose: P/T ( -83.656350, 5.589450)
+[ 1601579917] ( Info) Removing blurry img(s): 7
+[ 1601579917] ( Info) [7, 6] Reached Pose: P/T ( -83.656350, 5.589900)
+[ 1601579917] ( Info) Removing blurry img(s): 8
+[ 1601579917] ( Info) [7, 6] Reached Pose: P/T ( -83.656350, 5.589900)
+[ 1601579917] ( Info) Removing blurry img(s): 9
+[ 1601579917] ( Info) Removing blurry img(s): 9
+[ 1601579917] ( Info) Recorded Pose
+[ 1601579917] ( Info) [7, 6] Reached Pose: P/T ( -83.656350, 5.589900)
+[ 1601579918] ( Info) [7, 6] ReprojectionError: ( 0.200142)
+[ 1601579918] ( Info) Succesfully Estimated Pose.
+[ 1601579918] ( Info) ReprojectionError: ( 0.110830)
+[ 1601579918] ( Info) Succesfully Estimated Pose.
+[ 1601579918] ( Info) Sent PTU. Target: PT (-82.105671,3.148521)
+[ 1601579918] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6564, 5.5899) Delta: ( 1.55068, 2.44138)
+[ 1601579919] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6564, 5.5899) Delta: ( 1.55068, 2.44138)
+[ 1601579919] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6559, 5.58855) Delta: ( 1.55023, 2.44003)
+[ 1601579919] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6257, 5.517) Delta: ( 1.52008, 2.36848)
+[ 1601579919] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.5844, 5.44905) Delta: ( 1.47868, 2.30053)
+[ 1601579919] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.3521, 5.06925) Delta: ( 1.24648, 1.92073)
+[ 1601579919] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.2198, 4.8564) Delta: ( 1.11418, 1.70788)
+[ 1601579920] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.8378, 4.2534) Delta: ( 0.732129, 1.10488)
+[ 1601579920] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.5435, 3.79485) Delta: ( 0.437829, 0.646329)
+[ 1601579920] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.3684, 3.5226) Delta: ( 0.262779, 0.374079)
+[ 1601579920] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.2793, 3.3849) Delta: ( 0.173679, 0.236379)
+[ 1601579920] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1898, 3.2454) Delta: ( 0.0841286, 0.0968786)
+[ 1601579920] ( Info) [6, 3] Reached Pose: P/T ( -82.145250, 3.177450)
+[ 1601579920] ( Info) Removing blurry img(s): 1
+[ 1601579920] ( Info) [6, 3] Reached Pose: P/T ( -82.140750, 3.172050)
+[ 1601579921] ( Info) Removing blurry img(s): 2
+[ 1601579921] ( Info) Removing blurry img(s): 2
+[ 1601579921] ( Info) [6, 3] Reached Pose: P/T ( -82.140300, 3.171600)
+[ 1601579921] ( Info) Removing blurry img(s): 3
+[ 1601579921] ( Info) Removing blurry img(s): 3
+[ 1601579921] ( Info) Removing blurry img(s): 4
+[ 1601579921] ( Info) [6, 3] Reached Pose: P/T ( -82.139850, 3.171600)
+[ 1601579921] ( Info) Removing blurry img(s): 5
+[ 1601579921] ( Info) Removing blurry img(s): 5
+[ 1601579921] ( Info) [6, 3] Reached Pose: P/T ( -82.139850, 3.171600)
+[ 1601579921] ( Info) Removing blurry img(s): 6
+[ 1601579921] ( Info) [6, 3] Reached Pose: P/T ( -82.139850, 3.171600)
+[ 1601579921] ( Info) Removing blurry img(s): 7
+[ 1601579921] ( Info) Removing blurry img(s): 7
+[ 1601579921] ( Info) [6, 3] Reached Pose: P/T ( -82.139850, 3.171600)
+[ 1601579922] ( Info) Removing blurry img(s): 8
+[ 1601579922] ( Info) Removing blurry img(s): 9
+[ 1601579922] ( Info) Removing blurry img(s): 9
+[ 1601579922] ( Info) Removing blurry img(s): 10
+[ 1601579922] ( Info) Recorded Pose
+[ 1601579922] ( Info) Acquisition PT: 15
+[ 1601579922] ( Info) [6, 3] Reached Pose: P/T ( -82.139400, 3.171600)
+[ 1601579923] ( Info) [6, 3] ReprojectionError: ( 0.170287)
+[ 1601579923] ( Info) Succesfully Estimated Pose.
+[ 1601579923] ( Info) ReprojectionError: ( 0.111560)
+[ 1601579923] ( Info) Succesfully Estimated Pose.
+[ 1601579923] ( Info) Sent PTU. Target: PT (-77.448386,2.333314)
+[ 1601579924] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1394, 3.1716) Delta: ( 4.69101, 0.838286)
+[ 1601579924] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1394, 3.1716) Delta: ( 4.69101, 0.838286)
+[ 1601579924] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0332, 3.15765) Delta: ( 4.58481, 0.824336)
+[ 1601579924] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.8941, 3.1338) Delta: ( 4.44576, 0.800486)
+[ 1601579924] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.6849, 3.0969) Delta: ( 4.23651, 0.763586)
+[ 1601579924] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.9736, 2.7945) Delta: ( 2.52516, 0.461186)
+[ 1601579925] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.3818, 2.69145) Delta: ( 1.93341, 0.358136)
+[ 1601579925] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.9121, 2.42955) Delta: ( 0.463714, 0.0962357)
+[ 1601579925] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.7091, 2.394) Delta: ( 0.260764, 0.0606857)
+[ 1601579925] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.5764, 2.3697) Delta: ( 0.128014, 0.0363857)
+[ 1601579925] ( Info) [3, 2] Reached Pose: P/T ( -77.474700, 2.351700)
+[ 1601579926] ( Info) Removing blurry img(s): 1
+[ 1601579926] ( Info) Removing blurry img(s): 1
+[ 1601579926] ( Info) [3, 2] Reached Pose: P/T ( -77.473350, 2.351250)
+[ 1601579926] ( Info) Removing blurry img(s): 2
+[ 1601579926] ( Info) Removing blurry img(s): 3
+[ 1601579926] ( Info) Removing blurry img(s): 3
+[ 1601579926] ( Info) [3, 2] Reached Pose: P/T ( -77.472900, 2.350800)
+[ 1601579926] ( Info) Removing blurry img(s): 5
+[ 1601579926] ( Info) Removing blurry img(s): 5
+[ 1601579926] ( Info) [3, 2] Reached Pose: P/T ( -77.472900, 2.350800)
+[ 1601579926] ( Info) Removing blurry img(s): 6
+[ 1601579926] ( Info) [3, 2] Reached Pose: P/T ( -77.472900, 2.350800)
+[ 1601579926] ( Info) Removing blurry img(s): 7
+[ 1601579926] ( Info) Removing blurry img(s): 7
+[ 1601579927] ( Info) [3, 2] Reached Pose: P/T ( -77.472900, 2.350800)
+[ 1601579927] ( Info) Removing blurry img(s): 9
+[ 1601579927] ( Info) Removing blurry img(s): 9
+[ 1601579927] ( Info) [3, 2] Reached Pose: P/T ( -77.472450, 2.350800)
+[ 1601579927] ( Info) Removing blurry img(s): 10
+[ 1601579927] ( Info) Recorded Pose
+[ 1601579927] ( Info) Acquisition PT: 16
+[ 1601579927] ( Info) [3, 2] Reached Pose: P/T ( -77.472450, 2.350800)
+[ 1601579928] ( Info) [3, 2] ReprojectionError: ( 0.250448)
+[ 1601579928] ( Info) Succesfully Estimated Pose.
+[ 1601579929] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4724, 2.3508) Delta: ( 4.63322, 3.24334)
+[ 1601579929] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4819, 2.3634) Delta: ( 4.62377, 3.23074)
+[ 1601579929] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.7236, 2.5362) Delta: ( 4.38212, 3.05794)
+[ 1601579929] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.0057, 2.7234) Delta: ( 4.09997, 2.87074)
+[ 1601579929] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.6915, 3.1986) Delta: ( 3.41417, 2.39554)
+[ 1601579930] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.9402, 4.06575) Delta: ( 2.16542, 1.52839)
+[ 1601579930] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.7061, 5.3136) Delta: ( 0.399621, 0.280543)
+[ 1601579930] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.9292, 5.47155) Delta: ( 0.176421, 0.122593)
+[ 1601579930] ( Info) [6, 6] Reached Pose: P/T ( -82.088550, 5.584050)
+[ 1601579931] ( Info) Removing blurry img(s): 1
+[ 1601579931] ( Info) Removing blurry img(s): 1
+[ 1601579931] ( Info) [6, 6] Reached Pose: P/T ( -82.093950, 5.588100)
+[ 1601579931] ( Info) Removing blurry img(s): 2
+[ 1601579931] ( Info) Removing blurry img(s): 2
+[ 1601579931] ( Info) [6, 6] Reached Pose: P/T ( -82.094400, 5.588100)
+[ 1601579931] ( Info) Removing blurry img(s): 3
+[ 1601579931] ( Info) [6, 6] Reached Pose: P/T ( -82.094400, 5.588550)
+[ 1601579931] ( Info) Removing blurry img(s): 4
+[ 1601579931] ( Info) Removing blurry img(s): 4
+[ 1601579931] ( Info) [6, 6] Reached Pose: P/T ( -82.094850, 5.588550)
+[ 1601579931] ( Info) Removing blurry img(s): 5
+[ 1601579931] ( Info) Removing blurry img(s): 5
+[ 1601579931] ( Info) [6, 6] Reached Pose: P/T ( -82.094850, 5.588550)
+[ 1601579931] ( Info) Removing blurry img(s): 6
+[ 1601579931] ( Info) [6, 6] Reached Pose: P/T ( -82.094850, 5.588550)
+[ 1601579931] ( Info) Removing blurry img(s): 7
+[ 1601579931] ( Info) [6, 6] Reached Pose: P/T ( -82.094850, 5.588550)
+[ 1601579932] ( Info) Removing blurry img(s): 8
+[ 1601579932] ( Info) Removing blurry img(s): 8
+[ 1601579932] ( Info) Removing blurry img(s): 9
+[ 1601579932] ( Info) Removing blurry img(s): 9
+[ 1601579932] ( Info) [6, 6] Reached Pose: P/T ( -82.094850, 5.588550)
+[ 1601579932] ( Info) Removing blurry img(s): 10
+[ 1601579932] ( Info) Recorded Pose
+[ 1601579932] ( Info) [6, 6] Reached Pose: P/T ( -82.094850, 5.588550)
+[ 1601579933] ( Info) ReprojectionError: ( 0.112102)
+[ 1601579933] ( Info) Succesfully Estimated Pose.
+[ 1601579933] ( Warning) PT Mis-match Error: Expected ( -82.094850,5.588550), Observed: ( -82.095300,5.589000), Delta: ( 0.000450, 0.000450)
+[ 1601579934] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 5.589) Delta: ( 0.0103714, 4.8861)
+[ 1601579934] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 5.58855) Delta: ( 0.0103714, 4.88565)
+[ 1601579934] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 5.54535) Delta: ( 0.0103714, 4.84245)
+[ 1601579934] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 5.3523) Delta: ( 0.0103714, 4.6494)
+[ 1601579934] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 4.45995) Delta: ( 0.0103714, 3.75705)
+[ 1601579934] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 3.7998) Delta: ( 0.0103714, 3.0969)
+[ 1601579935] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 2.9511) Delta: ( 0.0103714, 2.2482)
+[ 1601579935] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 2.35215) Delta: ( 0.0103714, 1.64925)
+[ 1601579935] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 1.2276) Delta: ( 0.0103714, 0.5247)
+[ 1601579935] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.748800)
+[ 1601579935] ( Info) Removing blurry img(s): 1
+[ 1601579935] ( Info) Removing blurry img(s): 1
+[ 1601579936] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.703800)
+[ 1601579936] ( Info) Removing blurry img(s): 2
+[ 1601579936] ( Info) Removing blurry img(s): 2
+[ 1601579936] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.703350)
+[ 1601579936] ( Info) Removing blurry img(s): 3
+[ 1601579936] ( Info) Removing blurry img(s): 3
+[ 1601579936] ( Info) Removing blurry img(s): 4
+[ 1601579936] ( Info) Removing blurry img(s): 4
+[ 1601579936] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.702900)
+[ 1601579936] ( Info) Removing blurry img(s): 6
+[ 1601579936] ( Info) Removing blurry img(s): 6
+[ 1601579936] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.702900)
+[ 1601579936] ( Info) Removing blurry img(s): 7
+[ 1601579936] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.702900)
+[ 1601579937] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.702900)
+[ 1601579937] ( Info) Removing blurry img(s): 9
+[ 1601579937] ( Info) Removing blurry img(s): 9
+[ 1601579937] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.702900)
+[ 1601579937] ( Info) Removing blurry img(s): 10
+[ 1601579937] ( Info) Removing blurry img(s): 10
+[ 1601579937] ( Info) Acquisition PT: 18
+[ 1601579937] ( Info) [6, 0] Reached Pose: P/T ( -82.095300, 0.702450)
+[ 1601579938] ( Info) [6, 0] ReprojectionError: ( 0.166498)
+[ 1601579938] ( Info) Succesfully Estimated Pose.
+[ 1601579938] ( Info) ReprojectionError: ( 0.111549)
+[ 1601579938] ( Info) Succesfully Estimated Pose.
+[ 1601579938] ( Info) Sent PTU. Target: PT (-75.895957,1.518107)
+[ 1601579938] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0953, 0.70245) Delta: ( 6.19934, 0.815657)
+[ 1601579939] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.9846, 0.711) Delta: ( 6.08864, 0.807107)
+[ 1601579939] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.742, 0.74295) Delta: ( 5.84609, 0.775157)
+[ 1601579939] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.6846, 0.87975) Delta: ( 4.78859, 0.638357)
+[ 1601579939] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.1392, 0.9504) Delta: ( 4.24319, 0.567707)
+[ 1601579939] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.5348, 1.0278) Delta: ( 3.63884, 0.490307)
+[ 1601579939] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.7091, 1.26585) Delta: ( 1.81319, 0.252257)
+[ 1601579940] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.1939, 1.3338) Delta: ( 1.29794, 0.184307)
+[ 1601579940] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.8609, 1.37745) Delta: ( 0.964943, 0.140657)
+[ 1601579940] ( Info) [2, 1] Reached Pose: P/T ( -75.954150, 1.496250)
+[ 1601579940] ( Info) Removing blurry img(s): 1
+[ 1601579940] ( Info) [2, 1] Reached Pose: P/T ( -75.916350, 1.501200)
+[ 1601579940] ( Info) Removing blurry img(s): 2
+[ 1601579940] ( Info) [2, 1] Reached Pose: P/T ( -75.914100, 1.501650)
+[ 1601579941] ( Info) Removing blurry img(s): 3
+[ 1601579941] ( Info) Removing blurry img(s): 3
+[ 1601579941] ( Info) [2, 1] Reached Pose: P/T ( -75.913650, 1.502100)
+[ 1601579941] ( Info) Removing blurry img(s): 4
+[ 1601579941] ( Info) Removing blurry img(s): 4
+[ 1601579941] ( Info) [2, 1] Reached Pose: P/T ( -75.913650, 1.502100)
+[ 1601579941] ( Info) Removing blurry img(s): 5
+[ 1601579941] ( Info) Removing blurry img(s): 5
+[ 1601579941] ( Info) [2, 1] Reached Pose: P/T ( -75.913200, 1.502100)
+[ 1601579941] ( Info) Removing blurry img(s): 6
+[ 1601579941] ( Info) Removing blurry img(s): 6
+[ 1601579941] ( Info) [2, 1] Reached Pose: P/T ( -75.913200, 1.502100)
+[ 1601579941] ( Info) Removing blurry img(s): 7
+[ 1601579941] ( Info) Removing blurry img(s): 7
+[ 1601579941] ( Info) [2, 1] Reached Pose: P/T ( -75.913200, 1.502100)
+[ 1601579941] ( Info) Removing blurry img(s): 8
+[ 1601579941] ( Info) Removing blurry img(s): 8
+[ 1601579941] ( Info) [2, 1] Reached Pose: P/T ( -75.913200, 1.502550)
+[ 1601579941] ( Info) [2, 1] Reached Pose: P/T ( -75.913200, 1.502550)
+[ 1601579941] ( Info) Removing blurry img(s): 10
+[ 1601579941] ( Info) Removing blurry img(s): 10
+[ 1601579941] ( Info) Recorded Pose
+[ 1601579943] ( Info) [2, 1] ReprojectionError: ( 0.214515)
+[ 1601579943] ( Info) Succesfully Estimated Pose.
+[ 1601579943] ( Info) ReprojectionError: ( 0.110845)
+[ 1601579943] ( Info) Succesfully Estimated Pose.
+[ 1601579943] ( Info) Sent PTU. Target: PT (-74.343529,0.702900)
+[ 1601579943] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9132, 1.50255) Delta: ( 1.56967, 0.79965)
+[ 1601579943] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9119, 1.50255) Delta: ( 1.56832, 0.79965)
+[ 1601579943] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.8992, 1.50165) Delta: ( 1.55572, 0.79875)
+[ 1601579944] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.8457, 1.47915) Delta: ( 1.50217, 0.77625)
+[ 1601579944] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.7174, 1.413) Delta: ( 1.37392, 0.7101)
+[ 1601579944] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.5824, 1.3428) Delta: ( 1.23892, 0.6399)
+[ 1601579944] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.3053, 1.19745) Delta: ( 0.961721, 0.49455)
+[ 1601579944] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.1527, 1.1169) Delta: ( 0.809171, 0.414)
+[ 1601579944] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.8885, 0.9765) Delta: ( 0.545021, 0.2736)
+[ 1601579945] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.6887, 0.8712) Delta: ( 0.345221, 0.1683)
+[ 1601579945] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.5164, 0.7803) Delta: ( 0.172871, 0.0774)
+[ 1601579945] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.4359, 0.73845) Delta: ( 0.0923214, 0.03555)
+[ 1601579945] ( Info) [1, 0] Reached Pose: P/T ( -74.386350, 0.712350)
+[ 1601579945] ( Info) Removing blurry img(s): 1
+[ 1601579945] ( Info) Removing blurry img(s): 1
+[ 1601579945] ( Info) [1, 0] Reached Pose: P/T ( -74.372400, 0.704700)
+[ 1601579945] ( Info) Removing blurry img(s): 3
+[ 1601579945] ( Info) [1, 0] Reached Pose: P/T ( -74.371500, 0.704250)
+[ 1601579945] ( Info) Removing blurry img(s): 4
+[ 1601579946] ( Info) [1, 0] Reached Pose: P/T ( -74.371500, 0.703800)
+[ 1601579946] ( Info) Removing blurry img(s): 5
+[ 1601579946] ( Info) Removing blurry img(s): 5
+[ 1601579946] ( Info) [1, 0] Reached Pose: P/T ( -74.371500, 0.703800)
+[ 1601579946] ( Info) Removing blurry img(s): 6
+[ 1601579946] ( Info) [1, 0] Reached Pose: P/T ( -74.371050, 0.703800)
+[ 1601579946] ( Info) Removing blurry img(s): 7
+[ 1601579946] ( Info) [1, 0] Reached Pose: P/T ( -74.371050, 0.703800)
+[ 1601579946] ( Info) Removing blurry img(s): 8
+[ 1601579946] ( Info) Removing blurry img(s): 8
+[ 1601579946] ( Info) [1, 0] Reached Pose: P/T ( -74.371050, 0.703800)
+[ 1601579946] ( Info) Removing blurry img(s): 9
+[ 1601579946] ( Info) Removing blurry img(s): 9
+[ 1601579946] ( Info) [1, 0] Reached Pose: P/T ( -74.371050, 0.703800)
+[ 1601579946] ( Info) Removing blurry img(s): 10
+[ 1601579947] ( Info) Removing blurry img(s): 10
+[ 1601579947] ( Info) Recorded Pose
+[ 1601579947] ( Info) [1, 0] Reached Pose: P/T ( -74.371050, 0.703800)
+[ 1601579947] ( Info) [1, 0] ReprojectionError: ( 0.203156)
+[ 1601579948] ( Info) ReprojectionError: ( 0.109970)
+[ 1601579948] ( Info) Succesfully Estimated Pose.
+[ 1601579948] ( Warning) PT Mis-match Error: Expected ( -74.371050,0.703800), Observed: ( -74.370600,0.703800), Delta: ( 0.000450, 0.000000)
+[ 1601579948] ( Info) Sent PTU. Target: PT (-80.553243,6.409350)
+[ 1601579948] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3706, 0.7038) Delta: ( 6.18264, 5.70555)
+[ 1601579949] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.8647, 1.18305) Delta: ( 5.68854, 5.2263)
+[ 1601579949] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.3169, 1.6038) Delta: ( 5.23629, 4.80555)
+[ 1601579949] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9145, 2.15685) Delta: ( 4.63869, 4.2525)
+[ 1601579949] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.0219, 4.0707) Delta: ( 2.53134, 2.33865)
+[ 1601579949] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.7523, 4.75065) Delta: ( 1.80099, 1.6587)
+[ 1601579950] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.9785, 5.8725) Delta: ( 0.574743, 0.53685)
+[ 1601579950] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.4285, 6.27795) Delta: ( 0.124743, 0.1314)
+[ 1601579950] ( Info) [5, 7] Reached Pose: P/T ( -80.533350, 6.371100)
+[ 1601579950] ( Info) Removing blurry img(s): 1
+[ 1601579950] ( Info) [5, 7] Reached Pose: P/T ( -80.560350, 6.394500)
+[ 1601579950] ( Info) Removing blurry img(s): 2
+[ 1601579950] ( Info) [5, 7] Reached Pose: P/T ( -80.560800, 6.395400)
+[ 1601579950] ( Info) Removing blurry img(s): 3
+[ 1601579950] ( Info) Removing blurry img(s): 3
+[ 1601579950] ( Info) [5, 7] Reached Pose: P/T ( -80.561250, 6.395400)
+[ 1601579950] ( Info) Removing blurry img(s): 4
+[ 1601579950] ( Info) Removing blurry img(s): 4
+[ 1601579950] ( Info) [5, 7] Reached Pose: P/T ( -80.561250, 6.395400)
+[ 1601579951] ( Info) [5, 7] Reached Pose: P/T ( -80.561250, 6.395400)
+[ 1601579951] ( Info) Removing blurry img(s): 6
+[ 1601579951] ( Info) [5, 7] Reached Pose: P/T ( -80.561250, 6.395400)
+[ 1601579951] ( Info) Removing blurry img(s): 7
+[ 1601579951] ( Info) Removing blurry img(s): 7
+[ 1601579951] ( Info) [5, 7] Reached Pose: P/T ( -80.561250, 6.395400)
+[ 1601579951] ( Info) Removing blurry img(s): 8
+[ 1601579951] ( Info) Removing blurry img(s): 9
+[ 1601579951] ( Info) [5, 7] Reached Pose: P/T ( -80.561250, 6.395400)
+[ 1601579951] ( Info) Removing blurry img(s): 10
+[ 1601579951] ( Info) Acquisition PT: 21
+[ 1601579951] ( Info) [5, 7] Reached Pose: P/T ( -80.561250, 6.395400)
+[ 1601579952] ( Info) [5, 7] ReprojectionError: ( 0.252558)
+[ 1601579952] ( Info) Succesfully Estimated Pose.
+[ 1601579953] ( Info) ReprojectionError: ( 0.110395)
+[ 1601579953] ( Info) Succesfully Estimated Pose.
+[ 1601579953] ( Warning) PT Mis-match Error: Expected ( -80.561250,6.395400), Observed: ( -80.561250,6.395850), Delta: ( 0.000000, 0.000450)
+[ 1601579953] ( Info) Sent PTU. Target: PT (-75.895957,5.594143)
+[ 1601579953] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5608, 6.39585) Delta: ( 4.66484, 0.801707)
+[ 1601579953] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5027, 6.39495) Delta: ( 4.60679, 0.800807)
+[ 1601579954] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.4012, 6.2271) Delta: ( 3.50519, 0.632957)
+[ 1601579954] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.5209, 6.07635) Delta: ( 2.62499, 0.482207)
+[ 1601579954] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.2695, 5.86035) Delta: ( 1.37354, 0.266207)
+[ 1601579954] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.7921, 5.77755) Delta: ( 0.896093, 0.183407)
+[ 1601579955] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0414, 5.64615) Delta: ( 0.145493, 0.0520071)
+[ 1601579955] ( Info) [2, 6] Reached Pose: P/T ( -75.936600, 5.627700)
+[ 1601579955] ( Info) Removing blurry img(s): 1
+[ 1601579955] ( Info) [2, 6] Reached Pose: P/T ( -75.915450, 5.624100)
+[ 1601579955] ( Info) Removing blurry img(s): 2
+[ 1601579955] ( Info) [2, 6] Reached Pose: P/T ( -75.915000, 5.624100)
+[ 1601579955] ( Info) Removing blurry img(s): 3
+[ 1601579955] ( Info) [2, 6] Reached Pose: P/T ( -75.914550, 5.623650)
+[ 1601579955] ( Info) Removing blurry img(s): 4
+[ 1601579956] ( Info) Removing blurry img(s): 4
+[ 1601579956] ( Info) [2, 6] Reached Pose: P/T ( -75.914550, 5.623650)
+[ 1601579956] ( Info) Removing blurry img(s): 5
+[ 1601579956] ( Info) [2, 6] Reached Pose: P/T ( -75.914550, 5.623650)
+[ 1601579956] ( Info) Removing blurry img(s): 6
+[ 1601579956] ( Info) Removing blurry img(s): 6
+[ 1601579956] ( Info) [2, 6] Reached Pose: P/T ( -75.914550, 5.623650)
+[ 1601579956] ( Info) Removing blurry img(s): 7
+[ 1601579956] ( Info) Removing blurry img(s): 8
+[ 1601579956] ( Info) Removing blurry img(s): 8
+[ 1601579956] ( Info) Removing blurry img(s): 9
+[ 1601579956] ( Info) Removing blurry img(s): 9
+[ 1601579956] ( Info) [2, 6] Reached Pose: P/T ( -75.914550, 5.623650)
+[ 1601579956] ( Info) Removing blurry img(s): 10
+[ 1601579957] ( Info) [2, 6] ReprojectionError: ( 0.249327)
+[ 1601579957] ( Info) Succesfully Estimated Pose.
+[ 1601579958] ( Info) ReprojectionError: ( 0.111298)
+[ 1601579958] ( Info) Succesfully Estimated Pose.
+[ 1601579958] ( Warning) PT Mis-match Error: Expected ( -75.914550,5.623650), Observed: ( -75.914100,5.623650), Delta: ( 0.000450, 0.000000)
+[ 1601579958] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 5.62365) Delta: ( 3.08671, 3.29034)
+[ 1601579958] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9488, 5.55615) Delta: ( 3.05206, 3.22284)
+[ 1601579959] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0352, 5.46075) Delta: ( 2.96566, 3.12744)
+[ 1601579959] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0805, 4.3587) Delta: ( 1.92031, 2.02539)
+[ 1601579959] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.3914, 4.0347) Delta: ( 1.60936, 1.70139)
+[ 1601579960] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.6375, 2.71755) Delta: ( 0.363314, 0.384236)
+[ 1601579960] ( Info) Removing blurry img(s): 1
+[ 1601579960] ( Info) Removing blurry img(s): 1
+[ 1601579960] ( Info) [4, 2] Reached Pose: P/T ( -78.983550, 2.350800)
+[ 1601579960] ( Info) Removing blurry img(s): 2
+[ 1601579960] ( Info) Removing blurry img(s): 2
+[ 1601579960] ( Info) [4, 2] Reached Pose: P/T ( -78.984000, 2.350800)
+[ 1601579960] ( Info) Removing blurry img(s): 3
+[ 1601579960] ( Info) Removing blurry img(s): 3
+[ 1601579960] ( Info) [4, 2] Reached Pose: P/T ( -78.984000, 2.350800)
+[ 1601579961] ( Info) Removing blurry img(s): 4
+[ 1601579961] ( Info) [4, 2] Reached Pose: P/T ( -78.984450, 2.350800)
+[ 1601579961] ( Info) Removing blurry img(s): 5
+[ 1601579961] ( Info) Removing blurry img(s): 5
+[ 1601579961] ( Info) [4, 2] Reached Pose: P/T ( -78.984450, 2.350800)
+[ 1601579961] ( Info) Removing blurry img(s): 6
+[ 1601579961] ( Info) Removing blurry img(s): 6
+[ 1601579961] ( Info) Removing blurry img(s): 7
+[ 1601579961] ( Info) Removing blurry img(s): 7
+[ 1601579961] ( Info) [4, 2] Reached Pose: P/T ( -78.984450, 2.350800)
+[ 1601579961] ( Info) Removing blurry img(s): 8
+[ 1601579961] ( Info) Removing blurry img(s): 8
+[ 1601579961] ( Info) [4, 2] Reached Pose: P/T ( -78.984450, 2.350800)
+[ 1601579961] ( Info) Removing blurry img(s): 9
+[ 1601579961] ( Info) Removing blurry img(s): 9
+[ 1601579961] ( Info) [4, 2] Reached Pose: P/T ( -78.984450, 2.350350)
+[ 1601579961] ( Info) Removing blurry img(s): 10
+[ 1601579962] ( Info) Recorded Pose
+[ 1601579962] ( Info) Acquisition PT: 23
+[ 1601579962] ( Info) [4, 2] Reached Pose: P/T ( -78.984450, 2.350350)
+[ 1601579963] ( Info) [4, 2] ReprojectionError: ( 0.190201)
+[ 1601579963] ( Info) Succesfully Estimated Pose.
+[ 1601579963] ( Info) ReprojectionError: ( 0.112006)
+[ 1601579963] ( Info) Succesfully Estimated Pose.
+[ 1601579963] ( Warning) PT Mis-match Error: Expected ( -78.984450,2.350350), Observed: ( -78.984900,2.350350), Delta: ( 0.000450, 0.000000)
+[ 1601579963] ( Info) Sent PTU. Target: PT (-77.448386,5.594143)
+[ 1601579963] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 2.35125) Delta: ( 1.53651, 3.24289)
+[ 1601579964] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9844, 2.3733) Delta: ( 1.53606, 3.22084)
+[ 1601579964] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.8927, 2.6037) Delta: ( 1.44426, 2.99044)
+[ 1601579964] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.5389, 3.37635) Delta: ( 1.09056, 2.21779)
+[ 1601579964] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.1187, 4.24125) Delta: ( 0.670264, 1.35289)
+[ 1601579965] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.8014, 4.90455) Delta: ( 0.353014, 0.689593)
+[ 1601579965] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.67, 5.1876) Delta: ( 0.221614, 0.406543)
+[ 1601579965] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.5143, 5.5179) Delta: ( 0.0659143, 0.0762429)
+[ 1601579965] ( Info) Removing blurry img(s): 1
+[ 1601579965] ( Info) Removing blurry img(s): 1
+[ 1601579965] ( Info) [3, 6] Reached Pose: P/T ( -77.479200, 5.589900)
+[ 1601579965] ( Info) Removing blurry img(s): 2
+[ 1601579966] ( Info) Removing blurry img(s): 2
+[ 1601579966] ( Info) [3, 6] Reached Pose: P/T ( -77.478750, 5.589900)
+[ 1601579966] ( Info) Removing blurry img(s): 3
+[ 1601579966] ( Info) [3, 6] Reached Pose: P/T ( -77.478750, 5.589900)
+[ 1601579966] ( Info) Removing blurry img(s): 4
+[ 1601579966] ( Info) [3, 6] Reached Pose: P/T ( -77.478750, 5.590350)
+[ 1601579966] ( Info) Removing blurry img(s): 5
+[ 1601579966] ( Info) Removing blurry img(s): 5
+[ 1601579966] ( Info) Removing blurry img(s): 6
+[ 1601579966] ( Info) Removing blurry img(s): 7
+[ 1601579966] ( Info) [3, 6] Reached Pose: P/T ( -77.478300, 5.590350)
+[ 1601579966] ( Info) [3, 6] Reached Pose: P/T ( -77.478300, 5.590350)
+[ 1601579966] ( Info) Removing blurry img(s): 9
+[ 1601579967] ( Info) Removing blurry img(s): 9
+[ 1601579967] ( Info) [3, 6] Reached Pose: P/T ( -77.478300, 5.590350)
+[ 1601579967] ( Info) Removing blurry img(s): 10
+[ 1601579967] ( Info) Removing blurry img(s): 10
+[ 1601579967] ( Info) Acquisition PT: 24
+[ 1601579967] ( Info) [3, 6] Reached Pose: P/T ( -77.478300, 5.590350)
+[ 1601579968] ( Info) [3, 6] ReprojectionError: ( 0.280735)
+[ 1601579968] ( Info) Succesfully Estimated Pose.
+[ 1601579968] ( Info) Sent PTU. Target: PT (-72.791100,6.409350)
+[ 1601579969] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4779, 5.5908) Delta: ( 4.68675, 0.81855)
+[ 1601579969] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4747, 5.5908) Delta: ( 4.6836, 0.81855)
+[ 1601579969] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4306, 5.5971) Delta: ( 4.6395, 0.81225)
+[ 1601579969] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.3068, 5.61825) Delta: ( 4.51575, 0.7911)
+[ 1601579969] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.1309, 5.6493) Delta: ( 4.3398, 0.76005)
+[ 1601579969] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.3753, 5.78205) Delta: ( 3.58425, 0.6273)
+[ 1601579969] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.8556, 5.87115) Delta: ( 3.0645, 0.5382)
+[ 1601579970] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.7108, 6.0696) Delta: ( 1.9197, 0.33975)
+[ 1601579970] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.7712, 6.2316) Delta: ( 0.9801, 0.17775)
+[ 1601579970] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.3739, 6.29865) Delta: ( 0.58275, 0.1107)
+[ 1601579970] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.0881, 6.34635) Delta: ( 0.297, 0.063)
+[ 1601579970] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.9149, 6.37605) Delta: ( 0.12375, 0.0333)
+[ 1601579970] ( Info) [0, 7] Reached Pose: P/T ( -72.820350, 6.391800)
+[ 1601579971] ( Info) Removing blurry img(s): 1
+[ 1601579971] ( Info) Removing blurry img(s): 1
+[ 1601579971] ( Info) Removing blurry img(s): 2
+[ 1601579971] ( Info) Removing blurry img(s): 2
+[ 1601579971] ( Info) Removing blurry img(s): 3
+[ 1601579971] ( Info) Removing blurry img(s): 3
+[ 1601579971] ( Info) [0, 7] Reached Pose: P/T ( -72.815400, 6.393150)
+[ 1601579971] ( Info) Removing blurry img(s): 4
+[ 1601579971] ( Info) Removing blurry img(s): 5
+[ 1601579971] ( Info) Removing blurry img(s): 5
+[ 1601579971] ( Info) [0, 7] Reached Pose: P/T ( -72.815400, 6.393150)
+[ 1601579971] ( Info) [0, 7] Reached Pose: P/T ( -72.815400, 6.393150)
+[ 1601579972] ( Info) Removing blurry img(s): 8
+[ 1601579972] ( Info) [0, 7] Reached Pose: P/T ( -72.815400, 6.393600)
+[ 1601579972] ( Info) Removing blurry img(s): 9
+[ 1601579972] ( Info) Removing blurry img(s): 9
+[ 1601579972] ( Info) Removing blurry img(s): 10
+[ 1601579972] ( Info) Recorded Pose
+[ 1601579972] ( Info) Acquisition PT: 25
+[ 1601579973] ( Info) [0, 7] ReprojectionError: ( 0.168700)
+[ 1601579973] ( Info) Succesfully Estimated Pose.
+[ 1601579973] ( Info) Succesfully Estimated Pose.
+[ 1601579973] ( Info) Sent PTU. Target: PT (-72.791100,5.594143)
+[ 1601579973] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 6.3936) Delta: ( 0.02385, 0.799457)
+[ 1601579973] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 6.3936) Delta: ( 0.02385, 0.799457)
+[ 1601579974] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 6.3918) Delta: ( 0.02385, 0.797657)
+[ 1601579974] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 6.27795) Delta: ( 0.02385, 0.683807)
+[ 1601579974] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 6.1596) Delta: ( 0.02385, 0.565457)
+[ 1601579974] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 6.06195) Delta: ( 0.02385, 0.467807)
+[ 1601579974] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 5.9427) Delta: ( 0.02385, 0.348557)
+[ 1601579975] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 5.81355) Delta: ( 0.02385, 0.219407)
+[ 1601579975] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 5.7258) Delta: ( 0.02385, 0.131657)
+[ 1601579975] ( Info) Removing blurry img(s): 1
+[ 1601579975] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.624100)
+[ 1601579975] ( Info) Removing blurry img(s): 2
+[ 1601579975] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.623200)
+[ 1601579975] ( Info) Removing blurry img(s): 3
+[ 1601579975] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.622750)
+[ 1601579976] ( Info) Removing blurry img(s): 4
+[ 1601579976] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.622750)
+[ 1601579976] ( Info) Removing blurry img(s): 5
+[ 1601579976] ( Info) Removing blurry img(s): 5
+[ 1601579976] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.622750)
+[ 1601579976] ( Info) Removing blurry img(s): 6
+[ 1601579976] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.622750)
+[ 1601579976] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.622750)
+[ 1601579976] ( Info) Removing blurry img(s): 8
+[ 1601579976] ( Info) Removing blurry img(s): 8
+[ 1601579976] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.622750)
+[ 1601579976] ( Info) Removing blurry img(s): 9
+[ 1601579976] ( Info) Removing blurry img(s): 9
+[ 1601579976] ( Info) [0, 6] Reached Pose: P/T ( -72.814950, 5.622750)
+[ 1601579977] ( Info) Recorded Pose
+[ 1601579977] ( Info) Acquisition PT: 26
+[ 1601579977] ( Info) [0, 6] ReprojectionError: ( 0.222682)
+[ 1601579977] ( Info) Succesfully Estimated Pose.
+[ 1601579978] ( Info) ReprojectionError: ( 0.111153)
+[ 1601579978] ( Info) Succesfully Estimated Pose.
+[ 1601579978] ( Info) Sent PTU. Target: PT (-74.343529,3.148521)
+[ 1601579978] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 5.62275) Delta: ( 1.52858, 2.47423)
+[ 1601579978] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8149, 5.61915) Delta: ( 1.52858, 2.47063)
+[ 1601579979] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.868, 5.4945) Delta: ( 1.47548, 2.34598)
+[ 1601579979] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.9351, 5.3829) Delta: ( 1.40843, 2.23438)
+[ 1601579979] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.1709, 4.9959) Delta: ( 1.17263, 1.84738)
+[ 1601579979] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.3469, 4.71375) Delta: ( 0.996679, 1.56523)
+[ 1601579979] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.5395, 4.4091) Delta: ( 0.804079, 1.26058)
+[ 1601579979] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.7707, 4.04685) Delta: ( 0.572779, 0.898329)
+[ 1601579979] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.9805, 3.72015) Delta: ( 0.363079, 0.571629)
+[ 1601579980] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.1433, 3.46725) Delta: ( 0.200179, 0.318729)
+[ 1601579980] ( Info) Removing blurry img(s): 1
+[ 1601579980] ( Info) Removing blurry img(s): 1
+[ 1601579980] ( Info) [1, 3] Reached Pose: P/T ( -74.331000, 3.172500)
+[ 1601579980] ( Info) Removing blurry img(s): 2
+[ 1601579980] ( Info) Removing blurry img(s): 2
+[ 1601579980] ( Info) [1, 3] Reached Pose: P/T ( -74.332350, 3.171150)
+[ 1601579980] ( Info) Removing blurry img(s): 3
+[ 1601579980] ( Info) Removing blurry img(s): 3
+[ 1601579980] ( Info) [1, 3] Reached Pose: P/T ( -74.332800, 3.171150)
+[ 1601579980] ( Info) Removing blurry img(s): 4
+[ 1601579981] ( Info) Removing blurry img(s): 4
+[ 1601579981] ( Info) Removing blurry img(s): 5
+[ 1601579981] ( Info) Removing blurry img(s): 5
+[ 1601579981] ( Info) [1, 3] Reached Pose: P/T ( -74.332800, 3.171150)
+[ 1601579981] ( Info) Removing blurry img(s): 6
+[ 1601579981] ( Info) [1, 3] Reached Pose: P/T ( -74.332800, 3.171150)
+[ 1601579981] ( Info) Removing blurry img(s): 7
+[ 1601579981] ( Info) Removing blurry img(s): 7
+[ 1601579981] ( Info) [1, 3] Reached Pose: P/T ( -74.333250, 3.171150)
+[ 1601579981] ( Info) Removing blurry img(s): 8
+[ 1601579981] ( Info) Removing blurry img(s): 9
+[ 1601579981] ( Info) Removing blurry img(s): 9
+[ 1601579981] ( Info) [1, 3] Reached Pose: P/T ( -74.333250, 3.171150)
+[ 1601579981] ( Info) Removing blurry img(s): 10
+[ 1601579981] ( Info) Acquisition PT: 27
+[ 1601579981] ( Info) [1, 3] Reached Pose: P/T ( -74.333250, 3.171150)
+[ 1601579982] ( Info) [1, 3] ReprojectionError: ( 0.255364)
+[ 1601579983] ( Info) ReprojectionError: ( 0.110944)
+[ 1601579983] ( Info) Succesfully Estimated Pose.
+[ 1601579983] ( Warning) PT Mis-match Error: Expected ( -74.333250,3.171150), Observed: ( -74.333700,3.170700), Delta: ( 0.000450, 0.000450)
+[ 1601579983] ( Info) Sent PTU. Target: PT (-72.791100,4.778936)
+[ 1601579983] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3337, 3.1707) Delta: ( 1.5426, 1.60824)
+[ 1601579983] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3337, 3.1707) Delta: ( 1.5426, 1.60824)
+[ 1601579984] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.4562, 4.09005) Delta: ( 0.6651, 0.688886)
+[ 1601579984] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.2703, 4.28355) Delta: ( 0.47925, 0.495386)
+[ 1601579985] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.0836, 4.4811) Delta: ( 0.2925, 0.297836)
+[ 1601579985] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.9301, 4.6467) Delta: ( 0.13905, 0.132236)
+[ 1601579985] ( Info) [0, 5] Reached Pose: P/T ( -72.863100, 4.717800)
+[ 1601579985] ( Info) Removing blurry img(s): 1
+[ 1601579985] ( Info) [0, 5] Reached Pose: P/T ( -72.826650, 4.756950)
+[ 1601579985] ( Info) Removing blurry img(s): 2
+[ 1601579985] ( Info) [0, 5] Reached Pose: P/T ( -72.818550, 4.765500)
+[ 1601579985] ( Info) Removing blurry img(s): 3
+[ 1601579985] ( Info) Removing blurry img(s): 4
+[ 1601579985] ( Info) [0, 5] Reached Pose: P/T ( -72.818100, 4.765950)
+[ 1601579985] ( Info) Removing blurry img(s): 5
+[ 1601579986] ( Info) [0, 5] Reached Pose: P/T ( -72.818100, 4.765950)
+[ 1601579986] ( Info) Removing blurry img(s): 6
+[ 1601579986] ( Info) [0, 5] Reached Pose: P/T ( -72.817650, 4.765950)
+[ 1601579986] ( Info) Removing blurry img(s): 7
+[ 1601579986] ( Info) Removing blurry img(s): 7
+[ 1601579986] ( Info) [0, 5] Reached Pose: P/T ( -72.817650, 4.766400)
+[ 1601579986] ( Info) [0, 5] Reached Pose: P/T ( -72.817650, 4.766400)
+[ 1601579986] ( Info) Removing blurry img(s): 9
+[ 1601579986] ( Info) Removing blurry img(s): 9
+[ 1601579986] ( Info) Removing blurry img(s): 10
+[ 1601579986] ( Info) Removing blurry img(s): 10
+[ 1601579986] ( Info) [0, 5] Reached Pose: P/T ( -72.817650, 4.766400)
+[ 1601579987] ( Info) [0, 5] ReprojectionError: ( 0.276914)
+[ 1601579987] ( Info) Succesfully Estimated Pose.
+[ 1601579988] ( Info) ReprojectionError: ( 0.111622)
+[ 1601579988] ( Info) Succesfully Estimated Pose.
+[ 1601579988] ( Warning) PT Mis-match Error: Expected ( -72.817650,4.766400), Observed: ( -72.817200,4.766400), Delta: ( 0.000450, 0.000000)
+[ 1601579988] ( Info) Sent PTU. Target: PT (-72.791100,3.963729)
+[ 1601579988] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 4.76145) Delta: ( 0.0261, 0.797721)
+[ 1601579988] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 4.6386) Delta: ( 0.0261, 0.674871)
+[ 1601579989] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 4.5) Delta: ( 0.0261, 0.536271)
+[ 1601579989] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 4.30065) Delta: ( 0.0261, 0.336921)
+[ 1601579989] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 4.17195) Delta: ( 0.0261, 0.208221)
+[ 1601579989] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 4.08555) Delta: ( 0.0261, 0.121821)
+[ 1601579990] ( Info) Removing blurry img(s): 1
+[ 1601579990] ( Info) [0, 4] Reached Pose: P/T ( -72.817200, 3.995100)
+[ 1601579990] ( Info) Removing blurry img(s): 2
+[ 1601579990] ( Info) Removing blurry img(s): 2
+[ 1601579990] ( Info) [0, 4] Reached Pose: P/T ( -72.817200, 3.984750)
+[ 1601579990] ( Info) Removing blurry img(s): 3
+[ 1601579990] ( Info) Removing blurry img(s): 3
+[ 1601579990] ( Info) [0, 4] Reached Pose: P/T ( -72.817200, 3.983850)
+[ 1601579990] ( Info) Removing blurry img(s): 4
+[ 1601579990] ( Info) Removing blurry img(s): 5
+[ 1601579990] ( Info) Removing blurry img(s): 5
+[ 1601579990] ( Info) [0, 4] Reached Pose: P/T ( -72.817200, 3.983400)
+[ 1601579990] ( Info) Removing blurry img(s): 7
+[ 1601579990] ( Info) Removing blurry img(s): 7
+[ 1601579990] ( Info) [0, 4] Reached Pose: P/T ( -72.817200, 3.983400)
+[ 1601579991] ( Info) Removing blurry img(s): 8
+[ 1601579991] ( Info) [0, 4] Reached Pose: P/T ( -72.817200, 3.983400)
+[ 1601579991] ( Info) Removing blurry img(s): 9
+[ 1601579991] ( Info) Removing blurry img(s): 10
+[ 1601579991] ( Info) Recorded Pose
+[ 1601579991] ( Info) [0, 4] Reached Pose: P/T ( -72.817200, 3.983400)
+[ 1601579992] ( Info) [0, 4] ReprojectionError: ( 0.269984)
+[ 1601579992] ( Info) Succesfully Estimated Pose.
+[ 1601579992] ( Info) ReprojectionError: ( 0.110875)
+[ 1601579992] ( Info) Succesfully Estimated Pose.
+[ 1601579992] ( Info) Sent PTU. Target: PT (-72.791100,2.333314)
+[ 1601579993] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 3.9834) Delta: ( 0.0261, 1.65009)
+[ 1601579993] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 3.9798) Delta: ( 0.0261, 1.64649)
+[ 1601579993] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 3.95865) Delta: ( 0.0261, 1.62534)
+[ 1601579993] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 3.7035) Delta: ( 0.0261, 1.37019)
+[ 1601579993] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 3.5415) Delta: ( 0.0261, 1.20819)
+[ 1601579993] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 3.35205) Delta: ( 0.0261, 1.01874)
+[ 1601579994] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 3.02535) Delta: ( 0.0261, 0.692036)
+[ 1601579994] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 2.8314) Delta: ( 0.0261, 0.498086)
+[ 1601579994] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 2.63205) Delta: ( 0.0261, 0.298736)
+[ 1601579994] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 2.4678) Delta: ( 0.0261, 0.134486)
+[ 1601579994] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.397600)
+[ 1601579994] ( Info) Removing blurry img(s): 1
+[ 1601579994] ( Info) Removing blurry img(s): 1
+[ 1601579994] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.354400)
+[ 1601579994] ( Info) Removing blurry img(s): 2
+[ 1601579994] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.351250)
+[ 1601579995] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.350800)
+[ 1601579995] ( Info) Removing blurry img(s): 4
+[ 1601579995] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.350800)
+[ 1601579995] ( Info) Removing blurry img(s): 5
+[ 1601579995] ( Info) Removing blurry img(s): 5
+[ 1601579995] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.350800)
+[ 1601579995] ( Info) Removing blurry img(s): 6
+[ 1601579995] ( Info) Removing blurry img(s): 6
+[ 1601579995] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.350800)
+[ 1601579995] ( Info) Removing blurry img(s): 7
+[ 1601579995] ( Info) Removing blurry img(s): 7
+[ 1601579995] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.350800)
+[ 1601579995] ( Info) Removing blurry img(s): 8
+[ 1601579995] ( Info) Removing blurry img(s): 9
+[ 1601579996] ( Info) Removing blurry img(s): 10
+[ 1601579996] ( Info) Recorded Pose
+[ 1601579996] ( Info) Acquisition PT: 30
+[ 1601579996] ( Info) [0, 2] Reached Pose: P/T ( -72.817200, 2.350350)
+[ 1601579996] ( Info) [0, 2] ReprojectionError: ( 0.248781)
+[ 1601579996] ( Info) Succesfully Estimated Pose.
+[ 1601579997] ( Info) ReprojectionError: ( 0.109352)
+[ 1601579997] ( Info) Succesfully Estimated Pose.
+[ 1601579997] ( Info) Sent PTU. Target: PT (-82.105671,3.963729)
+[ 1601579997] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8172, 2.35035) Delta: ( 9.28847, 1.61338)
+[ 1601579998] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.6492, 2.48985) Delta: ( 8.45642, 1.47388)
+[ 1601579998] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.6987, 2.65455) Delta: ( 7.40702, 1.30918)
+[ 1601579998] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9055, 2.8629) Delta: ( 6.20012, 1.10083)
+[ 1601579998] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.1247, 3.6117) Delta: ( 1.98092, 0.352029)
+[ 1601579999] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.9293, 3.7359) Delta: ( 1.17632, 0.227829)
+[ 1601579999] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.6849, 3.86955) Delta: ( 0.420771, 0.0941786)
+[ 1601579999] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.9643, 3.9195) Delta: ( 0.141321, 0.0442286)
+[ 1601579999] ( Info) [6, 4] Reached Pose: P/T ( -82.082250, 3.943350)
+[ 1601579999] ( Info) Removing blurry img(s): 1
+[ 1601579999] ( Info) Removing blurry img(s): 1
+[ 1601579999] ( Info) [6, 4] Reached Pose: P/T ( -82.093500, 3.955500)
+[ 1601579999] ( Info) Removing blurry img(s): 2
+[ 1601579999] ( Info) Removing blurry img(s): 2
+[ 1601579999] ( Info) Removing blurry img(s): 3
+[ 1601580000] ( Info) Removing blurry img(s): 3
+[ 1601580000] ( Info) [6, 4] Reached Pose: P/T ( -82.093950, 3.960000)
+[ 1601580000] ( Info) Removing blurry img(s): 4
+[ 1601580000] ( Info) Removing blurry img(s): 4
+[ 1601580000] ( Info) [6, 4] Reached Pose: P/T ( -82.094400, 3.960000)
+[ 1601580000] ( Info) Removing blurry img(s): 5
+[ 1601580000] ( Info) Removing blurry img(s): 5
+[ 1601580000] ( Info) [6, 4] Reached Pose: P/T ( -82.094400, 3.960000)
+[ 1601580000] ( Info) Removing blurry img(s): 6
+[ 1601580000] ( Info) Removing blurry img(s): 6
+[ 1601580000] ( Info) [6, 4] Reached Pose: P/T ( -82.094400, 3.960450)
+[ 1601580000] ( Info) Removing blurry img(s): 7
+[ 1601580000] ( Info) [6, 4] Reached Pose: P/T ( -82.094400, 3.960450)
+[ 1601580000] ( Info) Removing blurry img(s): 8
+[ 1601580000] ( Info) [6, 4] Reached Pose: P/T ( -82.094400, 3.960450)
+[ 1601580000] ( Info) Removing blurry img(s): 9
+[ 1601580000] ( Info) [6, 4] Reached Pose: P/T ( -82.094400, 3.960450)
+[ 1601580000] ( Info) Removing blurry img(s): 10
+[ 1601580001] ( Info) Removing blurry img(s): 10
+[ 1601580001] ( Info) Recorded Pose
+[ 1601580001] ( Info) Acquisition PT: 31
+[ 1601580001] ( Info) [6, 4] Reached Pose: P/T ( -82.094400, 3.960450)
+[ 1601580002] ( Info) Succesfully Estimated Pose.
+[ 1601580002] ( Info) ReprojectionError: ( 0.110958)
+[ 1601580002] ( Info) Succesfully Estimated Pose.
+[ 1601580002] ( Info) Sent PTU. Target: PT (-80.553243,2.333314)
+[ 1601580002] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0948, 3.96045) Delta: ( 1.54161, 1.62714)
+[ 1601580002] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0948, 3.96045) Delta: ( 1.54161, 1.62714)
+[ 1601580002] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0948, 3.96) Delta: ( 1.54161, 1.62669)
+[ 1601580003] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0485, 3.8889) Delta: ( 1.49526, 1.55559)
+[ 1601580003] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.0085, 2.79045) Delta: ( 0.455307, 0.457136)
+[ 1601580003] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.8573, 2.62845) Delta: ( 0.304107, 0.295136)
+[ 1601580004] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.6886, 2.4489) Delta: ( 0.135357, 0.115586)
+[ 1601580004] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.6296, 2.38725) Delta: ( 0.0764071, 0.0539357)
+[ 1601580004] ( Info) [5, 2] Reached Pose: P/T ( -80.600400, 2.356650)
+[ 1601580004] ( Info) Removing blurry img(s): 1
+[ 1601580004] ( Info) Removing blurry img(s): 1
+[ 1601580004] ( Info) [5, 2] Reached Pose: P/T ( -80.595450, 2.351250)
+[ 1601580004] ( Info) Removing blurry img(s): 2
+[ 1601580004] ( Info) Removing blurry img(s): 2
+[ 1601580004] ( Info) [5, 2] Reached Pose: P/T ( -80.594550, 2.350800)
+[ 1601580004] ( Info) Removing blurry img(s): 3
+[ 1601580004] ( Info) Removing blurry img(s): 3
+[ 1601580004] ( Info) [5, 2] Reached Pose: P/T ( -80.594550, 2.350800)
+[ 1601580005] ( Info) Removing blurry img(s): 4
+[ 1601580005] ( Info) Removing blurry img(s): 4
+[ 1601580005] ( Info) Removing blurry img(s): 5
+[ 1601580005] ( Info) [5, 2] Reached Pose: P/T ( -80.594100, 2.350800)
+[ 1601580005] ( Info) Removing blurry img(s): 6
+[ 1601580005] ( Info) Removing blurry img(s): 6
+[ 1601580005] ( Info) Removing blurry img(s): 7
+[ 1601580005] ( Info) Removing blurry img(s): 7
+[ 1601580005] ( Info) [5, 2] Reached Pose: P/T ( -80.594100, 2.350800)
+[ 1601580005] ( Info) Removing blurry img(s): 8
+[ 1601580005] ( Info) Removing blurry img(s): 8
+[ 1601580005] ( Info) [5, 2] Reached Pose: P/T ( -80.594100, 2.350800)
+[ 1601580005] ( Info) Removing blurry img(s): 9
+[ 1601580005] ( Info) Removing blurry img(s): 9
+[ 1601580005] ( Info) [5, 2] Reached Pose: P/T ( -80.594100, 2.350800)
+[ 1601580005] ( Info) Removing blurry img(s): 10
+[ 1601580005] ( Info) Removing blurry img(s): 10
+[ 1601580005] ( Info) Acquisition PT: 32
+[ 1601580005] ( Info) [5, 2] Reached Pose: P/T ( -80.594100, 2.350800)
+[ 1601580006] ( Info) [5, 2] ReprojectionError: ( 0.173735)
+[ 1601580006] ( Info) Succesfully Estimated Pose.
+[ 1601580007] ( Info) ReprojectionError: ( 0.111215)
+[ 1601580007] ( Info) Succesfully Estimated Pose.
+[ 1601580007] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5936, 2.3508) Delta: ( 1.59284, 0.797721)
+[ 1601580007] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5936, 2.3508) Delta: ( 1.59284, 0.797721)
+[ 1601580008] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.3353, 2.475) Delta: ( 1.33454, 0.673521)
+[ 1601580008] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.8453, 2.7099) Delta: ( 0.844486, 0.438621)
+[ 1601580008] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.6882, 2.78865) Delta: ( 0.687436, 0.359871)
+[ 1601580008] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.4308, 2.9205) Delta: ( 0.430036, 0.228021)
+[ 1601580009] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.2792, 3.015) Delta: ( 0.278386, 0.133521)
+[ 1601580009] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.1289, 3.09465) Delta: ( 0.128086, 0.0538714)
+[ 1601580009] ( Info) [4, 3] Reached Pose: P/T ( -79.057800, 3.131550)
+[ 1601580009] ( Info) Removing blurry img(s): 1
+[ 1601580009] ( Info) Removing blurry img(s): 1
+[ 1601580009] ( Info) [4, 3] Reached Pose: P/T ( -79.031700, 3.145050)
+[ 1601580009] ( Info) Removing blurry img(s): 2
+[ 1601580009] ( Info) [4, 3] Reached Pose: P/T ( -79.027650, 3.147300)
+[ 1601580009] ( Info) Removing blurry img(s): 3
+[ 1601580009] ( Info) [4, 3] Reached Pose: P/T ( -79.027200, 3.147750)
+[ 1601580009] ( Info) Removing blurry img(s): 4
+[ 1601580010] ( Info) [4, 3] Reached Pose: P/T ( -79.027200, 3.147750)
+[ 1601580010] ( Info) Removing blurry img(s): 5
+[ 1601580010] ( Info) Removing blurry img(s): 5
+[ 1601580010] ( Info) [4, 3] Reached Pose: P/T ( -79.026750, 3.147750)
+[ 1601580010] ( Info) Removing blurry img(s): 6
+[ 1601580010] ( Info) Removing blurry img(s): 6
+[ 1601580010] ( Info) Removing blurry img(s): 7
+[ 1601580010] ( Info) Removing blurry img(s): 7
+[ 1601580010] ( Info) [4, 3] Reached Pose: P/T ( -79.026750, 3.147750)
+[ 1601580010] ( Info) Removing blurry img(s): 8
+[ 1601580010] ( Info) Removing blurry img(s): 8
+[ 1601580010] ( Info) [4, 3] Reached Pose: P/T ( -79.026750, 3.147750)
+[ 1601580010] ( Info) Removing blurry img(s): 9
+[ 1601580010] ( Info) Removing blurry img(s): 9
+[ 1601580010] ( Info) [4, 3] Reached Pose: P/T ( -79.026750, 3.147750)
+[ 1601580010] ( Info) Removing blurry img(s): 10
+[ 1601580010] ( Info) Removing blurry img(s): 10
+[ 1601580010] ( Info) Recorded Pose
+[ 1601580012] ( Info) [4, 3] ReprojectionError: ( 0.194198)
+[ 1601580012] ( Info) ReprojectionError: ( 0.111016)
+[ 1601580012] ( Info) Succesfully Estimated Pose.
+[ 1601580012] ( Warning) PT Mis-match Error: Expected ( -79.026750,3.147750), Observed: ( -79.026300,3.148200), Delta: ( 0.000450, 0.000450)
+[ 1601580012] ( Info) Sent PTU. Target: PT (-82.105671,2.333314)
+[ 1601580012] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0263, 3.1482) Delta: ( 3.07937, 0.814886)
+[ 1601580012] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0267, 3.14775) Delta: ( 3.07892, 0.814436)
+[ 1601580013] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0812, 3.13785) Delta: ( 3.02447, 0.804536)
+[ 1601580013] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.2167, 3.10275) Delta: ( 2.88902, 0.769436)
+[ 1601580013] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.5875, 3.00645) Delta: ( 2.51822, 0.673136)
+[ 1601580013] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.9182, 2.9232) Delta: ( 2.18747, 0.589886)
+[ 1601580013] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.3348, 2.55285) Delta: ( 0.770871, 0.219536)
+[ 1601580014] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.6759, 2.46285) Delta: ( 0.429771, 0.129536)
+[ 1601580014] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.8775, 2.4093) Delta: ( 0.228171, 0.0759857)
+[ 1601580014] ( Info) [6, 2] Reached Pose: P/T ( -82.053900, 2.362500)
+[ 1601580014] ( Info) Removing blurry img(s): 1
+[ 1601580014] ( Info) Removing blurry img(s): 1
+[ 1601580014] ( Info) [6, 2] Reached Pose: P/T ( -82.087650, 2.353500)
+[ 1601580014] ( Info) Removing blurry img(s): 2
+[ 1601580014] ( Info) Removing blurry img(s): 2
+[ 1601580014] ( Info) [6, 2] Reached Pose: P/T ( -82.093500, 2.351250)
+[ 1601580014] ( Info) Removing blurry img(s): 3
+[ 1601580014] ( Info) Removing blurry img(s): 3
+[ 1601580014] ( Info) [6, 2] Reached Pose: P/T ( -82.093950, 2.351250)
+[ 1601580014] ( Info) Removing blurry img(s): 4
+[ 1601580015] ( Info) Removing blurry img(s): 4
+[ 1601580015] ( Info) Removing blurry img(s): 5
+[ 1601580015] ( Info) Removing blurry img(s): 5
+[ 1601580015] ( Info) Removing blurry img(s): 6
+[ 1601580015] ( Info) Removing blurry img(s): 6
+[ 1601580015] ( Info) [6, 2] Reached Pose: P/T ( -82.093950, 2.351250)
+[ 1601580015] ( Info) Removing blurry img(s): 7
+[ 1601580015] ( Info) [6, 2] Reached Pose: P/T ( -82.094400, 2.351250)
+[ 1601580015] ( Info) Removing blurry img(s): 8
+[ 1601580015] ( Info) [6, 2] Reached Pose: P/T ( -82.094400, 2.351250)
+[ 1601580015] ( Info) Removing blurry img(s): 9
+[ 1601580015] ( Info) Removing blurry img(s): 9
+[ 1601580015] ( Info) [6, 2] Reached Pose: P/T ( -82.094400, 2.350800)
+[ 1601580015] ( Info) Removing blurry img(s): 10
+[ 1601580015] ( Info) Removing blurry img(s): 10
+[ 1601580015] ( Info) Recorded Pose
+[ 1601580015] ( Info) [6, 2] Reached Pose: P/T ( -82.094400, 2.350800)
+[ 1601580016] ( Info) [6, 2] ReprojectionError: ( 0.163532)
+[ 1601580017] ( Info) ReprojectionError: ( 0.110780)
+[ 1601580017] ( Info) Succesfully Estimated Pose.
+[ 1601580017] ( Warning) PT Mis-match Error: Expected ( -82.094400,2.350800), Observed: ( -82.094850,2.350800), Delta: ( 0.000450, 0.000000)
+[ 1601580017] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0948, 2.3508) Delta: ( 1.56325, 0.0174857)
+[ 1601580017] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1025, 2.3508) Delta: ( 1.5556, 0.0174857)
+[ 1601580017] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1363, 2.3508) Delta: ( 1.52185, 0.0174857)
+[ 1601580018] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.4206, 2.3508) Delta: ( 1.23745, 0.0174857)
+[ 1601580018] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.588, 2.3508) Delta: ( 1.07005, 0.0174857)
+[ 1601580018] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.2711, 2.3508) Delta: ( 0.38695, 0.0174857)
+[ 1601580018] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.4903, 2.3508) Delta: ( 0.1678, 0.0174857)
+[ 1601580019] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.5632, 2.3508) Delta: ( 0.0949, 0.0174857)
+[ 1601580019] ( Info) [7, 2] Reached Pose: P/T ( -83.629350, 2.350800)
+[ 1601580019] ( Info) Removing blurry img(s): 1
+[ 1601580019] ( Info) Removing blurry img(s): 1
+[ 1601580019] ( Info) [7, 2] Reached Pose: P/T ( -83.655000, 2.350800)
+[ 1601580019] ( Info) Removing blurry img(s): 2
+[ 1601580019] ( Info) Removing blurry img(s): 2
+[ 1601580019] ( Info) [7, 2] Reached Pose: P/T ( -83.655900, 2.350800)
+[ 1601580019] ( Info) Removing blurry img(s): 3
+[ 1601580019] ( Info) Removing blurry img(s): 4
+[ 1601580019] ( Info) Removing blurry img(s): 4
+[ 1601580019] ( Info) [7, 2] Reached Pose: P/T ( -83.656350, 2.350800)
+[ 1601580019] ( Info) Removing blurry img(s): 5
+[ 1601580019] ( Info) Removing blurry img(s): 5
+[ 1601580019] ( Info) [7, 2] Reached Pose: P/T ( -83.656350, 2.350800)
+[ 1601580020] ( Info) [7, 2] Reached Pose: P/T ( -83.656350, 2.350800)
+[ 1601580020] ( Info) Removing blurry img(s): 7
+[ 1601580020] ( Info) Removing blurry img(s): 8
+[ 1601580020] ( Info) Removing blurry img(s): 8
+[ 1601580020] ( Info) [7, 2] Reached Pose: P/T ( -83.656350, 2.350800)
+[ 1601580020] ( Info) Removing blurry img(s): 9
+[ 1601580020] ( Info) Removing blurry img(s): 9
+[ 1601580020] ( Info) [7, 2] Reached Pose: P/T ( -83.656350, 2.350800)
+[ 1601580020] ( Info) Removing blurry img(s): 10
+[ 1601580020] ( Info) Acquisition PT: 35
+[ 1601580020] ( Info) [7, 2] Reached Pose: P/T ( -83.656350, 2.350800)
+[ 1601580021] ( Info) [7, 2] ReprojectionError: ( 0.180395)
+[ 1601580021] ( Info) Succesfully Estimated Pose.
+[ 1601580022] ( Info) ReprojectionError: ( 0.111706)
+[ 1601580022] ( Info) Succesfully Estimated Pose.
+[ 1601580022] ( Info) Sent PTU. Target: PT (-77.448386,1.518107)
+[ 1601580022] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6568, 2.3508) Delta: ( 6.20841, 0.832693)
+[ 1601580022] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6564, 2.3508) Delta: ( 6.20796, 0.832693)
+[ 1601580022] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.5902, 2.3436) Delta: ( 6.14181, 0.825493)
+[ 1601580022] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.3373, 2.3094) Delta: ( 5.88891, 0.791293)
+[ 1601580022] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.7617, 2.23425) Delta: ( 5.31336, 0.716143)
+[ 1601580022] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1727, 2.15595) Delta: ( 4.72431, 0.637843)
+[ 1601580023] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.401, 1.91655) Delta: ( 2.95266, 0.398443)
+[ 1601580023] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.5763, 1.6731) Delta: ( 1.12791, 0.154993)
+[ 1601580023] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.0151, 1.59705) Delta: ( 0.566764, 0.0789429)
+[ 1601580023] ( Info) [3, 1] Reached Pose: P/T ( -77.488650, 1.525500)
+[ 1601580024] ( Info) Removing blurry img(s): 1
+[ 1601580024] ( Info) Removing blurry img(s): 1
+[ 1601580024] ( Info) Removing blurry img(s): 2
+[ 1601580024] ( Info) [3, 1] Reached Pose: P/T ( -77.473800, 1.522800)
+[ 1601580024] ( Info) Removing blurry img(s): 3
+[ 1601580024] ( Info) [3, 1] Reached Pose: P/T ( -77.473350, 1.522800)
+[ 1601580024] ( Info) Removing blurry img(s): 4
+[ 1601580024] ( Info) [3, 1] Reached Pose: P/T ( -77.473350, 1.522800)
+[ 1601580024] ( Info) Removing blurry img(s): 5
+[ 1601580024] ( Info) Removing blurry img(s): 5
+[ 1601580024] ( Info) [3, 1] Reached Pose: P/T ( -77.472900, 1.522800)
+[ 1601580024] ( Info) Removing blurry img(s): 6
+[ 1601580024] ( Info) Removing blurry img(s): 6
+[ 1601580024] ( Info) [3, 1] Reached Pose: P/T ( -77.472900, 1.522800)
+[ 1601580024] ( Info) Removing blurry img(s): 7
+[ 1601580025] ( Info) [3, 1] Reached Pose: P/T ( -77.472900, 1.522800)
+[ 1601580025] ( Info) Removing blurry img(s): 8
+[ 1601580025] ( Info) [3, 1] Reached Pose: P/T ( -77.472900, 1.522800)
+[ 1601580025] ( Info) Removing blurry img(s): 9
+[ 1601580025] ( Info) Removing blurry img(s): 10
+[ 1601580026] ( Info) [3, 1] ReprojectionError: ( 0.220437)
+[ 1601580026] ( Info) Succesfully Estimated Pose.
+[ 1601580027] ( Info) ReprojectionError: ( 0.111830)
+[ 1601580027] ( Info) Succesfully Estimated Pose.
+[ 1601580027] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4724, 1.52235) Delta: ( 4.68135, 1.62617)
+[ 1601580027] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4167, 1.5327) Delta: ( 4.62555, 1.61582)
+[ 1601580027] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.3167, 1.5669) Delta: ( 4.52565, 1.58162)
+[ 1601580027] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0953, 1.64385) Delta: ( 4.30425, 1.50467)
+[ 1601580027] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.6836, 1.78695) Delta: ( 3.8925, 1.36157)
+[ 1601580027] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0091, 2.0214) Delta: ( 3.21795, 1.12712)
+[ 1601580028] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.4547, 2.2194) Delta: ( 2.66355, 0.929121)
+[ 1601580028] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.6518, 2.50515) Delta: ( 1.86075, 0.643371)
+[ 1601580028] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.4053, 2.9205) Delta: ( 0.61425, 0.228021)
+[ 1601580028] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.9018, 3.11625) Delta: ( 0.1107, 0.0322714)
+[ 1601580028] ( Info) [0, 3] Reached Pose: P/T ( -72.821250, 3.145050)
+[ 1601580029] ( Info) Removing blurry img(s): 1
+[ 1601580029] ( Info) Removing blurry img(s): 1
+[ 1601580029] ( Info) [0, 3] Reached Pose: P/T ( -72.815400, 3.147300)
+[ 1601580029] ( Info) Removing blurry img(s): 2
+[ 1601580029] ( Info) [0, 3] Reached Pose: P/T ( -72.814950, 3.147750)
+[ 1601580029] ( Info) Removing blurry img(s): 5
+[ 1601580029] ( Info) [0, 3] Reached Pose: P/T ( -72.814950, 3.147750)
+[ 1601580029] ( Info) Removing blurry img(s): 6
+[ 1601580029] ( Info) Removing blurry img(s): 6
+[ 1601580029] ( Info) [0, 3] Reached Pose: P/T ( -72.814950, 3.147750)
+[ 1601580029] ( Info) Removing blurry img(s): 7
+[ 1601580030] ( Info) Removing blurry img(s): 7
+[ 1601580030] ( Info) [0, 3] Reached Pose: P/T ( -72.814950, 3.148200)
+[ 1601580030] ( Info) Removing blurry img(s): 8
+[ 1601580030] ( Info) [0, 3] Reached Pose: P/T ( -72.814950, 3.148200)
+[ 1601580030] ( Info) Removing blurry img(s): 9
+[ 1601580030] ( Info) Removing blurry img(s): 9
+[ 1601580030] ( Info) [0, 3] Reached Pose: P/T ( -72.814950, 3.148200)
+[ 1601580030] ( Info) Removing blurry img(s): 10
+[ 1601580030] ( Info) Removing blurry img(s): 10
+[ 1601580030] ( Info) Recorded Pose
+[ 1601580030] ( Info) Acquisition PT: 37
+[ 1601580030] ( Info) [0, 3] Reached Pose: P/T ( -72.814950, 3.148200)
+[ 1601580031] ( Info) [0, 3] ReprojectionError: ( 0.249001)
+[ 1601580032] ( Info) ReprojectionError: ( 0.110625)
+[ 1601580032] ( Warning) PT Mis-match Error: Expected ( -72.814950,3.148200), Observed: ( -72.814500,3.148200), Delta: ( 0.000450, 0.000000)
+[ 1601580032] ( Info) Sent PTU. Target: PT (-80.553243,3.148521)
+[ 1601580032] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8145, 3.1482) Delta: ( 7.73874, 0.000321429)
+[ 1601580032] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.8145, 3.1482) Delta: ( 7.73874, 0.000321429)
+[ 1601580032] ( Info) PanTiltController [ P0] Pan/Tilt: (-72.9274, 3.1482) Delta: ( 7.62579, 0.000321429)
+[ 1601580032] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.1264, 3.1482) Delta: ( 7.42689, 0.000321429)
+[ 1601580032] ( Info) PanTiltController [ P0] Pan/Tilt: (-73.5476, 3.1482) Delta: ( 7.00569, 0.000321429)
+[ 1601580032] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.156, 3.1482) Delta: ( 6.39729, 0.000321429)
+[ 1601580033] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.2836, 3.1482) Delta: ( 5.26959, 0.000321429)
+[ 1601580033] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.4185, 3.1482) Delta: ( 4.13469, 0.000321429)
+[ 1601580033] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.5885, 3.1482) Delta: ( 2.96469, 0.000321429)
+[ 1601580033] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.475, 3.1482) Delta: ( 2.07819, 0.000321429)
+[ 1601580033] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.6127, 3.1482) Delta: ( 0.940593, 0.000321429)
+[ 1601580033] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.0978, 3.1482) Delta: ( 0.455493, 0.000321429)
+[ 1601580033] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.4325, 3.1482) Delta: ( 0.120693, 0.000321429)
+[ 1601580034] ( Info) Removing blurry img(s): 1
+[ 1601580034] ( Info) Removing blurry img(s): 1
+[ 1601580034] ( Info) [5, 3] Reached Pose: P/T ( -80.560350, 3.148200)
+[ 1601580034] ( Info) Removing blurry img(s): 2
+[ 1601580034] ( Info) Removing blurry img(s): 2
+[ 1601580034] ( Info) [5, 3] Reached Pose: P/T ( -80.560350, 3.148200)
+[ 1601580034] ( Info) Removing blurry img(s): 3
+[ 1601580034] ( Info) [5, 3] Reached Pose: P/T ( -80.560800, 3.148200)
+[ 1601580034] ( Info) [5, 3] Reached Pose: P/T ( -80.560800, 3.148200)
+[ 1601580034] ( Info) Removing blurry img(s): 5
+[ 1601580034] ( Info) Removing blurry img(s): 5
+[ 1601580034] ( Info) [5, 3] Reached Pose: P/T ( -80.560800, 3.148200)
+[ 1601580034] ( Info) Removing blurry img(s): 6
+[ 1601580034] ( Info) Removing blurry img(s): 6
+[ 1601580034] ( Info) [5, 3] Reached Pose: P/T ( -80.560800, 3.148200)
+[ 1601580035] ( Info) Removing blurry img(s): 7
+[ 1601580035] ( Info) [5, 3] Reached Pose: P/T ( -80.560800, 3.148200)
+[ 1601580035] ( Info) Removing blurry img(s): 8
+[ 1601580035] ( Info) Removing blurry img(s): 8
+[ 1601580035] ( Info) [5, 3] Reached Pose: P/T ( -80.560800, 3.148200)
+[ 1601580035] ( Info) Removing blurry img(s): 9
+[ 1601580035] ( Info) Removing blurry img(s): 9
+[ 1601580035] ( Info) [5, 3] Reached Pose: P/T ( -80.560800, 3.148200)
+[ 1601580035] ( Info) Removing blurry img(s): 10
+[ 1601580035] ( Info) Acquisition PT: 38
+[ 1601580037] ( Info) ReprojectionError: ( 0.109816)
+[ 1601580037] ( Info) Succesfully Estimated Pose.
+[ 1601580037] ( Info) Sent PTU. Target: PT (-75.895957,0.702900)
+[ 1601580037] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5014, 3.1167) Delta: ( 4.60544, 2.4138)
+[ 1601580037] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.2985, 3.00735) Delta: ( 4.40249, 2.30445)
+[ 1601580037] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.8529, 2.7765) Delta: ( 3.95699, 2.0736)
+[ 1601580037] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.3966, 2.53755) Delta: ( 3.50069, 1.83465)
+[ 1601580038] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.7455, 2.1978) Delta: ( 2.84954, 1.4949)
+[ 1601580038] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.0466, 1.82565) Delta: ( 2.15069, 1.12275)
+[ 1601580038] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.1633, 1.35765) Delta: ( 1.26734, 0.65475)
+[ 1601580038] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.6238, 1.07415) Delta: ( 0.727793, 0.37125)
+[ 1601580038] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.3483, 0.9324) Delta: ( 0.452393, 0.2295)
+[ 1601580038] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9721, 0.73575) Delta: ( 0.0761929, 0.03285)
+[ 1601580038] ( Info) [2, 0] Reached Pose: P/T ( -75.919500, 0.707400)
+[ 1601580039] ( Info) Removing blurry img(s): 1
+[ 1601580039] ( Info) Removing blurry img(s): 2
+[ 1601580039] ( Info) Removing blurry img(s): 2
+[ 1601580039] ( Info) [2, 0] Reached Pose: P/T ( -75.914550, 0.704250)
+[ 1601580039] ( Info) [2, 0] Reached Pose: P/T ( -75.914100, 0.704250)
+[ 1601580039] ( Info) Removing blurry img(s): 4
+[ 1601580039] ( Info) Removing blurry img(s): 4
+[ 1601580039] ( Info) [2, 0] Reached Pose: P/T ( -75.914100, 0.704250)
+[ 1601580039] ( Info) Removing blurry img(s): 5
+[ 1601580039] ( Info) Removing blurry img(s): 6
+[ 1601580039] ( Info) [2, 0] Reached Pose: P/T ( -75.914100, 0.704250)
+[ 1601580040] ( Info) Removing blurry img(s): 7
+[ 1601580040] ( Info) Removing blurry img(s): 7
+[ 1601580040] ( Info) [2, 0] Reached Pose: P/T ( -75.914100, 0.704250)
+[ 1601580040] ( Info) Removing blurry img(s): 9
+[ 1601580040] ( Info) Removing blurry img(s): 9
+[ 1601580040] ( Info) Removing blurry img(s): 10
+[ 1601580040] ( Info) Recorded Pose
+[ 1601580040] ( Info) Acquisition PT: 39
+[ 1601580040] ( Info) [2, 0] Reached Pose: P/T ( -75.914100, 0.703800)
+[ 1601580041] ( Info) [2, 0] ReprojectionError: ( 0.208231)
+[ 1601580042] ( Info) ReprojectionError: ( 0.111102)
+[ 1601580042] ( Info) Succesfully Estimated Pose.
+[ 1601580042] ( Info) Sent PTU. Target: PT (-79.000814,5.594143)
+[ 1601580042] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 0.7038) Delta: ( 3.08671, 4.89034)
+[ 1601580042] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 0.71055) Delta: ( 3.08671, 4.88359)
+[ 1601580042] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9537, 0.8091) Delta: ( 3.04711, 4.78504)
+[ 1601580042] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0437, 0.95445) Delta: ( 2.95711, 4.63969)
+[ 1601580042] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.4226, 1.54845) Delta: ( 2.57821, 4.04569)
+[ 1601580042] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.7385, 2.05785) Delta: ( 2.26231, 3.53629)
+[ 1601580043] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.108, 2.61855) Delta: ( 1.89286, 2.97559)
+[ 1601580043] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.1569, 4.27635) Delta: ( 0.843914, 1.31779)
+[ 1601580043] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.5129, 4.84065) Delta: ( 0.487964, 0.753493)
+[ 1601580043] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.6933, 5.13045) Delta: ( 0.307514, 0.463693)
+[ 1601580044] ( Info) [4, 6] Reached Pose: P/T ( -78.977250, 5.581350)
+[ 1601580044] ( Info) Removing blurry img(s): 1
+[ 1601580044] ( Info) Removing blurry img(s): 1
+[ 1601580044] ( Info) [4, 6] Reached Pose: P/T ( -78.983100, 5.589900)
+[ 1601580044] ( Info) Removing blurry img(s): 2
+[ 1601580044] ( Info) Removing blurry img(s): 2
+[ 1601580044] ( Info) [4, 6] Reached Pose: P/T ( -78.983550, 5.589900)
+[ 1601580044] ( Info) Removing blurry img(s): 3
+[ 1601580044] ( Info) Removing blurry img(s): 3
+[ 1601580044] ( Info) Removing blurry img(s): 4
+[ 1601580044] ( Info) Removing blurry img(s): 4
+[ 1601580044] ( Info) [4, 6] Reached Pose: P/T ( -78.984000, 5.590350)
+[ 1601580044] ( Info) Removing blurry img(s): 5
+[ 1601580044] ( Info) Removing blurry img(s): 5
+[ 1601580044] ( Info) [4, 6] Reached Pose: P/T ( -78.984000, 5.590350)
+[ 1601580044] ( Info) Removing blurry img(s): 6
+[ 1601580044] ( Info) [4, 6] Reached Pose: P/T ( -78.984000, 5.590350)
+[ 1601580044] ( Info) Removing blurry img(s): 7
+[ 1601580045] ( Info) [4, 6] Reached Pose: P/T ( -78.984000, 5.590350)
+[ 1601580045] ( Info) Removing blurry img(s): 8
+[ 1601580045] ( Info) Removing blurry img(s): 8
+[ 1601580045] ( Info) [4, 6] Reached Pose: P/T ( -78.984450, 5.590350)
+[ 1601580045] ( Info) Removing blurry img(s): 9
+[ 1601580045] ( Info) Removing blurry img(s): 9
+[ 1601580045] ( Info) Removing blurry img(s): 10
+[ 1601580045] ( Info) Removing blurry img(s): 10
+[ 1601580045] ( Info) Recorded Pose
+[ 1601580045] ( Info) Acquisition PT: 40
+[ 1601580045] ( Info) [4, 6] Reached Pose: P/T ( -78.984450, 5.590350)
+[ 1601580046] ( Info) [4, 6] ReprojectionError: ( 0.250225)
+[ 1601580046] ( Info) Succesfully Estimated Pose.
+[ 1601580047] ( Info) ReprojectionError: ( 0.109776)
+[ 1601580047] ( Info) Succesfully Estimated Pose.
+[ 1601580047] ( Info) Sent PTU. Target: PT (-79.000814,4.778936)
+[ 1601580047] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9844, 5.5908) Delta: ( 0.0163643, 0.811864)
+[ 1601580047] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9844, 5.5908) Delta: ( 0.0163643, 0.811864)
+[ 1601580047] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 5.5908) Delta: ( 0.0159143, 0.811864)
+[ 1601580047] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 5.5827) Delta: ( 0.0159143, 0.803764)
+[ 1601580047] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 5.5413) Delta: ( 0.0159143, 0.762364)
+[ 1601580047] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 5.43375) Delta: ( 0.0159143, 0.654814)
+[ 1601580048] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 5.2056) Delta: ( 0.0159143, 0.426664)
+[ 1601580048] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 4.977) Delta: ( 0.0159143, 0.198064)
+[ 1601580048] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 4.8942) Delta: ( 0.0159143, 0.115264)
+[ 1601580049] ( Info) Removing blurry img(s): 1
+[ 1601580049] ( Info) Removing blurry img(s): 2
+[ 1601580049] ( Info) Removing blurry img(s): 2
+[ 1601580049] ( Info) [4, 5] Reached Pose: P/T ( -78.984900, 4.802850)
+[ 1601580049] ( Info) Removing blurry img(s): 3
+[ 1601580049] ( Info) Removing blurry img(s): 3
+[ 1601580049] ( Info) [4, 5] Reached Pose: P/T ( -78.984900, 4.801950)
+[ 1601580049] ( Info) Removing blurry img(s): 4
+[ 1601580049] ( Info) [4, 5] Reached Pose: P/T ( -78.984900, 4.801950)
+[ 1601580049] ( Info) Removing blurry img(s): 5
+[ 1601580049] ( Info) Removing blurry img(s): 5
+[ 1601580049] ( Info) [4, 5] Reached Pose: P/T ( -78.984900, 4.801500)
+[ 1601580049] ( Info) Removing blurry img(s): 6
+[ 1601580049] ( Info) Removing blurry img(s): 6
+[ 1601580049] ( Info) Removing blurry img(s): 7
+[ 1601580049] ( Info) [4, 5] Reached Pose: P/T ( -78.984900, 4.801500)
+[ 1601580049] ( Info) Removing blurry img(s): 8
+[ 1601580050] ( Info) [4, 5] Reached Pose: P/T ( -78.984900, 4.801500)
+[ 1601580050] ( Info) Removing blurry img(s): 9
+[ 1601580050] ( Info) Removing blurry img(s): 9
+[ 1601580050] ( Info) [4, 5] Reached Pose: P/T ( -78.984900, 4.801500)
+[ 1601580050] ( Info) Removing blurry img(s): 10
+[ 1601580051] ( Info) [4, 5] ReprojectionError: ( 0.266509)
+[ 1601580051] ( Info) Succesfully Estimated Pose.
+[ 1601580052] ( Info) ReprojectionError: ( 0.110757)
+[ 1601580052] ( Info) Sent PTU. Target: PT (-74.343529,5.594143)
+[ 1601580052] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9849, 4.8015) Delta: ( 4.64137, 0.792643)
+[ 1601580052] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.9822, 4.80195) Delta: ( 4.63867, 0.792193)
+[ 1601580052] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.5673, 4.85865) Delta: ( 4.22377, 0.735493)
+[ 1601580053] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.8315, 4.98555) Delta: ( 3.48802, 0.608593)
+[ 1601580053] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.3001, 5.07825) Delta: ( 2.95657, 0.515893)
+[ 1601580053] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.7241, 5.17815) Delta: ( 2.38057, 0.415993)
+[ 1601580053] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0248, 5.2992) Delta: ( 1.68127, 0.294943)
+[ 1601580053] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.2301, 5.4378) Delta: ( 0.886571, 0.156343)
+[ 1601580053] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.8017, 5.51385) Delta: ( 0.458171, 0.0802929)
+[ 1601580053] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.5636, 5.55615) Delta: ( 0.220121, 0.0379929)
+[ 1601580054] ( Info) [1, 6] Reached Pose: P/T ( -74.374200, 5.589000)
+[ 1601580054] ( Info) Removing blurry img(s): 1
+[ 1601580054] ( Info) Removing blurry img(s): 1
+[ 1601580054] ( Info) [1, 6] Reached Pose: P/T ( -74.372850, 5.589450)
+[ 1601580054] ( Info) Removing blurry img(s): 2
+[ 1601580054] ( Info) [1, 6] Reached Pose: P/T ( -74.372850, 5.589450)
+[ 1601580054] ( Info) [1, 6] Reached Pose: P/T ( -74.372400, 5.589450)
+[ 1601580054] ( Info) Removing blurry img(s): 4
+[ 1601580054] ( Info) Removing blurry img(s): 4
+[ 1601580054] ( Info) [1, 6] Reached Pose: P/T ( -74.372400, 5.589900)
+[ 1601580055] ( Info) [1, 6] Reached Pose: P/T ( -74.372400, 5.589900)
+[ 1601580055] ( Info) Removing blurry img(s): 7
+[ 1601580055] ( Info) Removing blurry img(s): 7
+[ 1601580055] ( Info) [1, 6] Reached Pose: P/T ( -74.372400, 5.589900)
+[ 1601580055] ( Info) Removing blurry img(s): 8
+[ 1601580055] ( Info) Removing blurry img(s): 8
+[ 1601580055] ( Info) Removing blurry img(s): 9
+[ 1601580055] ( Info) [1, 6] Reached Pose: P/T ( -74.371950, 5.589900)
+[ 1601580055] ( Info) Removing blurry img(s): 10
+[ 1601580055] ( Info) Recorded Pose
+[ 1601580055] ( Info) Acquisition PT: 42
+[ 1601580055] ( Info) [1, 6] Reached Pose: P/T ( -74.371950, 5.589900)
+[ 1601580056] ( Info) [1, 6] ReprojectionError: ( 0.223265)
+[ 1601580056] ( Info) Succesfully Estimated Pose.
+[ 1601580057] ( Info) ReprojectionError: ( 0.110203)
+[ 1601580057] ( Info) Succesfully Estimated Pose.
+[ 1601580057] ( Info) Sent PTU. Target: PT (-74.343529,4.778936)
+[ 1601580057] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 5.5899) Delta: ( 0.0279714, 0.810964)
+[ 1601580057] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 5.5899) Delta: ( 0.0279714, 0.810964)
+[ 1601580057] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 5.5899) Delta: ( 0.0279714, 0.810964)
+[ 1601580057] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 5.55615) Delta: ( 0.0279714, 0.777214)
+[ 1601580058] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 5.4594) Delta: ( 0.0279714, 0.680464)
+[ 1601580058] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 5.15655) Delta: ( 0.0279714, 0.377614)
+[ 1601580058] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 5.00445) Delta: ( 0.0279714, 0.225514)
+[ 1601580058] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 4.941) Delta: ( 0.0279714, 0.162064)
+[ 1601580059] ( Info) Removing blurry img(s): 1
+[ 1601580059] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.805100)
+[ 1601580059] ( Info) Removing blurry img(s): 2
+[ 1601580059] ( Info) Removing blurry img(s): 2
+[ 1601580059] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801950)
+[ 1601580059] ( Info) Removing blurry img(s): 3
+[ 1601580059] ( Info) Removing blurry img(s): 3
+[ 1601580059] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801950)
+[ 1601580059] ( Info) Removing blurry img(s): 4
+[ 1601580059] ( Info) Removing blurry img(s): 4
+[ 1601580059] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801950)
+[ 1601580059] ( Info) Removing blurry img(s): 5
+[ 1601580059] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801950)
+[ 1601580059] ( Info) Removing blurry img(s): 6
+[ 1601580060] ( Info) Removing blurry img(s): 6
+[ 1601580060] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801950)
+[ 1601580060] ( Info) Removing blurry img(s): 7
+[ 1601580060] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801950)
+[ 1601580060] ( Info) Removing blurry img(s): 8
+[ 1601580060] ( Info) Removing blurry img(s): 9
+[ 1601580060] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801950)
+[ 1601580060] ( Info) Removing blurry img(s): 10
+[ 1601580060] ( Info) Removing blurry img(s): 10
+[ 1601580060] ( Info) Recorded Pose
+[ 1601580060] ( Info) Acquisition PT: 43
+[ 1601580060] ( Info) [1, 5] Reached Pose: P/T ( -74.371500, 4.801500)
+[ 1601580061] ( Info) [1, 5] ReprojectionError: ( 0.276942)
+[ 1601580061] ( Info) Succesfully Estimated Pose.
+[ 1601580062] ( Info) ReprojectionError: ( 0.110365)
+[ 1601580062] ( Info) Succesfully Estimated Pose.
+[ 1601580062] ( Info) Sent PTU. Target: PT (-77.448386,0.702900)
+[ 1601580062] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 4.8015) Delta: ( 3.07689, 4.0986)
+[ 1601580062] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3719, 4.78575) Delta: ( 3.07644, 4.08285)
+[ 1601580062] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3976, 4.73355) Delta: ( 3.05079, 4.03065)
+[ 1601580062] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.4498, 4.6593) Delta: ( 2.99859, 3.9564)
+[ 1601580063] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.5592, 4.5081) Delta: ( 2.88924, 3.8052)
+[ 1601580063] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.9754, 3.94515) Delta: ( 2.47299, 3.24225)
+[ 1601580063] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.2386, 3.60135) Delta: ( 2.20974, 2.89845)
+[ 1601580063] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.6833, 3.01635) Delta: ( 1.76514, 2.31345)
+[ 1601580063] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0712, 2.502) Delta: ( 1.37724, 1.7991)
+[ 1601580063] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.6593, 1.73295) Delta: ( 0.789086, 1.03005)
+[ 1601580063] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0108, 1.2744) Delta: ( 0.437636, 0.5715)
+[ 1601580064] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.2204, 0.9999) Delta: ( 0.227936, 0.297)
+[ 1601580064] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.3563, 0.8217) Delta: ( 0.0920357, 0.1188)
+[ 1601580064] ( Info) [3, 0] Reached Pose: P/T ( -77.438250, 0.713250)
+[ 1601580064] ( Info) Removing blurry img(s): 1
+[ 1601580064] ( Info) [3, 0] Reached Pose: P/T ( -77.444550, 0.705150)
+[ 1601580064] ( Info) Removing blurry img(s): 2
+[ 1601580064] ( Info) Removing blurry img(s): 2
+[ 1601580064] ( Info) [3, 0] Reached Pose: P/T ( -77.445000, 0.705150)
+[ 1601580064] ( Info) Removing blurry img(s): 3
+[ 1601580064] ( Info) Removing blurry img(s): 3
+[ 1601580064] ( Info) [3, 0] Reached Pose: P/T ( -77.445000, 0.704700)
+[ 1601580064] ( Info) Removing blurry img(s): 4
+[ 1601580064] ( Info) Removing blurry img(s): 4
+[ 1601580065] ( Info) Removing blurry img(s): 5
+[ 1601580065] ( Info) Removing blurry img(s): 6
+[ 1601580065] ( Info) Removing blurry img(s): 6
+[ 1601580065] ( Info) [3, 0] Reached Pose: P/T ( -77.445000, 0.704700)
+[ 1601580065] ( Info) [3, 0] Reached Pose: P/T ( -77.445450, 0.704700)
+[ 1601580065] ( Info) Removing blurry img(s): 8
+[ 1601580065] ( Info) Removing blurry img(s): 8
+[ 1601580065] ( Info) Removing blurry img(s): 9
+[ 1601580065] ( Info) [3, 0] Reached Pose: P/T ( -77.445450, 0.704700)
+[ 1601580065] ( Info) Removing blurry img(s): 10
+[ 1601580065] ( Info) Removing blurry img(s): 10
+[ 1601580065] ( Info) [3, 0] Reached Pose: P/T ( -77.445450, 0.704700)
+[ 1601580066] ( Info) [3, 0] ReprojectionError: ( 0.214421)
+[ 1601580066] ( Info) Succesfully Estimated Pose.
+[ 1601580067] ( Info) Succesfully Estimated Pose.
+[ 1601580067] ( Warning) PT Mis-match Error: Expected ( -77.445450,0.704700), Observed: ( -77.445450,0.704250), Delta: ( 0.000000, 0.000450)
+[ 1601580067] ( Info) Sent PTU. Target: PT (-74.343529,6.409350)
+[ 1601580067] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4454, 0.70425) Delta: ( 3.10192, 5.7051)
+[ 1601580067] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4454, 0.70425) Delta: ( 3.10192, 5.7051)
+[ 1601580067] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.3798, 0.85995) Delta: ( 3.03622, 5.5494)
+[ 1601580067] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.2789, 1.05075) Delta: ( 2.93542, 5.3586)
+[ 1601580068] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0891, 1.413) Delta: ( 2.74552, 4.99635)
+[ 1601580068] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.8794, 1.7937) Delta: ( 2.53582, 4.61565)
+[ 1601580068] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0243, 3.35205) Delta: ( 1.68082, 3.0573)
+[ 1601580068] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.793, 3.78225) Delta: ( 1.44952, 2.6271)
+[ 1601580068] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.3453, 4.61295) Delta: ( 1.00177, 1.7964)
+[ 1601580068] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.1397, 4.99545) Delta: ( 0.796121, 1.4139)
+[ 1601580069] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.5601, 6.06195) Delta: ( 0.216521, 0.3474)
+[ 1601580069] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.4809, 6.20595) Delta: ( 0.137321, 0.2034)
+[ 1601580069] ( Info) [1, 7] Reached Pose: P/T ( -74.373750, 6.394050)
+[ 1601580069] ( Info) Removing blurry img(s): 1
+[ 1601580069] ( Info) [1, 7] Reached Pose: P/T ( -74.373300, 6.394050)
+[ 1601580069] ( Info) Removing blurry img(s): 2
+[ 1601580069] ( Info) Removing blurry img(s): 2
+[ 1601580069] ( Info) [1, 7] Reached Pose: P/T ( -74.373300, 6.394500)
+[ 1601580069] ( Info) Removing blurry img(s): 3
+[ 1601580069] ( Info) [1, 7] Reached Pose: P/T ( -74.372850, 6.394500)
+[ 1601580070] ( Info) Removing blurry img(s): 4
+[ 1601580070] ( Info) Removing blurry img(s): 4
+[ 1601580070] ( Info) [1, 7] Reached Pose: P/T ( -74.372850, 6.394500)
+[ 1601580070] ( Info) Removing blurry img(s): 5
+[ 1601580070] ( Info) Removing blurry img(s): 5
+[ 1601580070] ( Info) [1, 7] Reached Pose: P/T ( -74.372850, 6.394500)
+[ 1601580070] ( Info) Removing blurry img(s): 6
+[ 1601580070] ( Info) [1, 7] Reached Pose: P/T ( -74.372850, 6.394500)
+[ 1601580070] ( Info) Removing blurry img(s): 7
+[ 1601580070] ( Info) [1, 7] Reached Pose: P/T ( -74.372850, 6.394500)
+[ 1601580070] ( Info) Removing blurry img(s): 8
+[ 1601580070] ( Info) Removing blurry img(s): 8
+[ 1601580070] ( Info) [1, 7] Reached Pose: P/T ( -74.372400, 6.394500)
+[ 1601580070] ( Info) Removing blurry img(s): 9
+[ 1601580070] ( Info) Removing blurry img(s): 10
+[ 1601580070] ( Info) Removing blurry img(s): 10
+[ 1601580070] ( Info) Acquisition PT: 45
+[ 1601580070] ( Info) [1, 7] Reached Pose: P/T ( -74.372400, 6.394500)
+[ 1601580072] ( Info) ReprojectionError: ( 0.111056)
+[ 1601580072] ( Info) Succesfully Estimated Pose.
+[ 1601580072] ( Warning) PT Mis-match Error: Expected ( -74.372400,6.394500), Observed: ( -74.371950,6.394500), Delta: ( 0.000450, 0.000000)
+[ 1601580072] ( Info) Sent PTU. Target: PT (-82.105671,4.778936)
+[ 1601580072] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3719, 6.3945) Delta: ( 7.73372, 1.61556)
+[ 1601580072] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.444, 6.3936) Delta: ( 7.66172, 1.61466)
+[ 1601580072] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.6064, 6.3702) Delta: ( 7.49927, 1.59126)
+[ 1601580073] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.955, 6.09525) Delta: ( 6.15062, 1.31631)
+[ 1601580073] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.797, 5.92245) Delta: ( 5.30867, 1.14351)
+[ 1601580073] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.9287, 5.6844) Delta: ( 4.17692, 0.905464)
+[ 1601580073] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.3286, 5.1795) Delta: ( 1.77707, 0.400564)
+[ 1601580073] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.1444, 5.0067) Delta: ( 0.961221, 0.227764)
+[ 1601580074] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.6948, 4.88835) Delta: ( 0.410871, 0.109414)
+[ 1601580074] ( Info) [6, 5] Reached Pose: P/T ( -82.038600, 4.814550)
+[ 1601580074] ( Info) Removing blurry img(s): 1
+[ 1601580074] ( Info) Removing blurry img(s): 1
+[ 1601580074] ( Info) [6, 5] Reached Pose: P/T ( -82.088550, 4.803300)
+[ 1601580074] ( Info) Removing blurry img(s): 2
+[ 1601580074] ( Info) [6, 5] Reached Pose: P/T ( -82.093050, 4.801950)
+[ 1601580074] ( Info) Removing blurry img(s): 3
+[ 1601580074] ( Info) [6, 5] Reached Pose: P/T ( -82.093500, 4.801950)
+[ 1601580074] ( Info) Removing blurry img(s): 4
+[ 1601580074] ( Info) Removing blurry img(s): 4
+[ 1601580074] ( Info) Removing blurry img(s): 5
+[ 1601580074] ( Info) [6, 5] Reached Pose: P/T ( -82.093950, 4.801500)
+[ 1601580075] ( Info) Removing blurry img(s): 6
+[ 1601580075] ( Info) Removing blurry img(s): 6
+[ 1601580075] ( Info) Removing blurry img(s): 7
+[ 1601580075] ( Info) Removing blurry img(s): 7
+[ 1601580075] ( Info) [6, 5] Reached Pose: P/T ( -82.093950, 4.801500)
+[ 1601580075] ( Info) Removing blurry img(s): 8
+[ 1601580075] ( Info) Removing blurry img(s): 8
+[ 1601580075] ( Info) Removing blurry img(s): 9
+[ 1601580075] ( Info) Removing blurry img(s): 9
+[ 1601580075] ( Info) [6, 5] Reached Pose: P/T ( -82.093950, 4.801500)
+[ 1601580075] ( Info) Removing blurry img(s): 10
+[ 1601580075] ( Info) Removing blurry img(s): 10
+[ 1601580075] ( Info) Recorded Pose
+[ 1601580075] ( Info) Acquisition PT: 46
+[ 1601580075] ( Info) [6, 5] Reached Pose: P/T ( -82.093950, 4.801500)
+[ 1601580076] ( Info) [6, 5] ReprojectionError: ( 0.227333)
+[ 1601580076] ( Info) Succesfully Estimated Pose.
+[ 1601580077] ( Info) ReprojectionError: ( 0.110648)
+[ 1601580077] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0944, 4.8015) Delta: ( 6.19844, 1.65298)
+[ 1601580077] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0935, 4.79835) Delta: ( 6.19754, 1.64983)
+[ 1601580077] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.9963, 4.7709) Delta: ( 6.10034, 1.62238)
+[ 1601580077] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.765, 4.70655) Delta: ( 5.86904, 1.55803)
+[ 1601580077] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.4689, 4.6278) Delta: ( 5.57294, 1.47928)
+[ 1601580078] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.7454, 4.17105) Delta: ( 3.84944, 1.02253)
+[ 1601580078] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.8054, 3.92895) Delta: ( 2.90939, 0.780429)
+[ 1601580078] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.7952, 3.402) Delta: ( 0.899243, 0.253479)
+[ 1601580078] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.3704, 3.29175) Delta: ( 0.474443, 0.143229)
+[ 1601580079] ( Info) [2, 3] Reached Pose: P/T ( -75.918150, 3.172950)
+[ 1601580079] ( Info) Removing blurry img(s): 1
+[ 1601580079] ( Info) Removing blurry img(s): 1
+[ 1601580079] ( Info) [2, 3] Reached Pose: P/T ( -75.914550, 3.171600)
+[ 1601580079] ( Info) Removing blurry img(s): 2
+[ 1601580079] ( Info) Removing blurry img(s): 2
+[ 1601580079] ( Info) [2, 3] Reached Pose: P/T ( -75.914100, 3.171600)
+[ 1601580079] ( Info) Removing blurry img(s): 3
+[ 1601580079] ( Info) Removing blurry img(s): 3
+[ 1601580079] ( Info) [2, 3] Reached Pose: P/T ( -75.914100, 3.171600)
+[ 1601580079] ( Info) Removing blurry img(s): 4
+[ 1601580079] ( Info) Removing blurry img(s): 4
+[ 1601580079] ( Info) [2, 3] Reached Pose: P/T ( -75.914100, 3.171600)
+[ 1601580079] ( Info) Removing blurry img(s): 5
+[ 1601580079] ( Info) Removing blurry img(s): 5
+[ 1601580080] ( Info) [2, 3] Reached Pose: P/T ( -75.914100, 3.171600)
+[ 1601580080] ( Info) Removing blurry img(s): 6
+[ 1601580080] ( Info) Removing blurry img(s): 6
+[ 1601580080] ( Info) [2, 3] Reached Pose: P/T ( -75.914100, 3.171150)
+[ 1601580080] ( Info) Removing blurry img(s): 7
+[ 1601580080] ( Info) Removing blurry img(s): 7
+[ 1601580080] ( Info) Removing blurry img(s): 8
+[ 1601580080] ( Info) [2, 3] Reached Pose: P/T ( -75.914100, 3.171150)
+[ 1601580080] ( Info) Removing blurry img(s): 9
+[ 1601580080] ( Info) Removing blurry img(s): 10
+[ 1601580080] ( Info) Recorded Pose
+[ 1601580080] ( Info) Acquisition PT: 47
+[ 1601580081] ( Info) [2, 3] ReprojectionError: ( 0.250185)
+[ 1601580081] ( Info) Succesfully Estimated Pose.
+[ 1601580082] ( Info) ReprojectionError: ( 0.110086)
+[ 1601580082] ( Info) Succesfully Estimated Pose.
+[ 1601580082] ( Info) Sent PTU. Target: PT (-75.895957,3.963729)
+[ 1601580082] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 3.17115) Delta: ( 0.0181429, 0.792579)
+[ 1601580082] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 3.17115) Delta: ( 0.0181429, 0.792579)
+[ 1601580082] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.1842) Delta: ( 0.0176929, 0.779529)
+[ 1601580083] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.2274) Delta: ( 0.0176929, 0.736329)
+[ 1601580083] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.285) Delta: ( 0.0176929, 0.678729)
+[ 1601580083] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.39615) Delta: ( 0.0176929, 0.567579)
+[ 1601580083] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.50415) Delta: ( 0.0176929, 0.459579)
+[ 1601580083] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.63015) Delta: ( 0.0176929, 0.333579)
+[ 1601580083] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.72375) Delta: ( 0.0176929, 0.239979)
+[ 1601580083] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.8178) Delta: ( 0.0176929, 0.145929)
+[ 1601580084] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.892500)
+[ 1601580084] ( Info) Removing blurry img(s): 1
+[ 1601580084] ( Info) Removing blurry img(s): 1
+[ 1601580084] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.922650)
+[ 1601580084] ( Info) Removing blurry img(s): 2
+[ 1601580084] ( Info) Removing blurry img(s): 2
+[ 1601580084] ( Info) Removing blurry img(s): 3
+[ 1601580084] ( Info) Removing blurry img(s): 3
+[ 1601580084] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.941550)
+[ 1601580084] ( Info) Removing blurry img(s): 4
+[ 1601580084] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.941550)
+[ 1601580084] ( Info) Removing blurry img(s): 5
+[ 1601580084] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.941550)
+[ 1601580084] ( Info) Removing blurry img(s): 6
+[ 1601580085] ( Info) Removing blurry img(s): 6
+[ 1601580085] ( Info) Removing blurry img(s): 7
+[ 1601580085] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.942000)
+[ 1601580085] ( Info) Removing blurry img(s): 8
+[ 1601580085] ( Info) Removing blurry img(s): 8
+[ 1601580085] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.942000)
+[ 1601580085] ( Info) Removing blurry img(s): 9
+[ 1601580085] ( Info) Removing blurry img(s): 9
+[ 1601580085] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.942000)
+[ 1601580085] ( Info) Removing blurry img(s): 10
+[ 1601580085] ( Info) Acquisition PT: 48
+[ 1601580085] ( Info) [2, 4] Reached Pose: P/T ( -75.913650, 3.942000)
+[ 1601580086] ( Info) [2, 4] ReprojectionError: ( 0.263640)
+[ 1601580087] ( Info) ReprojectionError: ( 0.112232)
+[ 1601580087] ( Info) Succesfully Estimated Pose.
+[ 1601580087] ( Warning) PT Mis-match Error: Expected ( -75.913650,3.942000), Observed: ( -75.913650,3.942450), Delta: ( 0.000000, 0.000450)
+[ 1601580087] ( Info) Sent PTU. Target: PT (-80.553243,3.963729)
+[ 1601580087] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9137, 3.94245) Delta: ( 4.63959, 0.0212786)
+[ 1601580087] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 3.94245) Delta: ( 4.63914, 0.0212786)
+[ 1601580087] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9168, 3.94245) Delta: ( 4.63644, 0.0212786)
+[ 1601580087] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9865, 3.94245) Delta: ( 4.56669, 0.0212786)
+[ 1601580088] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.3281, 3.94245) Delta: ( 4.22514, 0.0212786)
+[ 1601580088] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.693, 3.94245) Delta: ( 3.86019, 0.0212786)
+[ 1601580088] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.1664, 3.94245) Delta: ( 3.38679, 0.0212786)
+[ 1601580088] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.8185, 3.94245) Delta: ( 2.73474, 0.0212786)
+[ 1601580088] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.7437, 3.94245) Delta: ( 1.80954, 0.0212786)
+[ 1601580088] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.2837, 3.94245) Delta: ( 1.26954, 0.0212786)
+[ 1601580089] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.2274, 3.94245) Delta: ( 0.325893, 0.0212786)
+[ 1601580089] ( Info) [5, 4] Reached Pose: P/T ( -80.479800, 3.942450)
+[ 1601580089] ( Info) Removing blurry img(s): 1
+[ 1601580089] ( Info) Removing blurry img(s): 1
+[ 1601580089] ( Info) [5, 4] Reached Pose: P/T ( -80.544600, 3.942450)
+[ 1601580089] ( Info) Removing blurry img(s): 2
+[ 1601580089] ( Info) Removing blurry img(s): 2
+[ 1601580089] ( Info) [5, 4] Reached Pose: P/T ( -80.558550, 3.942450)
+[ 1601580089] ( Info) Removing blurry img(s): 3
+[ 1601580089] ( Info) [5, 4] Reached Pose: P/T ( -80.559000, 3.942450)
+[ 1601580089] ( Info) Removing blurry img(s): 4
+[ 1601580089] ( Info) Removing blurry img(s): 4
+[ 1601580089] ( Info) [5, 4] Reached Pose: P/T ( -80.559000, 3.942450)
+[ 1601580089] ( Info) Removing blurry img(s): 5
+[ 1601580089] ( Info) [5, 4] Reached Pose: P/T ( -80.559450, 3.942450)
+[ 1601580090] ( Info) Removing blurry img(s): 6
+[ 1601580090] ( Info) Removing blurry img(s): 6
+[ 1601580090] ( Info) Removing blurry img(s): 7
+[ 1601580090] ( Info) [5, 4] Reached Pose: P/T ( -80.559450, 3.942450)
+[ 1601580090] ( Info) Removing blurry img(s): 8
+[ 1601580090] ( Info) [5, 4] Reached Pose: P/T ( -80.559450, 3.942450)
+[ 1601580090] ( Info) Removing blurry img(s): 9
+[ 1601580090] ( Info) Removing blurry img(s): 9
+[ 1601580090] ( Info) [5, 4] Reached Pose: P/T ( -80.559450, 3.942450)
+[ 1601580090] ( Info) Removing blurry img(s): 10
+[ 1601580090] ( Info) Removing blurry img(s): 10
+[ 1601580090] ( Info) Acquisition PT: 49
+[ 1601580090] ( Info) [5, 4] Reached Pose: P/T ( -80.559450, 3.942450)
+[ 1601580091] ( Info) [5, 4] ReprojectionError: ( 0.209571)
+[ 1601580092] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5594, 3.94245) Delta: ( 3.09865, 2.4669)
+[ 1601580092] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5594, 3.94245) Delta: ( 3.09865, 2.4669)
+[ 1601580092] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.6211, 3.9915) Delta: ( 3.037, 2.41785)
+[ 1601580092] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.7372, 4.0851) Delta: ( 2.9209, 2.32425)
+[ 1601580092] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.9244, 4.23585) Delta: ( 2.7337, 2.1735)
+[ 1601580093] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1119, 5.19165) Delta: ( 1.54615, 1.2177)
+[ 1601580093] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.4913, 5.4981) Delta: ( 1.1668, 0.91125)
+[ 1601580093] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.8486, 5.7762) Delta: ( 0.8095, 0.63315)
+[ 1601580093] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.3468, 6.1533) Delta: ( 0.31135, 0.25605)
+[ 1601580093] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.5403, 6.3054) Delta: ( 0.11785, 0.10395)
+[ 1601580094] ( Info) [7, 7] Reached Pose: P/T ( -83.622600, 6.367500)
+[ 1601580094] ( Info) [7, 7] Reached Pose: P/T ( -83.651400, 6.390000)
+[ 1601580094] ( Info) Removing blurry img(s): 2
+[ 1601580094] ( Info) Removing blurry img(s): 2
+[ 1601580094] ( Info) [7, 7] Reached Pose: P/T ( -83.656350, 6.393600)
+[ 1601580094] ( Info) Removing blurry img(s): 3
+[ 1601580094] ( Info) Removing blurry img(s): 3
+[ 1601580094] ( Info) [7, 7] Reached Pose: P/T ( -83.656350, 6.393600)
+[ 1601580094] ( Info) Removing blurry img(s): 4
+[ 1601580094] ( Info) Removing blurry img(s): 4
+[ 1601580094] ( Info) [7, 7] Reached Pose: P/T ( -83.656350, 6.393600)
+[ 1601580094] ( Info) Removing blurry img(s): 5
+[ 1601580094] ( Info) Removing blurry img(s): 6
+[ 1601580095] ( Info) Removing blurry img(s): 6
+[ 1601580095] ( Info) [7, 7] Reached Pose: P/T ( -83.656800, 6.394050)
+[ 1601580095] ( Info) Removing blurry img(s): 7
+[ 1601580095] ( Info) [7, 7] Reached Pose: P/T ( -83.656800, 6.394050)
+[ 1601580095] ( Info) Removing blurry img(s): 8
+[ 1601580095] ( Info) Removing blurry img(s): 8
+[ 1601580095] ( Info) [7, 7] Reached Pose: P/T ( -83.656800, 6.394050)
+[ 1601580095] ( Info) [7, 7] Reached Pose: P/T ( -83.656800, 6.394050)
+[ 1601580095] ( Info) Removing blurry img(s): 10
+[ 1601580095] ( Info) Removing blurry img(s): 10
+[ 1601580095] ( Info) [7, 7] Reached Pose: P/T ( -83.656800, 6.394050)
+[ 1601580096] ( Info) [7, 7] ReprojectionError: ( 0.176270)
+[ 1601580096] ( Info) Succesfully Estimated Pose.
+[ 1601580096] ( Info) ReprojectionError: ( 0.111822)
+[ 1601580096] ( Info) Succesfully Estimated Pose.
+[ 1601580096] ( Warning) PT Mis-match Error: Expected ( -83.656800,6.394050), Observed: ( -83.657250,6.394050), Delta: ( 0.000450, 0.000000)
+[ 1601580096] ( Info) Sent PTU. Target: PT (-79.000814,1.518107)
+[ 1601580096] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6573, 6.39405) Delta: ( 4.65644, 4.87594)
+[ 1601580097] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6037, 6.33645) Delta: ( 4.60289, 4.81834)
+[ 1601580097] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.4449, 6.16635) Delta: ( 4.44404, 4.64824)
+[ 1601580097] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.241, 5.94855) Delta: ( 4.24019, 4.43044)
+[ 1601580097] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.9575, 5.6529) Delta: ( 3.95669, 4.13479)
+[ 1601580097] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.9648, 4.6134) Delta: ( 2.96399, 3.09529)
+[ 1601580097] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.3875, 4.00635) Delta: ( 2.38664, 2.48824)
+[ 1601580098] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.9266, 3.5226) Delta: ( 1.92584, 2.00449)
+[ 1601580098] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.3817, 2.94795) Delta: ( 1.38089, 1.42984)
+[ 1601580098] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.6635, 2.19375) Delta: ( 0.662686, 0.675643)
+[ 1601580098] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.3026, 1.8162) Delta: ( 0.301786, 0.298093)
+[ 1601580099] ( Info) [4, 1] Reached Pose: P/T ( -79.022700, 1.523700)
+[ 1601580099] ( Info) Removing blurry img(s): 2
+[ 1601580099] ( Info) Removing blurry img(s): 2
+[ 1601580099] ( Info) Removing blurry img(s): 3
+[ 1601580099] ( Info) Removing blurry img(s): 3
+[ 1601580099] ( Info) [4, 1] Reached Pose: P/T ( -79.022250, 1.523250)
+[ 1601580099] ( Info) Removing blurry img(s): 4
+[ 1601580099] ( Info) Removing blurry img(s): 4
+[ 1601580099] ( Info) [4, 1] Reached Pose: P/T ( -79.022250, 1.523250)
+[ 1601580099] ( Info) Removing blurry img(s): 5
+[ 1601580099] ( Info) Removing blurry img(s): 5
+[ 1601580099] ( Info) [4, 1] Reached Pose: P/T ( -79.022250, 1.523250)
+[ 1601580099] ( Info) Removing blurry img(s): 6
+[ 1601580099] ( Info) Removing blurry img(s): 6
+[ 1601580099] ( Info) [4, 1] Reached Pose: P/T ( -79.022250, 1.523250)
+[ 1601580099] ( Info) Removing blurry img(s): 7
+[ 1601580099] ( Info) [4, 1] Reached Pose: P/T ( -79.022250, 1.523250)
+[ 1601580100] ( Info) Removing blurry img(s): 8
+[ 1601580100] ( Info) [4, 1] Reached Pose: P/T ( -79.022250, 1.523250)
+[ 1601580100] ( Info) Removing blurry img(s): 9
+[ 1601580100] ( Info) Removing blurry img(s): 9
+[ 1601580100] ( Info) [4, 1] Reached Pose: P/T ( -79.021800, 1.523250)
+[ 1601580100] ( Info) Removing blurry img(s): 10
+[ 1601580100] ( Info) Removing blurry img(s): 10
+[ 1601580100] ( Info) Recorded Pose
+[ 1601580100] ( Info) Acquisition PT: 51
+[ 1601580101] ( Info) [4, 1] ReprojectionError: ( 0.171241)
+[ 1601580101] ( Info) ReprojectionError: ( 0.110832)
+[ 1601580101] ( Info) Succesfully Estimated Pose.
+[ 1601580101] ( Warning) PT Mis-match Error: Expected ( -79.021800,1.523250), Observed: ( -79.021800,1.522800), Delta: ( 0.000000, 0.000450)
+[ 1601580102] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.0105, 1.5282) Delta: ( 3.11459, 3.25074)
+[ 1601580102] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.8382, 1.7073) Delta: ( 2.94224, 3.07164)
+[ 1601580102] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.6902, 1.86075) Delta: ( 2.79419, 2.91819)
+[ 1601580102] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.4395, 2.11545) Delta: ( 2.54354, 2.66349)
+[ 1601580102] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.1213, 2.45205) Delta: ( 2.22539, 2.32689)
+[ 1601580103] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.445, 3.1608) Delta: ( 1.54904, 1.61814)
+[ 1601580103] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0634, 3.55905) Delta: ( 1.16744, 1.21989)
+[ 1601580103] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.3537, 4.29975) Delta: ( 0.457793, 0.479186)
+[ 1601580103] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0266, 4.64715) Delta: ( 0.130643, 0.131786)
+[ 1601580103] ( Info) [2, 5] Reached Pose: P/T ( -75.957300, 4.720050)
+[ 1601580103] ( Info) Removing blurry img(s): 1
+[ 1601580103] ( Info) Removing blurry img(s): 2
+[ 1601580104] ( Info) Removing blurry img(s): 2
+[ 1601580104] ( Info) [2, 5] Reached Pose: P/T ( -75.914100, 4.766850)
+[ 1601580104] ( Info) Removing blurry img(s): 3
+[ 1601580104] ( Info) [2, 5] Reached Pose: P/T ( -75.914100, 4.767300)
+[ 1601580104] ( Info) Removing blurry img(s): 4
+[ 1601580104] ( Info) Removing blurry img(s): 5
+[ 1601580104] ( Info) Removing blurry img(s): 5
+[ 1601580104] ( Info) Removing blurry img(s): 6
+[ 1601580104] ( Info) Removing blurry img(s): 6
+[ 1601580104] ( Info) [2, 5] Reached Pose: P/T ( -75.914100, 4.767750)
+[ 1601580104] ( Info) Removing blurry img(s): 7
+[ 1601580104] ( Info) Removing blurry img(s): 7
+[ 1601580104] ( Info) [2, 5] Reached Pose: P/T ( -75.914100, 4.767750)
+[ 1601580104] ( Info) Removing blurry img(s): 8
+[ 1601580105] ( Info) Removing blurry img(s): 8
+[ 1601580105] ( Info) [2, 5] Reached Pose: P/T ( -75.914100, 4.767750)
+[ 1601580105] ( Info) Removing blurry img(s): 9
+[ 1601580105] ( Info) Removing blurry img(s): 9
+[ 1601580105] ( Info) [2, 5] Reached Pose: P/T ( -75.914100, 4.767750)
+[ 1601580105] ( Info) Removing blurry img(s): 10
+[ 1601580105] ( Info) Removing blurry img(s): 10
+[ 1601580105] ( Info) Recorded Pose
+[ 1601580105] ( Info) Acquisition PT: 52
+[ 1601580105] ( Info) [2, 5] Reached Pose: P/T ( -75.913650, 4.767750)
+[ 1601580106] ( Info) [2, 5] ReprojectionError: ( 0.290054)
+[ 1601580106] ( Info) Succesfully Estimated Pose.
+[ 1601580107] ( Info) ReprojectionError: ( 0.109907)
+[ 1601580107] ( Warning) PT Mis-match Error: Expected ( -75.913650,4.767750), Observed: ( -75.913650,4.768200), Delta: ( 0.000000, 0.000450)
+[ 1601580107] ( Info) Sent PTU. Target: PT (-77.448386,3.963729)
+[ 1601580107] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 4.7682) Delta: ( 1.53429, 0.804471)
+[ 1601580107] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9433, 4.7583) Delta: ( 1.50504, 0.794571)
+[ 1601580107] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.0396, 4.707) Delta: ( 1.40874, 0.743271)
+[ 1601580107] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.1899, 4.62735) Delta: ( 1.25844, 0.663621)
+[ 1601580108] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.3524, 4.5423) Delta: ( 1.09599, 0.578571)
+[ 1601580108] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.6201, 4.40505) Delta: ( 0.828236, 0.441321)
+[ 1601580108] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.8546, 4.2849) Delta: ( 0.593786, 0.321171)
+[ 1601580108] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.2357, 4.0878) Delta: ( 0.212636, 0.124071)
+[ 1601580108] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.35, 4.02885) Delta: ( 0.0983357, 0.0651214)
+[ 1601580108] ( Info) [3, 4] Reached Pose: P/T ( -77.421600, 3.990600)
+[ 1601580109] ( Info) Removing blurry img(s): 1
+[ 1601580109] ( Info) [3, 4] Reached Pose: P/T ( -77.432850, 3.984300)
+[ 1601580109] ( Info) Removing blurry img(s): 2
+[ 1601580109] ( Info) [3, 4] Reached Pose: P/T ( -77.434200, 3.983850)
+[ 1601580109] ( Info) Removing blurry img(s): 3
+[ 1601580109] ( Info) Removing blurry img(s): 3
+[ 1601580109] ( Info) Removing blurry img(s): 4
+[ 1601580109] ( Info) [3, 4] Reached Pose: P/T ( -77.434650, 3.983400)
+[ 1601580109] ( Info) [3, 4] Reached Pose: P/T ( -77.434650, 3.983400)
+[ 1601580109] ( Info) Removing blurry img(s): 6
+[ 1601580109] ( Info) Removing blurry img(s): 6
+[ 1601580109] ( Info) [3, 4] Reached Pose: P/T ( -77.434650, 3.983400)
+[ 1601580109] ( Info) Removing blurry img(s): 7
+[ 1601580110] ( Info) Removing blurry img(s): 7
+[ 1601580110] ( Info) [3, 4] Reached Pose: P/T ( -77.434650, 3.983400)
+[ 1601580110] ( Info) Removing blurry img(s): 8
+[ 1601580110] ( Info) Removing blurry img(s): 8
+[ 1601580110] ( Info) [3, 4] Reached Pose: P/T ( -77.434650, 3.983400)
+[ 1601580110] ( Info) Removing blurry img(s): 9
+[ 1601580110] ( Info) Removing blurry img(s): 9
+[ 1601580110] ( Info) [3, 4] Reached Pose: P/T ( -77.435100, 3.983400)
+[ 1601580110] ( Info) Removing blurry img(s): 10
+[ 1601580110] ( Info) Removing blurry img(s): 10
+[ 1601580110] ( Info) Acquisition PT: 53
+[ 1601580110] ( Info) [3, 4] Reached Pose: P/T ( -77.435100, 3.983400)
+[ 1601580111] ( Info) [3, 4] ReprojectionError: ( 0.278064)
+[ 1601580111] ( Info) Succesfully Estimated Pose.
+[ 1601580112] ( Info) ReprojectionError: ( 0.109867)
+[ 1601580112] ( Info) Succesfully Estimated Pose.
+[ 1601580112] ( Warning) PT Mis-match Error: Expected ( -77.435100,3.983400), Observed: ( -77.435550,3.983400), Delta: ( 0.000450, 0.000000)
+[ 1601580112] ( Info) Sent PTU. Target: PT (-80.553243,1.518107)
+[ 1601580112] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4355, 3.9834) Delta: ( 3.11769, 2.46529)
+[ 1601580112] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.4472, 3.9762) Delta: ( 3.10599, 2.45809)
+[ 1601580112] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.7294, 3.7521) Delta: ( 2.82384, 2.23399)
+[ 1601580113] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.8697, 2.85255) Delta: ( 1.68354, 1.33444)
+[ 1601580113] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.4111, 2.4246) Delta: ( 1.14219, 0.906493)
+[ 1601580113] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.1234, 1.86795) Delta: ( 0.429843, 0.349843)
+[ 1601580114] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.3678, 1.6767) Delta: ( 0.185493, 0.158593)
+[ 1601580114] ( Info) [5, 1] Reached Pose: P/T ( -80.516250, 1.557900)
+[ 1601580114] ( Info) Removing blurry img(s): 1
+[ 1601580114] ( Info) [5, 1] Reached Pose: P/T ( -80.555850, 1.525950)
+[ 1601580114] ( Info) Removing blurry img(s): 2
+[ 1601580114] ( Info) Removing blurry img(s): 3
+[ 1601580114] ( Info) Removing blurry img(s): 4
+[ 1601580114] ( Info) Removing blurry img(s): 4
+[ 1601580114] ( Info) [5, 1] Reached Pose: P/T ( -80.558100, 1.524150)
+[ 1601580114] ( Info) Removing blurry img(s): 5
+[ 1601580114] ( Info) Removing blurry img(s): 5
+[ 1601580114] ( Info) [5, 1] Reached Pose: P/T ( -80.558100, 1.523700)
+[ 1601580115] ( Info) Removing blurry img(s): 6
+[ 1601580115] ( Info) [5, 1] Reached Pose: P/T ( -80.558100, 1.523700)
+[ 1601580115] ( Info) Removing blurry img(s): 7
+[ 1601580115] ( Info) [5, 1] Reached Pose: P/T ( -80.558100, 1.523700)
+[ 1601580115] ( Info) Removing blurry img(s): 8
+[ 1601580115] ( Info) Removing blurry img(s): 8
+[ 1601580115] ( Info) [5, 1] Reached Pose: P/T ( -80.558100, 1.523700)
+[ 1601580115] ( Info) Removing blurry img(s): 9
+[ 1601580115] ( Info) [5, 1] Reached Pose: P/T ( -80.558100, 1.523700)
+[ 1601580115] ( Info) Removing blurry img(s): 10
+[ 1601580115] ( Info) Removing blurry img(s): 10
+[ 1601580115] ( Info) Recorded Pose
+[ 1601580115] ( Info) Acquisition PT: 54
+[ 1601580115] ( Info) [5, 1] Reached Pose: P/T ( -80.558550, 1.523700)
+[ 1601580116] ( Info) [5, 1] ReprojectionError: ( 0.137121)
+[ 1601580117] ( Info) ReprojectionError: ( 0.110273)
+[ 1601580117] ( Info) Succesfully Estimated Pose.
+[ 1601580117] ( Warning) PT Mis-match Error: Expected ( -80.558550,1.523700), Observed: ( -80.558550,1.523250), Delta: ( 0.000000, 0.000450)
+[ 1601580117] ( Info) Sent PTU. Target: PT (-83.658100,3.963729)
+[ 1601580117] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5585, 1.52325) Delta: ( 3.09955, 2.44048)
+[ 1601580117] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5608, 1.5237) Delta: ( 3.0973, 2.44003)
+[ 1601580117] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.0315, 1.8756) Delta: ( 2.6266, 2.08813)
+[ 1601580118] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.8208, 2.5065) Delta: ( 1.8373, 1.45723)
+[ 1601580118] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.2793, 2.871) Delta: ( 1.37875, 1.09273)
+[ 1601580118] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.7217, 3.21705) Delta: ( 0.9364, 0.746679)
+[ 1601580118] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.1119, 3.5136) Delta: ( 0.54625, 0.450129)
+[ 1601580118] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.5668, 3.87135) Delta: ( 0.0913, 0.0923786)
+[ 1601580119] ( Info) [7, 4] Reached Pose: P/T ( -83.649600, 3.937050)
+[ 1601580119] ( Info) Removing blurry img(s): 1
+[ 1601580119] ( Info) Removing blurry img(s): 1
+[ 1601580119] ( Info) Removing blurry img(s): 2
+[ 1601580119] ( Info) Removing blurry img(s): 2
+[ 1601580119] ( Info) [7, 4] Reached Pose: P/T ( -83.656800, 3.943800)
+[ 1601580119] ( Info) [7, 4] Reached Pose: P/T ( -83.656800, 3.943800)
+[ 1601580119] ( Info) Removing blurry img(s): 4
+[ 1601580119] ( Info) Removing blurry img(s): 5
+[ 1601580119] ( Info) [7, 4] Reached Pose: P/T ( -83.657250, 3.944250)
+[ 1601580119] ( Info) Removing blurry img(s): 6
+[ 1601580119] ( Info) [7, 4] Reached Pose: P/T ( -83.657250, 3.944700)
+[ 1601580120] ( Info) Removing blurry img(s): 7
+[ 1601580120] ( Info) Removing blurry img(s): 7
+[ 1601580120] ( Info) [7, 4] Reached Pose: P/T ( -83.657250, 3.944700)
+[ 1601580120] ( Info) Removing blurry img(s): 8
+[ 1601580120] ( Info) Removing blurry img(s): 8
+[ 1601580120] ( Info) [7, 4] Reached Pose: P/T ( -83.657250, 3.945150)
+[ 1601580120] ( Info) Removing blurry img(s): 9
+[ 1601580120] ( Info) Removing blurry img(s): 9
+[ 1601580120] ( Info) [7, 4] Reached Pose: P/T ( -83.657250, 3.945150)
+[ 1601580120] ( Info) Removing blurry img(s): 10
+[ 1601580120] ( Info) Acquisition PT: 55
+[ 1601580120] ( Info) [7, 4] Reached Pose: P/T ( -83.657250, 3.945150)
+[ 1601580121] ( Info) Succesfully Estimated Pose.
+[ 1601580121] ( Info) ReprojectionError: ( 0.110286)
+[ 1601580121] ( Info) Succesfully Estimated Pose.
+[ 1601580121] ( Warning) PT Mis-match Error: Expected ( -83.657250,3.945150), Observed: ( -83.657250,3.946500), Delta: ( 0.000000, 0.001350)
+[ 1601580121] ( Info) Sent PTU. Target: PT (-74.343529,1.518107)
+[ 1601580121] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6573, 3.9465) Delta: ( 9.31372, 2.42839)
+[ 1601580122] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6226, 3.9465) Delta: ( 9.27907, 2.42839)
+[ 1601580122] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.9094, 3.7737) Delta: ( 8.56582, 2.25559)
+[ 1601580122] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.8946, 3.5154) Delta: ( 7.55107, 1.99729)
+[ 1601580122] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.928, 3.2616) Delta: ( 6.58447, 1.74349)
+[ 1601580123] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.8825, 2.196) Delta: ( 2.53897, 0.677893)
+[ 1601580123] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.6468, 1.86615) Delta: ( 1.30327, 0.348043)
+[ 1601580123] ( Info) [1, 1] Reached Pose: P/T ( -74.382750, 1.527300)
+[ 1601580123] ( Info) Removing blurry img(s): 1
+[ 1601580123] ( Info) Removing blurry img(s): 1
+[ 1601580123] ( Info) [1, 1] Reached Pose: P/T ( -74.372850, 1.524600)
+[ 1601580124] ( Info) Removing blurry img(s): 2
+[ 1601580124] ( Info) [1, 1] Reached Pose: P/T ( -74.372400, 1.524150)
+[ 1601580124] ( Info) Removing blurry img(s): 3
+[ 1601580124] ( Info) Removing blurry img(s): 3
+[ 1601580124] ( Info) [1, 1] Reached Pose: P/T ( -74.372400, 1.524150)
+[ 1601580124] ( Info) Removing blurry img(s): 4
+[ 1601580124] ( Info) Removing blurry img(s): 4
+[ 1601580124] ( Info) [1, 1] Reached Pose: P/T ( -74.371950, 1.523700)
+[ 1601580124] ( Info) Removing blurry img(s): 5
+[ 1601580124] ( Info) Removing blurry img(s): 5
+[ 1601580124] ( Info) [1, 1] Reached Pose: P/T ( -74.371950, 1.523700)
+[ 1601580124] ( Info) Removing blurry img(s): 6
+[ 1601580124] ( Info) Removing blurry img(s): 6
+[ 1601580124] ( Info) [1, 1] Reached Pose: P/T ( -74.371950, 1.523700)
+[ 1601580124] ( Info) Removing blurry img(s): 7
+[ 1601580124] ( Info) [1, 1] Reached Pose: P/T ( -74.371950, 1.523700)
+[ 1601580124] ( Info) Removing blurry img(s): 8
+[ 1601580125] ( Info) Removing blurry img(s): 8
+[ 1601580125] ( Info) Removing blurry img(s): 9
+[ 1601580125] ( Info) Removing blurry img(s): 9
+[ 1601580125] ( Info) Removing blurry img(s): 10
+[ 1601580125] ( Info) Removing blurry img(s): 10
+[ 1601580125] ( Info) Acquisition PT: 56
+[ 1601580126] ( Info) [1, 1] ReprojectionError: ( 0.221970)
+[ 1601580126] ( Info) Succesfully Estimated Pose.
+[ 1601580126] ( Info) ReprojectionError: ( 0.109957)
+[ 1601580126] ( Info) Succesfully Estimated Pose.
+[ 1601580126] ( Warning) PT Mis-match Error: Expected ( -74.371950,1.523700), Observed: ( -74.371500,1.523250), Delta: ( 0.000450, 0.000450)
+[ 1601580126] ( Info) Sent PTU. Target: PT (-79.000814,6.409350)
+[ 1601580127] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3715, 1.52325) Delta: ( 4.62931, 4.8861)
+[ 1601580127] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.3724, 1.53135) Delta: ( 4.62841, 4.878)
+[ 1601580127] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.6298, 1.8144) Delta: ( 4.37101, 4.59495)
+[ 1601580127] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.0672, 2.295) Delta: ( 3.93361, 4.11435)
+[ 1601580127] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.5154, 2.75715) Delta: ( 3.48541, 3.6522)
+[ 1601580127] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.8699, 4.16205) Delta: ( 2.13091, 2.2473)
+[ 1601580128] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.6511, 4.99005) Delta: ( 1.34971, 1.4193)
+[ 1601580128] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.2073, 5.58315) Delta: ( 0.793514, 0.8262)
+[ 1601580128] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.6663, 6.0597) Delta: ( 0.334514, 0.34965)
+[ 1601580128] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.8625, 6.2658) Delta: ( 0.138314, 0.14355)
+[ 1601580128] ( Info) [4, 7] Reached Pose: P/T ( -78.974550, 6.380550)
+[ 1601580128] ( Info) [4, 7] Reached Pose: P/T ( -78.988050, 6.393600)
+[ 1601580128] ( Info) Removing blurry img(s): 2
+[ 1601580129] ( Info) Removing blurry img(s): 2
+[ 1601580129] ( Info) [4, 7] Reached Pose: P/T ( -78.988950, 6.394050)
+[ 1601580129] ( Info) Removing blurry img(s): 3
+[ 1601580129] ( Info) [4, 7] Reached Pose: P/T ( -78.988950, 6.394050)
+[ 1601580129] ( Info) Removing blurry img(s): 4
+[ 1601580129] ( Info) Removing blurry img(s): 4
+[ 1601580129] ( Info) Removing blurry img(s): 5
+[ 1601580129] ( Info) Removing blurry img(s): 5
+[ 1601580129] ( Info) [4, 7] Reached Pose: P/T ( -78.988950, 6.394500)
+[ 1601580129] ( Info) Removing blurry img(s): 6
+[ 1601580129] ( Info) Removing blurry img(s): 6
+[ 1601580129] ( Info) [4, 7] Reached Pose: P/T ( -78.989400, 6.394500)
+[ 1601580129] ( Info) Removing blurry img(s): 7
+[ 1601580129] ( Info) Removing blurry img(s): 7
+[ 1601580129] ( Info) Removing blurry img(s): 8
+[ 1601580129] ( Info) Removing blurry img(s): 9
+[ 1601580130] ( Info) Removing blurry img(s): 9
+[ 1601580130] ( Info) [4, 7] Reached Pose: P/T ( -78.989400, 6.394500)
+[ 1601580130] ( Info) Removing blurry img(s): 10
+[ 1601580130] ( Info) Removing blurry img(s): 10
+[ 1601580130] ( Info) Recorded Pose
+[ 1601580130] ( Info) Acquisition PT: 57
+[ 1601580130] ( Info) [4, 7] Reached Pose: P/T ( -78.989400, 6.394500)
+[ 1601580131] ( Info) [4, 7] ReprojectionError: ( 0.269072)
+[ 1601580131] ( Info) Succesfully Estimated Pose.
+[ 1601580131] ( Info) ReprojectionError: ( 0.109703)
+[ 1601580131] ( Info) Sent PTU. Target: PT (-83.658100,3.148521)
+[ 1601580132] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.1181, 6.3369) Delta: ( 4.54, 3.18838)
+[ 1601580132] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.3782, 6.1605) Delta: ( 4.2799, 3.01198)
+[ 1601580132] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.6414, 5.9823) Delta: ( 4.01665, 2.83378)
+[ 1601580132] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.0721, 5.68755) Delta: ( 3.586, 2.53903)
+[ 1601580132] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.0387, 5.00715) Delta: ( 2.6194, 1.85863)
+[ 1601580132] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.6133, 4.59585) Delta: ( 2.04475, 1.44733)
+[ 1601580133] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.3188, 3.4065) Delta: ( 0.33925, 0.257979)
+[ 1601580133] ( Info) [7, 3] Reached Pose: P/T ( -83.623950, 3.195000)
+[ 1601580133] ( Info) Removing blurry img(s): 1
+[ 1601580133] ( Info) Removing blurry img(s): 2
+[ 1601580134] ( Info) Removing blurry img(s): 3
+[ 1601580134] ( Info) [7, 3] Reached Pose: P/T ( -83.657250, 3.171150)
+[ 1601580134] ( Info) Removing blurry img(s): 4
+[ 1601580134] ( Info) Removing blurry img(s): 4
+[ 1601580134] ( Info) Removing blurry img(s): 5
+[ 1601580134] ( Info) Removing blurry img(s): 5
+[ 1601580134] ( Info) [7, 3] Reached Pose: P/T ( -83.657700, 3.171150)
+[ 1601580134] ( Info) Removing blurry img(s): 6
+[ 1601580134] ( Info) Removing blurry img(s): 6
+[ 1601580134] ( Info) [7, 3] Reached Pose: P/T ( -83.657700, 3.171150)
+[ 1601580134] ( Info) Removing blurry img(s): 7
+[ 1601580134] ( Info) [7, 3] Reached Pose: P/T ( -83.657700, 3.171150)
+[ 1601580134] ( Info) Removing blurry img(s): 8
+[ 1601580134] ( Info) Removing blurry img(s): 8
+[ 1601580134] ( Info) [7, 3] Reached Pose: P/T ( -83.657700, 3.171150)
+[ 1601580134] ( Info) Removing blurry img(s): 9
+[ 1601580134] ( Info) [7, 3] Reached Pose: P/T ( -83.657700, 3.171150)
+[ 1601580135] ( Info) Removing blurry img(s): 10
+[ 1601580135] ( Info) Removing blurry img(s): 10
+[ 1601580135] ( Info) Recorded Pose
+[ 1601580135] ( Info) Acquisition PT: 58
+[ 1601580135] ( Info) [7, 3] Reached Pose: P/T ( -83.657700, 3.171150)
+[ 1601580135] ( Info) [7, 3] ReprojectionError: ( 0.163802)
+[ 1601580135] ( Info) Succesfully Estimated Pose.
+[ 1601580136] ( Info) ReprojectionError: ( 0.110573)
+[ 1601580136] ( Info) Succesfully Estimated Pose.
+[ 1601580136] ( Info) Sent PTU. Target: PT (-83.658100,4.778936)
+[ 1601580136] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 3.17115) Delta: ( 0.0004, 1.60779)
+[ 1601580136] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 3.17115) Delta: ( 0.0004, 1.60779)
+[ 1601580136] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 3.2067) Delta: ( 0.0004, 1.57224)
+[ 1601580136] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 3.27735) Delta: ( 0.0004, 1.50159)
+[ 1601580137] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 3.654) Delta: ( 0.0004, 1.12494)
+[ 1601580137] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 3.852) Delta: ( 0.0004, 0.926936)
+[ 1601580137] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 4.09725) Delta: ( 0.0004, 0.681686)
+[ 1601580137] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 4.3254) Delta: ( 0.0004, 0.453536)
+[ 1601580137] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 4.51575) Delta: ( 0.0004, 0.263186)
+[ 1601580138] ( Info) Removing blurry img(s): 1
+[ 1601580138] ( Info) Removing blurry img(s): 1
+[ 1601580138] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.760550)
+[ 1601580138] ( Info) Removing blurry img(s): 2
+[ 1601580138] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.765950)
+[ 1601580138] ( Info) Removing blurry img(s): 3
+[ 1601580138] ( Info) Removing blurry img(s): 3
+[ 1601580138] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.766400)
+[ 1601580138] ( Info) Removing blurry img(s): 4
+[ 1601580138] ( Info) Removing blurry img(s): 4
+[ 1601580138] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.766400)
+[ 1601580138] ( Info) Removing blurry img(s): 5
+[ 1601580138] ( Info) Removing blurry img(s): 6
+[ 1601580139] ( Info) Removing blurry img(s): 6
+[ 1601580139] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.766400)
+[ 1601580139] ( Info) Removing blurry img(s): 7
+[ 1601580139] ( Info) Removing blurry img(s): 7
+[ 1601580139] ( Info) Removing blurry img(s): 8
+[ 1601580139] ( Info) Removing blurry img(s): 8
+[ 1601580139] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.766850)
+[ 1601580139] ( Info) Removing blurry img(s): 9
+[ 1601580139] ( Info) Removing blurry img(s): 9
+[ 1601580139] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.766850)
+[ 1601580139] ( Info) Removing blurry img(s): 10
+[ 1601580139] ( Info) Removing blurry img(s): 10
+[ 1601580139] ( Info) Recorded Pose
+[ 1601580139] ( Info) [7, 5] Reached Pose: P/T ( -83.657700, 4.766850)
+[ 1601580140] ( Info) [7, 5] ReprojectionError: ( 0.211116)
+[ 1601580140] ( Info) Succesfully Estimated Pose.
+[ 1601580141] ( Info) ReprojectionError: ( 0.111149)
+[ 1601580141] ( Info) Succesfully Estimated Pose.
+[ 1601580141] ( Info) Sent PTU. Target: PT (-83.658100,1.518107)
+[ 1601580141] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 4.76685) Delta: ( 0.0004, 3.24874)
+[ 1601580141] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 4.7295) Delta: ( 5e-05, 3.21139)
+[ 1601580141] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 4.64445) Delta: ( 5e-05, 3.12634)
+[ 1601580141] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 4.46985) Delta: ( 5e-05, 2.95174)
+[ 1601580141] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 4.2741) Delta: ( 5e-05, 2.75599)
+[ 1601580141] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 3.6657) Delta: ( 5e-05, 2.14759)
+[ 1601580142] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 2.7819) Delta: ( 5e-05, 1.26379)
+[ 1601580142] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 2.47455) Delta: ( 5e-05, 0.956443)
+[ 1601580142] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 1.91925) Delta: ( 5e-05, 0.401143)
+[ 1601580142] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 1.7181) Delta: ( 5e-05, 0.199993)
+[ 1601580142] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6581, 1.59435) Delta: ( 5e-05, 0.0762429)
+[ 1601580142] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.533600)
+[ 1601580143] ( Info) Removing blurry img(s): 1
+[ 1601580143] ( Info) Removing blurry img(s): 1
+[ 1601580143] ( Info) Removing blurry img(s): 2
+[ 1601580143] ( Info) Removing blurry img(s): 2
+[ 1601580143] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.523250)
+[ 1601580143] ( Info) Removing blurry img(s): 3
+[ 1601580143] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.523250)
+[ 1601580143] ( Info) Removing blurry img(s): 4
+[ 1601580143] ( Info) Removing blurry img(s): 4
+[ 1601580143] ( Info) Removing blurry img(s): 5
+[ 1601580143] ( Info) Removing blurry img(s): 5
+[ 1601580143] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.523250)
+[ 1601580143] ( Info) Removing blurry img(s): 6
+[ 1601580143] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.522800)
+[ 1601580143] ( Info) Removing blurry img(s): 7
+[ 1601580144] ( Info) Removing blurry img(s): 7
+[ 1601580144] ( Info) Removing blurry img(s): 8
+[ 1601580144] ( Info) Removing blurry img(s): 8
+[ 1601580144] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.522800)
+[ 1601580144] ( Info) Removing blurry img(s): 9
+[ 1601580144] ( Info) Removing blurry img(s): 9
+[ 1601580144] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.522800)
+[ 1601580144] ( Info) Removing blurry img(s): 10
+[ 1601580144] ( Info) Removing blurry img(s): 10
+[ 1601580144] ( Info) Recorded Pose
+[ 1601580144] ( Info) [7, 1] Reached Pose: P/T ( -83.658150, 1.522800)
+[ 1601580145] ( Info) [7, 1] ReprojectionError: ( 0.166017)
+[ 1601580145] ( Info) Succesfully Estimated Pose.
+[ 1601580145] ( Info) ReprojectionError: ( 0.110440)
+[ 1601580145] ( Info) Succesfully Estimated Pose.
+[ 1601580145] ( Info) Sent PTU. Target: PT (-82.105671,6.409350)
+[ 1601580146] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6577, 1.56015) Delta: ( 1.55203, 4.8492)
+[ 1601580146] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.6248, 1.72035) Delta: ( 1.51918, 4.689)
+[ 1601580146] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.547, 1.96875) Delta: ( 1.44133, 4.4406)
+[ 1601580146] ( Info) PanTiltController [ P0] Pan/Tilt: (-83.3495, 2.62305) Delta: ( 1.24378, 3.7863)
+[ 1601580147] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.6771, 4.72905) Delta: ( 0.571479, 1.6803)
+[ 1601580147] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.5044, 5.27805) Delta: ( 0.398679, 1.1313)
+[ 1601580147] ( Info) [6, 7] Reached Pose: P/T ( -82.157850, 6.346350)
+[ 1601580147] ( Info) Removing blurry img(s): 1
+[ 1601580147] ( Info) [6, 7] Reached Pose: P/T ( -82.142100, 6.390450)
+[ 1601580147] ( Info) Removing blurry img(s): 2
+[ 1601580148] ( Info) Removing blurry img(s): 2
+[ 1601580148] ( Info) Removing blurry img(s): 3
+[ 1601580148] ( Info) [6, 7] Reached Pose: P/T ( -82.140300, 6.393600)
+[ 1601580148] ( Info) Removing blurry img(s): 4
+[ 1601580148] ( Info) Removing blurry img(s): 4
+[ 1601580148] ( Info) [6, 7] Reached Pose: P/T ( -82.140300, 6.393600)
+[ 1601580148] ( Info) Removing blurry img(s): 5
+[ 1601580148] ( Info) Removing blurry img(s): 5
+[ 1601580148] ( Info) Removing blurry img(s): 6
+[ 1601580148] ( Info) Removing blurry img(s): 7
+[ 1601580148] ( Info) Removing blurry img(s): 7
+[ 1601580148] ( Info) [6, 7] Reached Pose: P/T ( -82.139850, 6.393600)
+[ 1601580148] ( Info) Removing blurry img(s): 8
+[ 1601580148] ( Info) [6, 7] Reached Pose: P/T ( -82.139850, 6.393600)
+[ 1601580148] ( Info) Removing blurry img(s): 9
+[ 1601580149] ( Info) Removing blurry img(s): 9
+[ 1601580149] ( Info) [6, 7] Reached Pose: P/T ( -82.139850, 6.393600)
+[ 1601580149] ( Info) Removing blurry img(s): 10
+[ 1601580149] ( Info) Recorded Pose
+[ 1601580149] ( Info) Acquisition PT: 61
+[ 1601580149] ( Info) [6, 7] Reached Pose: P/T ( -82.139850, 6.393600)
+[ 1601580150] ( Info) [6, 7] ReprojectionError: ( 0.212350)
+[ 1601580150] ( Info) Succesfully Estimated Pose.
+[ 1601580150] ( Info) ReprojectionError: ( 0.111805)
+[ 1601580150] ( Info) Succesfully Estimated Pose.
+[ 1601580150] ( Warning) PT Mis-match Error: Expected ( -82.139850,6.393600), Observed: ( -82.139400,6.393600), Delta: ( 0.000450, 0.000000)
+[ 1601580150] ( Info) Sent PTU. Target: PT (-75.895957,6.409350)
+[ 1601580150] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.1394, 6.3936) Delta: ( 6.24344, 0.01575)
+[ 1601580151] ( Info) PanTiltController [ P0] Pan/Tilt: (-82.0255, 6.3936) Delta: ( 6.12959, 0.01575)
+[ 1601580151] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.7447, 6.3936) Delta: ( 5.84879, 0.01575)
+[ 1601580151] ( Info) PanTiltController [ P0] Pan/Tilt: (-81.2493, 6.39405) Delta: ( 5.35334, 0.0153)
+[ 1601580151] ( Info) PanTiltController [ P0] Pan/Tilt: (-80.5527, 6.39405) Delta: ( 4.65674, 0.0153)
+[ 1601580151] ( Info) PanTiltController [ P0] Pan/Tilt: (-79.6905, 6.39405) Delta: ( 3.79454, 0.0153)
+[ 1601580151] ( Info) PanTiltController [ P0] Pan/Tilt: (-78.75, 6.39405) Delta: ( 2.85404, 0.0153)
+[ 1601580152] ( Info) PanTiltController [ P0] Pan/Tilt: (-77.0778, 6.39405) Delta: ( 1.18184, 0.0153)
+[ 1601580152] ( Info) PanTiltController [ P0] Pan/Tilt: (-76.3465, 6.39405) Delta: ( 0.450593, 0.0153)
+[ 1601580152] ( Info) Removing blurry img(s): 1
+[ 1601580152] ( Info) Removing blurry img(s): 1
+[ 1601580152] ( Info) [2, 7] Reached Pose: P/T ( -75.915000, 6.394050)
+[ 1601580152] ( Info) Removing blurry img(s): 2
+[ 1601580152] ( Info) Removing blurry img(s): 2
+[ 1601580153] ( Info) Removing blurry img(s): 3
+[ 1601580153] ( Info) Removing blurry img(s): 3
+[ 1601580153] ( Info) [2, 7] Reached Pose: P/T ( -75.914550, 6.394050)
+[ 1601580153] ( Info) Removing blurry img(s): 4
+[ 1601580153] ( Info) Removing blurry img(s): 4
+[ 1601580153] ( Info) [2, 7] Reached Pose: P/T ( -75.914550, 6.394050)
+[ 1601580153] ( Info) Removing blurry img(s): 5
+[ 1601580153] ( Info) Removing blurry img(s): 5
+[ 1601580153] ( Info) Removing blurry img(s): 6
+[ 1601580153] ( Info) Removing blurry img(s): 6
+[ 1601580153] ( Info) [2, 7] Reached Pose: P/T ( -75.914100, 6.394050)
+[ 1601580153] ( Info) Removing blurry img(s): 7
+[ 1601580153] ( Info) Removing blurry img(s): 7
+[ 1601580153] ( Info) [2, 7] Reached Pose: P/T ( -75.914100, 6.394050)
+[ 1601580153] ( Info) Removing blurry img(s): 8
+[ 1601580153] ( Info) [2, 7] Reached Pose: P/T ( -75.914100, 6.394050)
+[ 1601580153] ( Info) Removing blurry img(s): 9
+[ 1601580153] ( Info) Removing blurry img(s): 9
+[ 1601580154] ( Info) [2, 7] Reached Pose: P/T ( -75.914100, 6.394050)
+[ 1601580154] ( Info) Removing blurry img(s): 10
+[ 1601580154] ( Info) Removing blurry img(s): 10
+[ 1601580154] ( Info) Recorded Pose
+[ 1601580154] ( Info) Acquisition PT: 62
+[ 1601580154] ( Info) [2, 7] Reached Pose: P/T ( -75.914100, 6.394050)
+[ 1601580155] ( Info) [2, 7] ReprojectionError: ( 0.213256)
+[ 1601580155] ( Info) Succesfully Estimated Pose.
+[ 1601580155] ( Info) ReprojectionError: ( 0.111381)
+[ 1601580155] ( Info) Sent PTU. Target: PT (-74.343529,2.333314)
+[ 1601580155] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9141, 6.39405) Delta: ( 1.57057, 4.06074)
+[ 1601580155] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.9047, 6.3909) Delta: ( 1.56112, 4.05759)
+[ 1601580156] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.847, 6.24645) Delta: ( 1.50352, 3.91314)
+[ 1601580156] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.614, 5.6349) Delta: ( 1.27042, 3.30159)
+[ 1601580156] ( Info) PanTiltController [ P0] Pan/Tilt: (-75.3439, 4.91715) Delta: ( 1.00042, 2.58384)
+[ 1601580156] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.8872, 3.71205) Delta: ( 0.543671, 1.37874)
+[ 1601580157] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.7176, 3.26655) Delta: ( 0.374021, 0.933236)
+[ 1601580157] ( Info) PanTiltController [ P0] Pan/Tilt: (-74.4498, 2.55285) Delta: ( 0.106271, 0.219536)
+[ 1601580157] ( Info) [1, 2] Reached Pose: P/T ( -74.392650, 2.403000)
+[ 1601580157] ( Info) Removing blurry img(s): 1
+[ 1601580157] ( Info) [1, 2] Reached Pose: P/T ( -74.372850, 2.352600)
+[ 1601580157] ( Info) Removing blurry img(s): 2
+[ 1601580157] ( Info) [1, 2] Reached Pose: P/T ( -74.372400, 2.352150)
+[ 1601580157] ( Info) Removing blurry img(s): 3
+[ 1601580157] ( Info) Removing blurry img(s): 3
+[ 1601580157] ( Info) Removing blurry img(s): 4
+[ 1601580158] ( Info) [1, 2] Reached Pose: P/T ( -74.371950, 2.351700)
+[ 1601580158] ( Info) Removing blurry img(s): 5
+[ 1601580158] ( Info) Removing blurry img(s): 5
+[ 1601580158] ( Info) [1, 2] Reached Pose: P/T ( -74.371950, 2.351700)
+[ 1601580158] ( Info) Removing blurry img(s): 6
+[ 1601580158] ( Info) Removing blurry img(s): 6
+[ 1601580158] ( Info) Removing blurry img(s): 7
+[ 1601580158] ( Info) Removing blurry img(s): 8
+[ 1601580158] ( Info) Removing blurry img(s): 8
+[ 1601580158] ( Info) Removing blurry img(s): 9
+[ 1601580158] ( Info) Removing blurry img(s): 9
+[ 1601580158] ( Info) [1, 2] Reached Pose: P/T ( -74.371950, 2.351700)
+[ 1601580158] ( Info) Removing blurry img(s): 10
+[ 1601580159] ( Info) Recorded Pose
+[ 1601580159] ( Info) Acquisition PT: 63
+[ 1601580159] ( Info) [1, 2] Reached Pose: P/T ( -74.371950, 2.351700)
+[ 1601580159] ( Info) Succesfully Estimated Pose.
+[ 1601580160] ( Info) ReprojectionError: ( 0.111011)
+[ 1601580160] ( Info) Succesfully Estimated Pose.
+[ 1601580160] ( Info) Pair: imperx_chids
+[ 1601580160] ( Info) Pair: pan_tilt
+[ 1601580160] ( Info) Pair: impx_ext
+[ 1601580160] ( Info) Pair: UV_corners_ximea
+[ 1601580160] ( Info) Pair: UV_corners_imperx
+[ 1601580160] ( Info) Pair: ximea_chids
+[ 1601580160] ( Info) Successfully wrote H5 file.
+[ 1601580160] ( Info) Thread ( DataCollector): Closed
+[ 1601580162] ( Info) Thread ( PanTiltController [ P0]): Closed
+[ 1601580162] ( Info) Ximea:BJCAB1841028 Getting acquisition_status
+[ 1601580162] ( Info) Ximea:BJCAB1841028 End acquisition...
+[ 1601580163] ( Info) Ximea:BJCAB1841028 Getting acquisition_status
+[ 1601580163] ( Info) Thread ( ximea [ C0]): Closed
+[ 1601580170] ( Warning) imperx [ C2]- Reset camera
+[ 1601580170] ( Info) Thread ( imperx [ C2]): Closed
+[ 1601580170] ( Info) Exiting... Good Bye.

@@ -1,0 +1,14 @@
+CameraModel:
+- reduced code complexity
+- made generic to camera
+- supports opencv and eigen matrices
+
+Preprocess:
+- changed function syntax
+
+
+--This line, and those below, will be ignored--
+
+M    DynamicExtrinsics/Examples/main.cpp
+M    DynamicExtrinsics/Model/Preprocess.h
+M    Models/Camera/CameraModel.h

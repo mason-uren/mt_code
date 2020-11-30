@@ -1,0 +1,72 @@
+# FindHDF5.cmake
+#
+# Find the header-only, template file(s) resposible for interacting with python Numpy arrays.
+# - Specifically imported to handle *.npy files
+#
+# This will define the following variables
+#
+#    HDF5_FOUND
+#    HDF5_INCLUDE_DIRS
+#
+# Author: Mason U'Ren
+
+######################################
+# Set package specific variables
+######################################
+set(PACKAGE_TARGET_NAME "HDF5")
+set(TARGET_PATH ${CMAKE_LIBRARY_PATH}/${PACKAGE_TARGET_NAME})
+
+message(STATUS "HDF5_DIR: $ENV{HDF5_DIR}")
+message(STATUS "TARGET_PATH: ${TARGET_PATH}")
+
+#set(INCLUDE_HDRS
+#	"*.h*"
+#)
+
+#set (INCLUDE_LIBS
+#
+#)
+
+######################################
+# Package creation
+#######################################
+find_path(
+        ${PACKAGE_TARGET_NAME}_INCLUDE_DIRS
+        NAMES
+            ${INCLUDE_HDRS}
+        PATHS
+            ${TARGET_PATH}/include
+)
+
+find_path(
+	${PACKAGE_TARGET_NAME}_LIBRARIES
+	NAMES
+		${INCLUDE_LIBS}
+	PATHS
+		${TARGET_PATH}/lib
+)
+
+message(STATUS "${${PACKAGE_TARGET_NAME}_INCLUDE_DIRS}")
+message(STATUS "${${PACKAGE_TARGET_NAME}_LIBRARIES}")
+
+set(${PACKAGE_TARGET_NAME}_VERSION ${PC_${PACKAGE_TARGET_NAME}_VERSION})
+
+mark_as_advanced(
+        ${PACKAGE_TARGET_NAME}_FOUND
+		${PACKAGE_TARGET_NAME}_DIR
+		${PACKAGE_TARGET_NAME}_SRC_DIR
+		${PACKAGE_TARGET_NAME}_BIN_DIR
+        ${PACKAGE_TARGET_NAME}_INCLUDE_DIRS
+        ${PACKAGE_TARGET_NAME}_VERSION
+		${PACKAGE_TARGET_NAME}_LIBRARIES
+)
+
+include(FindPackageHandleStandardArgs)
+find_package_handle_standard_args(
+        ${PACKAGE_TARGET_NAME}
+        REQUIRED_VARS
+			${PACKAGE_TARGET_NAME}_INCLUDE_DIRS
+			${PACKAGE_TARGET_NAME}_LIBRARIES
+        VERSION_VAR
+			${PACKAGE_TARGET_NAME}_VERSION
+)

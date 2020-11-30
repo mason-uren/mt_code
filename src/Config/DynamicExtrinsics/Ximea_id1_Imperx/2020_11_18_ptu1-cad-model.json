@@ -1,0 +1,30 @@
+{
+    "cad_model": {
+        "x_camera": 0.06315325722625868,
+        "y_camera": 0.029008003415724237,
+        "z_camera": 0.035178835531519674,
+        "rx_camera": 0.026882813503904913,
+        "ry_camera": 0.02304615490400191,
+        "rz_camera": 0.0005949651473763096,
+        "z_offset": 0.0,
+        "rz_offset": 0.0,
+        "pan_scale": 1.0,
+        "tilt_scale": 1.0,
+        "x_ptu": 0.9383608656472425,
+        "y_ptu": 0.25755679628637174,
+        "z_ptu": 0.31691394660004313,
+        "rx_ptu": -0.05921399918471642,
+        "ry_ptu": -0.05979124091552526,
+        "rz_ptu": -0.003916783670656126
+    },
+    "Comments": {
+        "dataset_paths": [
+            "datasets/2020_11_18_ptu1_bottom_left_r1.h5",
+            "datasets/2020_11_18_ptu1_bottom_right_r1.h5"
+        ],
+        "strip_max_pan": false,
+        "strip_min_tilt": false,
+        "left_pan_shift": 0.0,
+        "min_num_chesscorners": null
+    }
+}

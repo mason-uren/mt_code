@@ -1,0 +1,23 @@
+name: relexts
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - sphinx
+  - numpy
+  - scipy
+  - pandas
+  - h5py
+  - ipython
+  - matplotlib
+  - opencv=4.1.1
+  - seaborn
+  - pytorch
+  - tqdm
+  - numba
+  - pip
+  - pip:
+      - transforms3d
+      - torchgeometry
+      - coloredlogs

@@ -1,0 +1,69 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"id": "interface-config",
+	"title": "Live Metrology Configuration",
+	"description": "A exhaustive list of incorporated models.",
+  "charuco_boards": {
+    "B0": {
+      "squares_X": 40.0,
+      "squares_Y": 20.0,
+      "square_length": 0.0235,
+      "marker_length": 0.01665
+    },
+    "B1": {
+      "squares_X": 8,
+      "squares_Y": 12,
+      "square_length": 0.012,
+      "marker_length": 0.009
+    }
+  },
+  "intrinsics": {
+    "ximea": {
+      "xi_I0": {
+        "camera_matrix": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Ximea_id0/2020-07-15",
+          "file": "ximea_cameraMatrix.npy"
+        },
+        "distortion_coeff": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Ximea_id0/2020-07-15",
+          "file": "ximea_distCoeffs.npy"
+        }
+      },
+      "xi_I1": {
+        "camera_matrix": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Ximea_id1/2020-07-21",
+          "file": "ximea_cameraMatrix.npy"
+        },
+        "distortion_coeff": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Ximea_id1/2020-07-21",
+          "file": "ximea_distCoeffs.npy"
+        }
+      },
+      "xi_I2": {
+        "camera_matrix": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Ximea_id1/2020-11-17",
+          "file": "ximea_cameraMatrix.npy"
+        },
+        "distortion_coeff": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Ximea_id1/2020-11-17",
+          "file": "ximea_distCoeffs.npy"
+        }
+      }
+    },
+    "imperx": {
+      "ipx_I0" : {
+        "camera_matrix": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Imperx_id2/2020-09-16",
+          "file": "imperx_cameraMatrix.npy"
+        },
+        "distortion_coeff": {
+          "directory": "C:/Users/mruren/Documents/Metrology/src/Config/CameraIntrinsics/Imperx_id2/2020-09-16",
+          "file": "imperx_distCoeffs.npy"
+        }
+      }
+    }
+  },
+  "unused": {
+   
+  }
+}
