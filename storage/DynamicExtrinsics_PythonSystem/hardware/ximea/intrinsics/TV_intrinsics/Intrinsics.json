@@ -1,0 +1,8 @@
+{
+    "Camera" : "Ximea",
+    "Identifier" : "Right",
+    "PTU" : "Right",
+    "Distortion_Filename" : "ximea_distCoeffs.txt",
+    "Intrinsics_Filename" : "ximea_intrinsics.txt"
+}
+

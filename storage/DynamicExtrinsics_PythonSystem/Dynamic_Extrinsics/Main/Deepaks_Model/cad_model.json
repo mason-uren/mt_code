@@ -1,0 +1,33 @@
+{
+    "comments": "15-parameter cad_model estimated by DK matlab code based on Extrinsics_TV_High_Quality_Checked_by_Yang.h5",
+    "cad_model": {
+                   "yaw_ximea_tilt":  -0.027143888415240,
+                 "pitch_ximea_tilt":   0.134011599471274,
+                  "roll_ximea_tilt":   0.007972240128816,
+                     "x_ximea_tilt":  -0.371378496702319,
+                     "y_ximea_tilt":  -0.073636776184965,
+                     "z_ximea_tilt":  -0.008651740732107,
+                       "x_tilt_pan":  -0.371119369084074,
+                       "y_tilt_pan":  -0.071894646424433,
+                       "z_tilt_pan":  -0.000947052552631,
+                  "yaw_base_imperx":  -0.037199836077719,
+                "pitch_base_imperx":  -0.099310516911835,
+                 "roll_base_imperx":  -0.023603414518249,
+                    "x_base_imperx":   1.057235978071340,
+                    "y_base_imperx":  -0.087666308452750,
+                    "z_base_imperx":  -0.010479025228469
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

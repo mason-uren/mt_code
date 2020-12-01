@@ -1,0 +1,75 @@
+Test image used: XIMEA [ 0](pose=2.5,5).jpg
+[The image file can be found in Mason's progress folder here:
+/home/issl/issl_archive/Archives/2019/Boeing-DR/ClosedLoopMetrology/2020/Weekly-Progress/Mason/Experiments/CharucoBoardExpr/BoardImages/]
+
+------C++ Results on Linux/et2 w/ OpenCV 3.4.7 (built locally) -----------
+
+Use solvePNP_Charuco_Board() in PoseEstimator.cpp, get_pose():
+
+----- originally
+rvec(deg) = [104.3535858555631, 112.1522576380622, 53.51385591861872]
+tvec = [0.619625750432812, 0.2146441585757461, 1.204458564735838]
+Total marker detection + pose estimation time: 270 ms
+Reprojection error (RMS): 11.7363
+----- after using intrinsics from dev/hardware/Ximea/intrinsics "npy" file & fixing scaleFactor(==1.0)
+rvec(deg) = [-121.8302759998361, -132.1155574229662, 13.79468405595132]
+tvec = [0.272414776732277, -0.02766982791940574, 4.080694120620413]
+Total marker detection + pose estimation time: 268 ms
+Reprojection error (RMS): 1.33172
+
+Use cv::aruco::estimatePoseCharucoBoard() in PoseEstimator.cpp, get_pose():
+
+----- originally
+rvec(deg) = [104.3809233877457, 112.1150227325506, 53.59657577062732]
+tvec = [0.6202695349034172, 0.2148846580003742, 1.205259720361905]
+Total marker detection + pose estimation time: 270 ms
+Reprojection error (RMS): 10.9919
+----- after using intrinsics from dev/hardware/Ximea/intrinsics "npy" file & fixing scaleFactor(==1.0)
+rvec(deg) = [-117.8824894768177, -126.6379401741921, -2.386252129655358]
+tvec = [0.2719156453937971, -0.02772513555537925, 4.074947691690632]
+Total marker detection + pose estimation time: 269 ms
+Reprojection error (RMS): 0.600725
+
+New: after implementing formula for reprojection error from OpenCV 4.2.0 (1/sqrt(2) scale factor)
+ (see bottom of this file for info)
+rvec(deg) = [-117.8824894768177, -126.6379401741921, -2.386252129655358]
+tvec = [0.2719156453937971, -0.02772513555537925, 4.074947691690632]
+Total marker detection + pose estimation time: 279 ms
+Reprojection error (RMS): 0.424777 <----- after the 1/sqrt(2) factor correction
+
+----- Python -----------------------------
+On et2, Python 3.6 and OpenCV 3.4.7:
+% python3.6 test_charuco_pose.py ../resources/CharucoBoardExpr/BoardImages/XIMEA\ \[\ 0\]\(pose\=2.5\,5\).jpg 
+Loading image from:  ../resources/CharucoBoardExpr/BoardImages/XIMEA [ 0](pose=2.5,5).jpg
+Total markers detected: 46
+Total corners interpolated: 71
+reprojection error (RMS):  0.42477682019871593
+Pose estimation successful? True
+rvec (deg) = [-117.88248947681772, -126.63794017419208, -2.3862521296553583]
+tvec =  [0.27191564539379715, -0.027725135555379248, 4.074947691690632]
+
+Python test_charuco.py, w/estimatePoseCharucoBoard(), w/ intrinsics from dev/hardware/Ximea/intrinsics "npy"
+(This is done on my MacBook w/ OpenCV & contrib both vers. 3.4.8.29 & 4.1.2.30 in conda python 3.7.6)
+Total corners interpolated: 73
+reprojection error (RMS):  0.441922123933212
+Pose estimation successful? True
+rvec (deg) = [-117.94993887426057, -126.73295058226218, -2.2448697068416386]
+tvec =  [0.2720061174566169, -0.027741092723002684, 4.0758913753702135]
+
+-----------------Windows C++ ---------------------
+On Windows w/ OpenCV 4.2.0, with cv::aruco::estimatePoseCharucoBoard() in PoseEstimator.cpp, get_pose(),
+we have the following results, which match the Python results above
+except for reprojection error:
+rvec(deg) = [-117.9499388742605, -126.7329505822621, -2.244869706841307]
+tvec = [0.272006117456617, -0.02774109272300268, 4.075891375370214]
+Reprojection error (RMS): 0.624972 
+(This before rev.167160, but 0.624972/sqrt(2) = 0.4419219392517189, same as from my MacBook)
+
+
+Ref. OpenCV 4.2.0 computes reprojection error this way:
+	vector<Point2d> projectedPoints;
+    projectPoints(objectPoints, vec_rvecs[i], vec_tvecs[i], cameraMatrix, distCoeffs, projectedPoints);
+    double rmse = norm(Mat(projectedPoints, false), imagePoints, NORM_L2) / sqrt(2*projectedPoints.size());
+
+See: https://github.com/opencv/opencv/blob/4.2.0-openvino/modules/calib3d/src/solvepnp.cpp
+
