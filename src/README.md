@@ -9,15 +9,20 @@ For best viewing results, we suggest using a markdown viewer like [StackEdit](ht
 
 ## Contents
 1. [Project Overview](#project-overview)
-    -   [JSON](#config) configurations
-    -   Selecting running [mode](#mode)
+    -   JSON [configurations](#config) 
+    -   JSON [hierarchy](#hierarchy)
+    -   Setting runtime environment (ie. `SystemConfig.json`)
+        -   Selecting running [mode](#mode)
+        -   Specifing target [components, pairs, and world-frame](#components).
 2. [Dependencies](#dependencies)
 	- [external](#external-dependencies) (libraries, inclusions, etc.)
 	- [internal](#internal-dependencies) (module diagram)
 3. How to..
 	- [build](#building-the-project) the project.
 	- [run](#running-the-project) the project.
-4. [Images](#images)
+4. [Logger](#logger)
+    -   If the program crashes where should I look?
+5. [Images](#images)
     - [File Structure](#file-structure) (tree diagram)
 
 ## Project Overview
@@ -26,56 +31,72 @@ This document will walk the user through the build, installation, and normal/exp
 2) Dynamic Extrinsics 
 3) Fiducial Tracking
 
+Note: there exists and 4th "Interface" mode which provides the client a live, user-controlled environment based on the target components specified in `InterfaceConfig.json`
+
 Of these modules, two (Data Collection & Fiducial Tracking) require the use of an interface module, responsible for handling communications between the associated camera(s) and PTU(s). For HRL, we have created such a module called `LiMeInterface`.
 
 Note: it is possible to run the Fiducial Tracker offline, but requires pre-acquired images. As such the offline operation will be omitted from this document. Please refer to TrackingFiducial/README.txt for more info.
 
 ### Config
-There exist three JSON configuration files, which aim to give the client easier access to internal variables, without intimate knowledge of the code. These files are:
-1)  InterfaceConfig.json
-2)  DataCollectionConfig.json
-3)  DynamicExtrinsicsConfig.json
+There exist 5 JSON configuration files, which aim to give the client easier access to internal variables, without intimate knowledge of the code. These files are:
+1)  SystemConfig.json
+    -   specify the components, pairs, and world-frame
+2)  InterfaceConfig.json
+    -   initialize devices (cameras, ptus, networks, etc)
+3)  ModelConfig.json
+    -   camera and fiducial models
+4)  DataCollectionConfig.json
+    -   specifies staging areas/points, collection patters (raster vs random), and collection zones
+5)  DynamicExtrinsicsConfig.json
+    -   specifies H5 datasets for fiducial position (Bottom/Top Left/Right), fitting algorithm parameters, and cad model storage location 
+6)  TrackingConfig.json
+    -   specifies staging area (for respective instances),  
 
-There is a planned fourth configuration file, but has yet to be written:
- -  FiducialTrackingConfig.json 
+Configurations are examined with a individually in their respective module README.md. 
+
+### Hierarchy
+![JSON Hierarchy](./Docs/Media/json_hierarchy.png)
  
 ### Mode
 In order for to run a desired software package,  one will need to select the desired running mode. Available modes include:
-1)  `interface` -  initialize devices specified in InterfaceConfig.json; allows client to manually control PTU(s) and view connected cameras;
-2)  `data_colletion` - collect data as described by DataCollectionConfig.json;
-3)  `dynamic_extrinsic` - run offline dynamic extrinisc model fitting, as described by DynamicExtrinsicsConfig.json (Note: not fully connected);
-4)  `track_fiducial` - track the fiducial board in NFOV, as described by FiducialTrackerConfig.json (Note: not implemented yet)
-    -   since this config is not yet written tracking is handled in `Code/TrackingFiducial/main.cpp` (TrackingFiducial/README.txt for more info.)
+1)  `interface` (Default)
+    -   allows client to manually control PTU(s) and view connected cameras
+        -   PTU Controls: `w -> up`, `a -> left`, `s -> down`, and `d -> right`
+2)  `data_colletion`
+    -   collect a round of data for offline model training/fitting
+3)  `dynamic_extrinsic` 
+    -   run offline dynamic extriniscs model fitting
+4)  `tracking` 
+    -   track the fiducial board using a combination of WFOV and NFOV camera sensors
     
-The running mode can be selected in the InterfaceConfgi.json under the variable `mode`. If no mode is selected the default behavior is: `mode = interface`
+Selecting the desired mode can be do via the `SystemConfig.json` in the following `run` field:
 
-### Interface Config JSON
--   Camera(s)
--   PTU(s)
+       "mode": {
+           "run": "<client-selected-mode>",
+           "components": [ "alpha", "beta" ], 
+           "_comment": "Options: <interface>, <data_collection>, <dynamic_extrinsics>, and <tracking>."
+        } 
+ 
+**Reminder:** Default running mode will be `interface`, if no mode specified or unrecognized. Additionally recognized modes can be added to `Presets.h` and listened for in `SystemJSONParser`.
 
-### Data Collection JSON
--   positions
-    -   pan & tilt angle ranges (deg) and divisions on each axis; where collection site grid should be constructed
--   camera(s)
-    -   intrinsics file path
-    -   distortion coeff file path
--   output H5 file path
+### Components
+The `components` section is for designating which pairs (ptu, camera, and dynamic extrinsics) the system should target. Each pair is marked by a unique ID (that the user is responsible for maintaining). An example pair may look as follows:
 
-### Dynamic Extrinsics JSON
--   fiducial positions : global collection position (path to H5 file)
-    -   `top_left`
-    -   `top_right`
-    -   `bottom_left`
-    -   `bottom_right`
--   dataset 
-    -   storage order
-    -   strip max/min pan/tilt based upon range
--   model (json)
-    -   input path (optional)
-    -   output path
--   cameras
-    -   intrinsic file path
-    -   distortion coeff file path
+        "alpha": {
+              "camera": {
+                "id": "C0",
+                "intrinsics": { "id": "xi_I0" }
+              },
+              "ptu": { "id": "P0" },
+              "extrinsics": {"id": "Ximea_id0_Imperx"},
+              "_comment": "The value assigned is the associated ID"
+        }
+
+In the above example, 
+-   `camera:id` points to a camera specified in `InterfaceConfig.json`
+-   `camera:intirinsics:id` points to the camera intrinisics specified in `ModelsConfig.json`
+-   `ptu:id` points to a instance of PTU and the associated network in `InterfaceConfig.json`
+-   `extrinsics:id` (only necessary for `mode=tracking`) points to the dynamic model fitting between cameras in `TrackingConfig.json`
     
 ## Dependencies
 ### External Dependencies
@@ -111,9 +132,7 @@ In the above structure,
 Note: a complete look at the file structure underneath `src/` can be found [here](#file-structure).
 
 ### Internal Dependencies
-TODO - embedded images in markdown file or provide relative path to images directory
-
-![High Level API](Images/LiME%20-%20Top%20Level%20API.pdf)
+![High Level API](./Docs/Media/LiMe_top_level_api.png)
 
 ## How to...
 ### Building the Project
@@ -385,9 +404,34 @@ Configuring done
 
 ### Running the Project
 
-TODO 
+Once the project has build successfully, we're ready to run one of our three target applications: 
+-   Data Collection,
+-   Dynamic Parameter Fitting, or
+-   Fiducial Tracking
 
-### Images
+The running mode is specified in `SystemConfig.json` and is discussed in greater detail in the above [section](#mode).
+
+## Logger
+In the case that the user specified runtime environment is invalid or fails to execute properly, the first place the user should check are the log files. By default, the `Logs` directory will be auto-generated (if doesn't exist) and a file called `report.out` will track messages (ie debugging, info, warnings, errors). This directory is auto-generated in the same location as the built binary.
+
+The logger works in tandem with the `ErrorHandler`, which has the responsibility of monitoring the current execution state of the program. If an error execeeds the user specified threshold, the program will automatically exit. To set this threshold call:
+
+        ErrorHandler::getInstance().setListeningLevel(<listening-level>)
+        
+Listening levels are declared in `CommonIncludes/Shared/SharedStructs.h`. To add a new message to a report, via the `ErrorHandler`, use:
+
+        ErrorHandler::getInstance().report(<msg>, <logging-level>, <target-instance>)
+        
+Where...
+-   `msg` is the desired text to be reported
+-   `logging-level` (Default: `Shared::Error::Severity::INFO`) optional user specified logging level
+-   `target-instance` (Default: `report.out`) optional user specified target log file
+
+If we wish to specify a separate log file target, we need to add the instance first, via the call:
+
+        Logger::getInstance().addInstance(<log-handle-name>)
+        
+## Images
 
 #### File Structure
 ```
@@ -539,3 +583,32 @@ TODO
     │   └── ThreadInterface.h
     └── Tools.h
 ```
+
+#### TODO - unused
+### Interface Config JSON
+-   Camera(s)
+-   PTU(s)
+
+### Data Collection JSON
+-   positions
+    -   pan & tilt angle ranges (deg) and divisions on each axis; where collection site grid should be constructed
+-   camera(s)
+    -   intrinsics file path
+    -   distortion coeff file path
+-   output H5 file path
+
+### Dynamic Extrinsics JSON
+-   fiducial positions : global collection position (path to H5 file)
+    -   `top_left`
+    -   `top_right`
+    -   `bottom_left`
+    -   `bottom_right`
+-   dataset 
+    -   storage order
+    -   strip max/min pan/tilt based upon range
+-   model (json)
+    -   input path (optional)
+    -   output path
+-   cameras
+    -   intrinsic file path
+    -   distortion coeff file path
